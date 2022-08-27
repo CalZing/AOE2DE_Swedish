@@ -17399,7 +17399,7 @@ UNRANKED_VIA_RESOURCES "Your ELO score has not changed. Too high starting resour
 14577 "Winged\nHussar"
 14579 "Houfnice"
 14581 "Folwark"
-14610 "Kors-\nRiddare
+14610 "Kors-\nRiddare"
 
 26558 "Create <b>Obuch<b> (<cost>)\nPolish unique infantry unit which can damage the armor of units it is fighting. Strong vs. buildings and infantry. Weak vs. archers at long range.<i> Upgrades: attack, armor (Smedja); speed (Barack); creation speed, to Elite Obuch 800F, 600G (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26559 "Create <b>Elite Obuch<b> (<cost>)\nPolish unique infantry unit which can damage the armor of units it is fighting. Strong vs. buildings and infantry. Weak vs. archers at long range.<i> Upgrades: attack, armor (Smedja); speed (Barack); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
