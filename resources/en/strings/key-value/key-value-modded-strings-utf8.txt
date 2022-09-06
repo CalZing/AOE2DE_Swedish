@@ -3339,7 +3339,7 @@
 10627 "Grund"
 10628 "Skog, Tall"
 10629 "Vatten, Djupt"
-10631 "Elevation"
+10631 "Förhöjning"
 10632 "Blå"
 10633 "Röd"
 10634 "Gul"
