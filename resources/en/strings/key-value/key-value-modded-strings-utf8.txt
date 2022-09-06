@@ -3094,7 +3094,7 @@
 10235 "Tribut\nSänt / Mott."
 10236 "Forskning\nAntal"
 10237 "Forskning\nProcent"
-10238 "Sammanlagda\Underverk"
+10238 "Sammanlagda\nUnderverk"
 10239 "Sammanlagda\nSlott"
 10240 "Relik-\nGuld"
 10241 "Byinvånar-\ntopp"
