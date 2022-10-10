@@ -1,0 +1,11 @@
+Mål för översättningen:
+
+Alpha: All text som spelaren möts av i spelet om man spelar spelet normalt utöver kampanjer och events ska vara översatt.
+Beta: All text utöver kampanjerna ska vara översatta i textfilen
+1.0: Korrekturläsning av redan översatt text, plus översättning av William Wallace och Art of War (ej ljud)
+
+Status (Klar till och med rad):
+
+Alpha: 6913
+Beta: 6721
+1.0: 0
