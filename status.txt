@@ -6,6 +6,6 @@ Beta: All text utöver kampanjerna ska vara översatta i textfilen
 
 Status (Klar till och med rad):
 
-Alpha: 6913
+Alpha: 14317
 Beta: 6721
 1.0: 0
