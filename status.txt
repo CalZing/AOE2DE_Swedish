@@ -6,6 +6,6 @@ Beta: All text utöver kampanjerna ska vara översatta i textfilen
 
 Status (Klar till och med rad):
 
-Alpha: 14317
+Alpha: 14732 + 17000 (Units, maps and civs)
 Beta: 6721
 1.0: 0
