@@ -4293,7 +4293,6 @@
 13167 "Failed to set file position."
 13168 "Failed to set file offset position for file '%s' to '%s'"
 13169 "Failed to set file position for file '%s' to '%s'"
-//!\\ PERTH COFLICT - TODO!
 13170 "Failed to get current file position."
 13171 "Failed to get current file size."
 13170 "Victory Timer Type"
@@ -15452,6 +15451,7 @@ IDS_CREATE_MULTIPLAYER_GAME_DIALOG_UNABLE_TO_JOIN "You are unable to join this l
 IDS_CREATE_MULTIPLAYER_GAME_DIALOG_RATING_TOO_LOW "Your rating is too low."
 IDS_CREATE_MULTIPLAYER_GAME_DIALOG_RATING_TOO_HIGH "Your rating is too high."
 IDS_MPS_ELO_OUT_OF_RANGE "Unable to join game. You do not meet the ranked rating requirements for this lobby."
+IDS_MPS_LOBBY_CLOSED_ERROR "The lobby encountered an unexpected error and has been closed."
 IDS_JOINLOBBY_MULTIPLAYER_GAME_DIALOG_PASSWORD "Please Input Password:"
 IDS_JOINLOBBY_MULTIPLAYER_GAME_DIALOG_DESCRIPTION "This game is protected by a password. You need to input the password before joining this game."
 IDS_JOINLOBBY_MULTIPLAYER_GAME_WRONG_PASSWORD "The password you input was incorrect. Please confirm it with the host player and try again."
@@ -22555,7 +22555,7 @@ IDS_CRASHREPORT_MESSAGE_ALT "Your game session (%s minutes ago) ended unexpected
 IDS_CRASHREPORT_MESSAGE_CONFIRMATION "Report submitted successfully. Thank you for your assistance."
 IDS_CRASHREPORT_TOOLTIP_SUBMIT "Click to submit this crash report."
 
-IDS_REPLAYFILE_INCOMPATIBLE_ERROR "Unfortunately, replay files created with Update 56005 and earlier can no longer be played in this version of the game.\n\nWe apologize for the inconvenience."
+IDS_REPLAYFILE_INCOMPATIBLE_ERROR "Unfortunately, replay files created with version 66692 or earlier can no longer be played in this version of the game.\n\nWe apologize for the inconvenience."
 IDS_REPLAYFILE_COMPAT_WARNING "This replay file was created with a different build of the game than the one currently used. Attempting to open it may result in premature end of playback. Would you like to proceed?"
 IDS_TREATY_ENEMY "Enemy (treaty)"
 IDS_TREATY_NEUTRAL "Neutral (treaty)"
