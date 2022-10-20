@@ -2238,7 +2238,7 @@
 8375 "Forska fram Elitekanongaleon (+2 räckvidd; +10/+100B attack)"
 8376 "Forska fram Skyttegångar (+20% Slotts hälsopoäng)"
 8377 "Forska fram Skeppsbyggare (skepp kostar 20% mindre trä; byggs 35% snabbare)."
-8378 "Forska fram Belägringsingenjörer (+1 belägringsenheters räckvidd [förutom murbräckor]; +20% attack mot byggnader)"
+8378 "Forska fram Belägringsingenjörer (+1 belägringsenheters räckvidd [förutom murbräckor och Bepansrade Elefanter]; +20% attack mot byggnader)"
 8379 "Forska fram Hul'che-Spjutkastare (Skärmytslare kastar en andra projektil)"
 8380 "Forska fram Eupseong (Skyddstorn, Vakttorn och Kärntorn +2 räckvidd)"
 8381 "Uppgradera till Elitlångbågsskytt"
@@ -3664,6 +3664,8 @@
 10963 "Landvansinne"
 10964 "Heliga Källor"
 10965 "Tåga"
+10965 "Moras"
+10965 "Stim"
 11001 "Förmatch-Cinematik"
 11002 "Seger-Cinematik"
 11003 "Förlust-Cinematik"
@@ -6117,8 +6119,8 @@
 26079 "Skapa <b>Milis<b> (<cost>)\nUniversell infanterienhet. Stark mot byggnader och infanteri. Svag mot skyttar på långt håll.<i> Uppgraderingar: attack, skydd (Smedja); kostnad, hastighet, till Fotsoldat 100M, 40G (Barack); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26080 "Skapa <b>Fotsoldat<b> (<cost>)\nUniversell infanterienhet. Stark mot byggnader och infanteri. Svag mot skyttar på långt håll.<i> Uppgraderingar: attack, skydd (Smedja); kostnad, hastighet, till Långsvärdsfäktare 150M, 65G (Barack); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26081 "Skapa <b>Långsvärdsfäktare<b> (<cost>)\nUniversell infanterienhet. Stark mot byggnader och infanteri. Svag mot skyttar på långt håll.<i> Uppgraderingar: attack, skydd (Smedja); kostnad, hastighet, till Tvåhandsfäktare 300M, 100G (Barack); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
-26083 "Skapa <b>Bågskytt<b> (<cost>)\nSkyttenhet. Stark mot enheter på långt håll. Svag mot Skärmytslare och enheter på nära håll.<i> Uppgraderingar: attack, räckvidd, skydd (Smedja); attack, träffsäkerhet (Universitet); träffsäkerhet, till Armborstskytt 125M, 75G (Skjutbana); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
-26084 "Skapa <b>Armborstskytt<b> (<cost>)\nSkyttenhet. Stark mot enheter på långt håll. Svag mot Elitskärmytslare, Mangoneler och enheter på nära håll.<i> Uppgraderingar: attack, räckvidd, skydd (Smedja); attack, träffsäkerhet (Universitet); träffsäkerhet, till Pilbösseskytt 350M, 300G (Skjutbana); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26083 "Skapa <b>Bågskytt<b> (<cost>)\nSkyttenhet. Stark mot enheter på långt håll. Svag mot Skärmytslare och enheter på nära håll.<i> Uppgraderingar: attack, räckvidd, skydd (Smedja); attack, träffsäkerhet (Universitet); träffsäkerhet, till Armborstskytt 175M, 125G (Skjutbana); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26084 "Skapa <b>Armborstskytt<b> (<cost>)\nSkyttenhet. Stark mot enheter på långt håll. Svag mot Elitskärmytslare, Mangoneler och enheter på nära håll.<i> Uppgraderingar: attack, räckvidd, skydd (Smedja); attack, träffsäkerhet (Universitet); träffsäkerhet, till Pilbösseskytt 450M, 400G (Skjutbana); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26085 "Skapa <b>Ryttarskytt<b> (<cost>)\nRidande bågskytt. Stark mot långsamma enheter på långt håll. Svag mot Elitskärmytslare och enheter på nära håll.<i> Uppgraderingar: hastighet, hälsopoäng (Stall); attack, räckvidd, skydd (Smedja); attack, träffsäkerhet (Universitet); träffsäkerhet, skydd till Tung Ryttarskytt 900M, 500G (Skjutbana); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26086 "Skapa <b>Hakeskytt<b> (<cost>)\nKrutenhet med stark attack, men dålig precision på långt håll. Stark mot infanteri. Svag mot Elitskärmytslare och skyttar.<i> Uppgraderingar: skydd (Smedja); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 
@@ -6185,7 +6187,7 @@
 26154 "Bygg <b>Vakttorn<b> (<cost>)\nTorn med en skjutande attack. Enheter kan garnisonera inuti för beskydd. Skjutande enheter och Byinvånare bidrar med ytterligare projektiler. Stark mot skyttar. Svag motenheter på nära håll, särskilt Murbräckor.<i> Uppgraderingar: siktlinje (Centrum); attack, räckvidd (Smedja); attack, hälsopoäng, skydd, skeppsattack; till Kärntorn 500M, 350T (Universitet).<i>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>"
 26155 "Bygg <b>Kärntorn<b> (<cost>)\nTorn med en skjutande attack. Enheter kan garnisonera inuti för beskydd. Skjutande enheter och Byinvånare bidrar med ytterligare projektiler. Stark mot skyttar. Svag motenheter på nära håll, särskilt Murbräckor.<i> Uppgraderingar: siktlinje (Centrum); attack, räckvidd (Smedja); attack, hälsopoäng, skydd, skeppsattack (Universitet).<i>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>"
 26156 "Bygg <b>Kanontorn<b> (<cost>)\nKruttorn med en kraftig skjutande attack. Enheter kan garnisonera inuti för beskydd. Stark mot skepp.<i> Uppgraderingar: siktlinje (Centrum); attack, räckvidd (Smedja); hälsopoäng, skydd, skeppsattack (Universitet).<i>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>"
-26157 "Bygg <b>Kvarn<b> (<cost>)\nAnvänds till att lasta av mat och forska fram jordbruksteknologier. Bygg nära buskar eller andra matkällor för att samla mat snabbare. <b><i> Krävs för Åker, Marknad.<b><i> <i> Uppgraderingar: siktlinje (Centrum); hälsopoäng, skydd (Universitet); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26157 "Bygg <b>Kvarn<b> (<cost>)\nAnvänds till att lasta av mat och forska fram jordbruksteknologier. Bygg nära buskar eller andra matkällor för att samla mat snabbare. <b><i> Krävs för Åker, Marknad.<b><i> <i> Uppgraderingar: siktlinje (Centrum); hälsopoäng, skydd (Universitet); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>"
 26158 "Bygg <b>Eldtorn<b> (<cost>)\nKraftigt torn som sprutar eld på nära håll.<i> Uppgraderingar: siktlinje (Centrum); hälsopoäng, skydd, skeppsattack (Universitet).<i>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>"
 26159 "Bygg <b>Feitoria<b> (<cost>)\nEkonomisk byggnad. Genererar resurser utan att det krävs byinvånare. Unik byggnad för Portugiserna. Kräver 20 befolkningsutrymme.<i> Uppgraderingar: siktlinje (Centrum); hälsopoäng, skydd (Universitet).<i>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>"
 26160 "Bygg <b>Eldgalär<b> (<cost>)\nKrigsfartyg som sprutar eld på nära håll. Stark mot Galärer. Svag mot Explosionsflottar.<i> Uppgraderingar: skydd, hastighet, kostnad, till Brandskepp 230M, 100G (Hamn); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
@@ -6211,7 +6213,7 @@
 26309 "Bygg <b>Galeon<b> (<cost>)\nUniversalkrigsfartyg med skjutande attack. Svag mot Brandskepp.<i> Uppgraderingar: skydd, kostnad, hastighet (Hamn); attack, räckvidd (Smedja); attack, träffsäkerhet (Universitet); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26311 "Bygg <b>Centrum<b> (<cost>)\nUsed till train Villagers, deposit resources, advance till the next Age och Forska fram technologies. Enheter kan garnisonera inuti för beskydd. Skjutande enheter och Byinvånare bidrar med ytterligare projektiler. Ger 5 befolkningsutrymme. Kan ej konverteras av fiendens Munkar.<i> Uppgraderingar: siktlinje (Centrum); hälsopoäng, skydd träffsäkerhet (Universitet); attack (Smedja).<i>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>"
 26326 "Skapa <b>Spanarkavalleri<b> (<cost>)\nSnabbt kavalleri för spaning och räder. Resistent mot konvertering. Stark mot Munkar. Svag mot Pikenerare och Kamelryttare.<i> Uppgraderingar: attack, skydd (Smedja); hastighet, hälsopoäng, till Lätt Kavalleri 150M, 50G (Stall); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
-26344 "Bygg <b>Hus<b> (<cost>)\nGer 5 befolkningsutrymme vardera. Din nuvarande/försörjningsbara befolkning visas längst upp på skärmen.<i> Uppgraderingar: siktlinje (Centrum); hälsopoäng, skydd (Universitet); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26344 "Bygg <b>Hus<b> (<cost>)\nGer 5 befolkningsutrymme vardera. Din nuvarande/försörjningsbara befolkning visas längst upp på skärmen.<i> Uppgraderingar: siktlinje (Centrum); hälsopoäng, skydd (Universitet); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>"
 26375 "Skapa <b>Flammande Kamel<b> (<cost>)\nBrandbombskamel laddad med lättantändligt hö och buskar. Stark mot ridande enheter, särskilg elephants. Svag mot skyttar och infanteri. Självförstörs vid användning.<i> Uppgraderingar: attack (Universitet); hastighet, hälsopoäng (Stall); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26381 "Bygg <b>Blida<b> (<cost>)\nKraftigt belägringsvapen mot byggnader med lång räckvidd. Måste packas ihop för att flyttas och packas upp för att attackera. Kan inte attackera fiender på nära håll. Stark mot byggnader. Kan anfalla platser och ta ned träd.<i> Uppgraderingar: attack, räckvidd (Universitet); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26408 "Skapa <b>Pikenerare<b> (<cost>)\nAntikavalleri-infanterienhet. Stark mot ridande enheter, särskilt elefanter. Svag mot skyttar och infanteri.<i> Uppgraderingar: attack, skydd (Smedja); hastighet, till Hillebardjär 300M, 600G (Barack); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
@@ -6446,7 +6448,7 @@
 28375 "Forska fram <b>Elitkanongaleon<b> (<cost>)\nUppgraderar dina Kanongaleoner och låter dig bygga Elitkanongaleoner som har +2 räckvidd, +10 normal attack och +100 attack gentemot byggnader."
 28376 "Forska fram <b>Skyttegångar<b> (<cost>)\nStärker Slott genom att ge dem +20% hälsopoäng."
 28377 "Forska fram <b>Skeppsbyggare<b> (<cost>)\nSkepp kostar 20% mindre trä; byggs 35% snabbare."
-28378 "Forska fram <b>Belägringsingenjörer<b> (<cost>)\nBelägringsvapen har +1 räckvidd (förutom murbräckor) och åsamkar byggnader 20% mer skada (40% mer för Petarder)."
+28378 "Forska fram <b>Belägringsingenjörer<b> (<cost>)\nBelägringsvapen har +1 räckvidd (förutom murbräckor och bepansrade elefanter) och skadar byggnader 20% mer (40% mer för Petarder)."
 28379 "Forska fram <b>Hul'che-Spjutkastare<b> (<cost>)\nFörbättrar dina Skärmytslare genom att de kastar en andra projektil."
 28380 "Forska fram <b>Eupseong<b> (<cost>)\nSkyddstorn, Vakttorns och Kärntorn har +2 räckvidd."
 28381 "Uppgradera till <b>Elitlångbågsskytt<b> (<cost>)\nUppgraderar dina Långbågsskyttar och låter dig skapa Elitlångbågsskyttar som är starkare och bättre rustade."
@@ -6627,6 +6629,8 @@
 30231 "Landvansinne - Med resurser utspridda över kartan och skogar omgivna av obebygglig tärräng så är murning nästintill omöjligt och militär närvar är av yttersta vikt."
 30232 "Heliga Källor - De heliga pagoderna duserar ett flertal heliga reliker och stora mängder kustfisk. Dessa resurserna är långt från spelarna och lämnar dem exponerade för räder."
 30233 "Tåga - Det sumpiga kärret är för grunt för att navigera fartyg igenom och är heller inte lämpligt för att konstruera byggnader. Spelare måste använda det begränsade utrymmet och resurserna för att säkra segern."
+30234 "Moras - Dra fördel av den leriga morasen som omgärdar den stora tropiska regnskogen. Utkanterna har fott om dyrbara resurser och sårbar natur."
+30235 "Stim - De grunda vattnen ger bara mindre grupperingar med fisk, men att erövra havet kommer att hjälpa dig att snabb nå fienden, samt att ta kontroll över de stora gulddepåerna nära kusten."
 30250 "Välj kartstorlek. Ju större karta, desto längre spel."
 30251 "Välj fördelningen mellan land och vatten på kartan."
 30252 "Välj segervillkor som du måste uppfylla för att vinna spelet."
@@ -7072,6 +7076,7 @@
 //35024 "6. The Emperor Sleeping"
 //35025 "Barbarossa"
 //
+//35137 "Uppdrag noll"
 //35138 "1: William Wallace: Learning Campaign"
 //35139 "1. Marching och Fighting"
 //35140 "2. Feeding the Army"
@@ -7372,6 +7377,7 @@
 42121 "Klicka för att markera %s. Håll nere CTRL och klicka för att avmarkera."
 42122 "Klicka för att markera %s. Håll nere CTRL och klicka för att avmarkera. Håll nere SKIFT och klicka för att markera liknande enheter."
 42123 "Klicka för att subtrahera från kön av åkrar att återså."
+42124 "Klicka för att subtrahera från kön av Fiskfällor att lägga om."
 42130 "Klicka för att lasta av %s."
 42131 "Klicka för att avgarnisornera %s."
 42132 "Klicka för att lasta av %s."
@@ -8211,7 +8217,7 @@
 //46202	"Hospitallers"
 //46203	"Riddare Templar"
 //46208	"1. Saladin is restricted till a population limit of 100 but can now advance till the Imperietiden.\n\n2. The two korsfarare orders have outlying bases that should be dealt with before assaulting the city.\n\n3. Blidor can make short work of torn from a distance.\n\n4. Cut off Jerusalem's food supply by raiding outlying farms.\n\n5. You must only spare Jerusalem's Kloster och the Klippdomen. You may destroy those of the Riddare Templar or Hospitallers."
-//46209	"Your scouts report:\n\n- Saladin's army (Green) has assembled till the northeast of Jerusalem och has already set up a small camp.\n\n- Jerusalem (Blue) is located in the center of the map. Its defenders will rely primarily on archery units och their powerful Katafrakter till parry any assaults that come their way.\n\n- The Hospitallers (Orange) camp till the west, but they have also own some military byggnader inside Jerusalem. They will send Ordensriddare, Scorpio och Riddare into battle.\n\n- The Riddare Templar (Yellow) have taken their position till the south. They are led by the Tempelherreordens Mästare himself, who commands numerous swordsmen och Riddare."
+//46209	"Your scouts report:\n\n- Saladin's army (Green) has assembled till the northeast of Jerusalem och has already set up a small camp.\n\n- Jerusalem (Blue) is located in the center of the map. Its defenders will rely primarily on archery units och their powerful Katafrakter till parry any assaults that come their way.\n\n- The Hospitallers (Orange) camp till the west, but they also own some military byggnader inside Jerusalem. They will send Ordensriddare, Scorpio och Riddare into battle.\n\n- The Riddare Templar (Yellow) have taken their position till the south. They are led by the Tempelherreordens Mästare himself, who commands numerous swordsmen och Riddare."
 //46210	"<GREEN>Lätt Kavalleri: The enemy base is formidable. I advise building defenses until we have a large army."
 //46211	"<GREEN>Saracen Fighter: Jerusalem has 4 torn remaining."
 //46212	"<GREEN>Saracen Fighter: Jerusalem has 3 torn remaining. Remember, my lord, do not allow any places of worship till be destroyed."
@@ -10349,7 +10355,7 @@
 //65504 "Ghaznavid Raiders"
 //65505 "Paramaras"
 //65506 "Chauhan"
-//65508 "1. Prithviraj lived before the age of gunpowder. You will not have access till krutenheter or technologies in this campaign.\n\n2. You are restricted till a population limit of 125 och cannot advance past the Riddartiden.\n\n3. Choose carefully which Centrum you save. They each have different advantages.\n\n4. The Luni River is teeming with fish, but you will need till weaken the Bhadanakas till control the river.\n\n5. If you seek Reliks, know that one will appear at random in an enemy town. Scouting is key till finding it.\n\n6. Chand Bardai has many connections in the region. If you find him, he will reveal the location of every Relic that is stored in a Kloster."
+//65508 "1. Prithviraj lived before the age of gunpowder. You will not have access till krutenheter or technologies in this campaign.\n\n2. You are restricted till a population limit of 125 och cannot advance past the Riddartiden.\n\n3. Choose carefully which Centrum you save. They each have different advantages.\n\n4. The Luni River is teeming with fish, but you will need till weaken the Bhadanakas till control the river. The Gurjaras can garrison Fishing Ships in Docks for protection.\n\n5. If you seek Reliks, know that one will appear at random in an enemy town. Scouting is key till finding it.\n\n6. Chand Bardai has many connections in the region. If you find him, he will reveal the location of every Relic that is stored in a Kloster.\n\n7. The Gurjaras begin with additional Forage Bushes near their Town Center(s), allowing quick and easy early access to food."
 //65509 "Your scouts report:\n\n- Prithviraj's tiger hunt has been interrupted by rebellion. His cousin, Nagarjuna (Red), seeks till rule the Chauhan clan. He strikes from the west with kavalleri och skyttar.\n\n- The Rajput clans rival Prithviraj's Chauhan och each other. The Bhadanakas (Green) och Chandelas (Yellow) war over the floodplain. Prithviraj can take advantage of their rivalry till defeat or bypass them.\n\n- The Paramaras (Purple) command Abu, a Rajput holy site. They will not stray far from their mountain temple, which they defend with Munkar, Chakramkastare och Elefantryttarskyttar.\n\n- Finally, Ghaznavid Raiders (Cyan), horsemen of the west, have set their tents in the Thar Desert till the north across the river. They will conduct raids deep into India so long as their camp remains intact."
 //65510 "<BLUE>Kaimbasa: My raja, the villages are being attacked, but we only have enough men till save one of them!"
 //65511 "<BLUE>Kaimbasa: The village is safe, but Nagarjuna has slipped across the Luni River beyond the lands of the Rajputs. I will help you hunt him down till the setting sun."
@@ -10381,7 +10387,7 @@
 //65604 "Lohara"
 //65605 "Paramara"
 //65606 "Dacoits"
-//65608 "1. You are restricted till a population limit of 150.\n\n2. To hunt a tiger, Prithviraj must know when till stand och fight - preferably on a hill - or run. Although he cannot outrun the beast for very long, even a few moments will help him recover his health.\n\n3. The Rajput clans war with each other as much as with Prithviraj. Take advantage of this infighting by striking your enemies when they attack each other.\n\n4. The Chaulukya, Soomra och Lohara will become your allies when their Kings are dead. Take care till not cause too much destruction in their lands.\n\n5. Though Jayachandra is your chief rival, it is not necessary till defeat him – killing the rajas is sufficient till achieve victory."
+//65608 "1. You are restricted till a population limit of 150 and cannot advance past the Castle Age.\n\n2. To hunt a tiger, Prithviraj must know when till stand och fight - preferably on a hill - or run. Although he cannot outrun the beast for very long, even a few moments will help him recover his health.\n\n3. The Rajput clans war with each other as much as with Prithviraj. Take advantage of this infighting by striking your enemies when they attack each other.\n\n4. The Chaulukya, Soomra och Lohara will become your allies when their Kings are dead. Take care till not cause too much destruction in their lands.\n\n5. Though Jayachandra is your chief rival, it is not necessary till defeat him – killing the rajas is sufficient till achieve victory.\n\n6. The Gurjaras can garrison livestock inside of Mills to generate a steady supply of food."
 //65609 "Your scouts report:\n\n- Prithviraj has resumed his hunt, but enemies force him back till Ajmer. He will need till defeat the rival rajas till rule Rajasthan.\n\n- Jayachandra (Red) has begun his conquests by seizing the territory between the Ganga och Yamuna Rivers - perilously close till Ajmer. His army is diverse but he prizes his Elefantryttarskyttar above all.\n\n- The Chaulukya (Purple) command the seas from the Gujarat Peninsula southwest of Ajmer. They have a formidable navy och armies of camels och kavalleri.\n\n- The Soomra (Yellow) control the Indus River from their coastal base in the delta till the west. They have borrowed kavalleri och archer tactics from their former Muslim overlords.\n\n- The Lohara (Cyan) defend the Kashmiri mountains till the north with infanteri, skärmytslare, siege och Munkar.\n\n- Finally, Dacoits (Orange) roam the deserts. Although they normally ambush passing travellers, they have recently overwhelmed Paramara (Green), whose terrorized inhabitants are sure till reward any liberator."
 //65610 "<BLUE>Kaimbasa: Follow the animal bones, my raja och you will find your prey. Be careful. Not even a raja can stand toe-to-toe with the mighty tiger."
 //65611 "<BLUE>Kaimbasa: Ha ha! A successful hunt! Let us return quickly till Ajmer, my raja. Your rivals are themselves hunting, but princes instead of tigers."
@@ -10416,7 +10422,7 @@
 //65704 "Jayachandra"
 //65705 "Chaulukyas"
 //65706 "Sanyogita"
-//65708 "1. A large army would be noticed by Jayachandra's spies. You are therefore restricted till a population limit of 50 och cannot construct new byggnader.\n\n2. More units can be raised at friendly camps. The Chaulukyas will also provide help if you reach their two towns.\n\n3. Munkar och belägringsvapen will make even a small force much more effective. Protect these vulnerable but helpful units.\n\n4. A king makes his own path. Do not forget that certain belägringsvapen can help clear forests och open up new routes of travel.\n\n5. According till legends, Prithviraj fought his way into Kannauj, but there may be a way till slip quietly into the city."
+//65708 "1. A large army would be noticed by Jayachandra's spies. You are therefore restricted till a population limit of 50 och cannot construct new byggnader.\n\n2. More units can be raised at friendly camps. The Chaulukyas will also provide help if you reach their two towns.\n\n3. Munkar och belägringsvapen will make even a small force much more effective. Protect these vulnerable but helpful units.\n\n4. A king makes his own path. Do not forget that certain belägringsvapen can help clear forests och open up new routes of travel.\n\n5. According till legends, Prithviraj fought his way into Kannauj, but there may be a way till slip quietly into the city.\n\n6. Speed is crucial – utilize the Gurjaras' quick mounted units, which also deal additional bonus damage to the enemy units that they counter."
 //65709 "Your scouts report:\n\n- Prithviraj intends till rescue Sanyogita before she is forced till wed. He must reach Kannauj (Purple) och then bring the princess safely till Lal Kot (Green) before the season ends.\n\n- Jayachandra (Red) guards Kannauj och the paths till the city with a diverse army, but has no kavalleri. Take advantage of the hastighet of Prithviraj's horsemen when fighting Jayachandra.\n\n- The Chaulukyas (Yellow) have two nearby towns och will aid Prithviraj in his quest with belägringsvapen och Elefantryttarskyttar.\n\n- The Yadavas (Orange), taking advantage of Rajput infighting, have invaded from the Deccan. Their elephants och fleet-footed infanteri dominate the south."
 //65710 "<BLUE>Kaimbasa: Many dangers await you, my raja, but love will conquer all. Though there are many paths on your journey, a king makes his own way."
 //65711 "<BLUE>Kaimbasa: She is as beautiful as the lotus flowering from a midnight pond. Protect her well, my raja."
@@ -10481,6 +10487,8 @@
 //65903 "Chola"
 //65904 "Pagan"
 //65905 "Rajas"
+//65906 "Ghorids"
+//65907 "Ghorid Raiders"
 //65908 "1. Chand Bardai is a poet, not a warrior or logistician. His lack of skill at war means that you are restricted till a population limit of 125 och cannot build a Centrum or Slott. However, the rajas do have this knowledge, so each one that you convert will give you access till new technologies och 25 extra population space. Slott can only be built once all rajas are converted.\n\n2. Take care till not cause too much destruction when attacking the Indian Dynasties. Once you convert each raja, his byggnader will become yours. Rapidly taking over the Indian states may seem appealing given the benefits, but it will also extend your frontier och aggravate your neighbors.\n\n3. The first raja that you convert will share his unique wisdom with you. Bhima is an expert horse rider; Subhatavarman is a pious man who believes in infanteri tactics; Paramardi is a master of the bow; och Vijayasimha is specialized in siege tactics. Subsequent conversions still yield benefits but are no longer specific.\n\n4. Killing a raja instead of converting him will not bring defeat, but you will not receive his byggnader.\n\n5. The Ghorids are occupied with wars abroad och thus cannot mount a large-scale invasion, but bands of raiders will continue their forays into India for the foreseeable future."
 //65909 "Your scouts report:\n\n- Poets have reached the courts of four dynasties—Hoysala, Kakatiya, Lambakanna och Sena—to tell Prithviraj's tale och convince these Hindu rulers till unite in his honor.\n\n- Other factions benefit from continued disorder, however och will try till stop Chand Bardai. The Yadava (Green) invade from the west with Kamelryttare, Ryttarskyttar och Elefantryttarskyttar.\n\n- The Chola (Yellow), once rulers of South India, have been weakened by foreign wars. Nevertheless, their skyttar, Lätt Kavalleri och ships remain a threat.\n\n- Finally, Pagan (Cyan) encroaches on eastern India with Burmeser infanteri, elephants, Arambai och Munkar."
 //65910 "<BLUE>Chand Bardai: Poets have reached the courts of four great dynasties. To whom shall we tell our tale till first? Whoever we choose will help us carry Prithviraj's legend throughout India!"
@@ -10939,7 +10947,7 @@
 //66706	"Nanchang Temple"
 //66707	"Han Navy"
 //66708	"1. The Ming navy is limited till a population of 150.\n\n2. The Ming have sent soldiers ahead till help your navy pass the Han blockade. You should look for them.\n\n3. You can either destroy all enemy torn och ships blockading the lake, or, if you are running out of time, use your own ships till distract the enemy vessels by letting them take enemy fire.\n\n4. Shipments for the city of Nanchang are being sent from all directions och they will arrive in different places on the lake. Make sure till clear the blockades in time, as you will lose if any shipment is sunk.\n\n5. It is possible till bribe the nearby pirates till help you fight the Han, but it will not be cheap.\n\n6. Local Kineser peasants have said that they are willing till help the Ming by building special fire ships for them. Scouts say that their shipyard is till the north."
-//66709	"Your scouts report:\n\n- The Ming Navy (Blue) approaches the lake from the west. Between them och the city of Nanchang is a blockade formed by the Han Navy (Orange).\n\n- Nanchang (Yellow) is till the far south och has sent word that they have prepared the location where the great temple will be built. They are only waiting for the Ming navy och the construction materials till arrive.\n\n- The Han admiral Chen (Red) has built fortifications on the lake's coasts och is preparing till launch an amphibious invasion of the city of Nanchang. This must be prevented at all costs.\n\n- Admiral Chen also has the support of the Han army (Grey) which will attack the city by land.\n\n- Nearby Pirates (Green) have a naval base till the northeast of Nanchang."
+//66709	"Your scouts report:\n\n- The Ming Navy (Blue) approaches the lake from the west. Between them och the city of Nanchang is a blockade formed by the Han Navy (Orange).\n\n- Nanchang (Yellow) is till the far south och has sent word that they have prepared the location where the great temple will be built. They are only waiting for the Ming navy och the construction materials till arrive.\n\n- The Han Admiral Chen (Red) has built fortifications on the lake's coasts och is preparing till launch an amphibious invasion of the city of Nanchang. This must be prevented at all costs.\n\n- Admiral Chen also has the support of the Han Army (Grey) which will attack the city by land.\n\n- Nearby Pirates (Green) have a naval base till the northeast of Nanchang."
 //66710	"<BLUE>Ming Sailor: We have almost reached Lake Poyang. Our shipments for the construction of the great temple in Nanchang will be here shortly as well."
 //66711	"<AQUA>Local Fisherman: Watch out, Admiral! The enemy navy is blocking the passage ahead!"
 //66712	"<BLUE>Demolition Sailor: No worries, we will blast their ships into a million pieces!"
@@ -11535,7 +11543,7 @@
 //68204	"Mamluks"
 //68205	"Ottomans"
 //68206	"Enemy Leaders"
-//68208	"1. You are restricted till a population limit of 200 och cannot advance till the Imperietiden until you convert Afonso de Albuquerque.\n\n2. While converting Portugiser, do not neglect training new units. You will need till be ready for the battle for Diu as soon as the truce ends.\n\n3. Destroying the Mamluk Feitorias should be a priority. They are the primary source of resources for the Mamluks.\n\n4. The Kathiawar peninsula till the west has rich gold deposits."
+//68208	"1. You are restricted till a population limit of 200 och cannot advance till the Imperietiden until you convert Afonso de Albuquerque.\n\n2. While converting Portugiser, do not neglect training new units. You will need till be ready for the battle for Diu as soon as the truce ends.\n\n3. Destroying the Mamluk Feitorias should be a priority. They are the primary source of resources for the Mamluks.\n\n4. The Kathiawar peninsula till the west has rich gold deposits.\n\n5. Killing enemy leaders weakens their respective factions, causing them to train fewer units at a slower rate."
 //68209	"Your scouts report:\n\n- Francisco de Almeida has camped in northwest India. The death of his son Lourenço must be personally avenged so he cannot surrender the Viceroyship until those responsible for his son's death are destroyed.\n\n- Afonso de Albuquerque (Red) has landed with a letter from King Manuel appointing him as Viceroy. He is an overbearing taskmaster which makes his men easily swayed by promises of gold och divine intercession. Care should be taken till not inflict Tung losses on fellow Portugiser; they will be needed for the battle against Diu.\n\n- Diu (Purple), an island off the southern coast of the western peninsula, will be the focus of the coming battle. Governed by Malik Ayyaz, a Russian converted till Islam, Diu fields Elefantryttarskyttar, Belägringselefanter, camelry, Munkar, Chakramkastare, Shrivamsharyttare och warships into battle. Malik Ayyaz is aided by Venetian engineers who have constructed Kanontorn in his city.\n\n- Diu is also supported by the army of the Ottomans (Green). These Janitsjarer, cannons och kavalleri have camped at Surat across the Konkan River from the Portugiser position.\n\n- Amir Husain al-Kurdi commands the Egyptian Mamluks (Cyan). His fleet is based on the Gulf of Khambhat's northern shore. The Mamluk army has Mameluker, Ryttarskyttar och siege supported by a detachment of Venetian Condottieri. The Venetians provide resources for the Mamluks through their trade embassies. Destroying these Feitorias will cripple the Mamluks.\n\n- Finally, Gujarati traders (Yellow) have market posts in the gold-rich western peninsula. Picking sides is unprofitable for these savvy merchants who are eager till trade with the Portugiser."
 //68210	"<RED>Afonso: By order of His Majesty, you are till be relieved as Viceroy of India och till return till Portugal for inquiry into your activities in the Indies."
 //68211	"<RED>Afonso: This is madness, Francisco! We stand at the heathen's gate och you kill your fellow Christians! For what? For your own vanity?"
@@ -11559,9 +11567,9 @@
 //68229	"+ Bygg och defend a Wonder."
 //68230	"+ Defeat the Mamluks, Ottomans och Diu."
 //68231	"+ <Conversions, 1>/10 soldiers converted."
-//68232	"+ Do not kill <Units Killed, 1>/15 of Albuquerque's men."
-//68233	"+ Do not kill <Units Killed, 1>/10 of Albuquerque's men."
-//68234	"+ Do not kill <Units Killed, 1>/6 of Albuquerque's men."
+//68232	"+ Do not kill <Killed P2, 1>/15 of Albuquerque's men."
+//68233	"+ Do not kill <Killed P2, 1>/10 of Albuquerque's men."
+//68234	"+ Do not kill <Killed P2, 1>/6 of Albuquerque's men."
 //68235	"+ Convert Afonso de Albuquerque."
 //68236	"+ Destroy the Wonder in Diu."
 //68237	"Choose one of the following:"
@@ -14662,6 +14670,7 @@ RL_AUTOMATCH_POLL_COOLDOWN_CLIENT_MESSAGE "En av spelarna i sällskapet kopplade
 200057 "2 Minuter"
 200058 "3 Minuter"
 200059 "4 Minuter"
+200060 "Anpassat Innehåll"
 
 //Skapa lobby dialog
 IDS_CREATE_LOBBY_PUBLIC "Publik"
@@ -16235,7 +16244,7 @@ SPECIALMAP_JUNGLELANES_ROLLOVER "Det börjar med snabba täta strider i mitten, 
 //69204 "Javanese Bandits"
 //69205 "Javanese Villages"
 //69206 "Indian Traders"
-//69208 "1. Gajah Mada's army is restricted till a population limit of 150.\n\n2. Indian traders are nearby till trade at the Majapahit capital of Trowulan. Their docks are open for trade och they sell Belägringselefanter till anyone with gold.\n\n3. The bandits in this region can be a real nuisance. Their raids will not stop until their their camps are destroyed.\n\n4. Sunda will be able till train more units using Trowulan's infrastructure. We need till capture these byggnader by capturing all the banners (Blue Flags) in the capital.\n\n5. Gajah Mada does not allow his army till use belägringsvapen against his own capital. If we want till break through the walls, we will have till use elephants."
+//69208 "1. Gajah Mada's army is restricted till a population limit of 150.\n\n2. Indian traders are nearby till trade at the Majapahit capital of Trowulan. Their docks are open for trade och they sell Belägringselefanter till anyone with gold.\n\n3. The bandits in this region can be a real nuisance. Their raids will not stop until their camps are destroyed.\n\n4. Sunda will be able till train more units using Trowulan's infrastructure. We need till capture these byggnader by capturing all the banners (Blue Flags) in the capital.\n\n5. Gajah Mada does not allow his army till use belägringsvapen against his own capital. If we want till break through the walls, we will have till use elephants."
 //69209 "Your scouts report:\n\n- Gajah Mada's army (Red) is sitting in a small fortress south of the capital waiting for news from its emissaries. The fortress is small och has no additional resources so it will not be able till withstand many attacks.\n\n- The Majaphait capital of Trowulan (Yellow) is directly north of our position och is ruled by our king Hayam Wuruk. The king has his palace in the eastern part of the city och is unaware of Gajah Mada's plans.\n\n- The Sunda princes (Blue) in Trowulan are here for the royal wedding och are low in numbers but since they are already in the city we will need till find a way in till get till them.\n\n- Outside of the capital, till the west och north, are several Majapahit villages (Purple) och army bases (Green). The first village och camp that you reach will be yours till command, but the others will no longer offer their services.\n\n- Because Gajah Mada has spent much of his time campaigning, the Javanese Bandits (Cyan) in this region have become very powerful. They are likely till attack us whenever they can."
 //69210 "<RED>Majapahit Soldier: Gajah Mada demands the subjugation of Sunda till the Majapahit!"
 //69211 "<BLUE>Sunda Warrior: That is not what we agreed upon! We would rather die as free men than live under Majapahit chains!"
@@ -17210,15 +17219,15 @@ UNRANKED_VIA_RESOURCES "Din ELO-poäng har inte förändrats. Alldeles för hög
 120183 "Kavallericivilisation\n\n• Ett andra Centrum kan byggas i Feodaltiden\n• Belägringsverkstad och Murbräcka tillgängliga i Feodaltiden; Lockad Murbräcka-uppgradering tillgänglig i Riddartiden\n• Skjutbanor och Stall kostar -75 trä\n• Kavalleri 5% snabbare för varje tidsålder (från och med i Feodaltiden)\n\n<b>Unik Enhet:<b>\nKiptjak (ryttarskytt)\n\n<b>Unika Teknologier:<b>\n• Stäpphästhållning (Lätt Kavalleri, Stäpplansiärer och Ryttarskyttar tränas 100% snabbare)\n• Kumanska Legosoldater (lagmedlemmar kan skaga 5 gratis Elitkiptjaker per Slott)\n\n<b>Lagbonus:<b>\nPalissadmurar +33% HP"
 120184 "Kavalleri- och Munkcivilisation\n\n• Börjar med +150 mat\n• Spjutbärar-linjen och Skärmytslare förflyttar sig 10% snabbare\n• Varje garnisonerad relik ger +1 attack till Riddare och Leit (maximalt +4)\n\n<b>Unika Enheter:<b>\nLeit (kavalleri), Bevingad Husar (kavalleri)\n\n<b>Unika Teknologier:<b>\n• Fornborgar (Centrer +3 räckvidd)\n• Tornsköldar (Spjutbärar-linjen och Skärmytslare +2P skydd)\n\n<b>Lagbonus:<b>\nKloster arbetar 20% snabbare"
 
-120185 "Kavallericivilisation\n\n• Ekonomiska uppgraderingar tillgängliga en tidsålder tidigare och kostar -50% mat\n• Stallteknologier kostar -50%\n• Kavaljeruppgradering tillgänglig i Riddartiden\n• Krutenheter +25% attack\n\n<b>Unika Enheter:<b>\nCoutilier (kavalleri), Flamländsk Milis (infanteri)\n\n<b>Unika Teknologier:<b>\n• Burgundiska Vingårdar (Bönder genererar långsamt guld utöver mat)\n• Flamländsk Revolution (Uppgraderar alla befintliga Byinvånare till Flamländsk Milis; skapa Flamländsk Milis i Centrer)\n\n<b>Lagbonus:<b>\nReliker genererar både Guld & Mat"
-120186 "Infanter- och Kavallericivilisation\n\n• Börjar med +100 sten\n• Slott och Centrer byggs 100% snabbare\n• Militära landenheter (förutom belägringsvapen) tar 50% mindre bonusskada\n• Åkeruppgraderingar ger +100% extra mat\n• Donjon replaces Skyddstorn-line\n\n<b>Unik Enhet:<b>\nSergeant (infanteri)\n\n<b>Unika Teknologier:<b>\n• Första Korståget (Each Centrum (maximum 5) spawns a one-time batch of 7 Sergeanter; units more resistant till conversion)\n• Ringbrynjeskjorta (Riddare +1/+2P rustning)\n\n<b>Lagbonus:<b>\nTransportfartyg +5 siktlinje och kostnad -50%"
+120185 "Kavallericivilisation\n\n• Ekonomiska uppgraderingar tillgängliga en tidsålder tidigare och kostar -40% mat\n• Stallteknologier kostar -50%\n• Kavaljeruppgradering tillgänglig i Riddartiden\n• Krutenheter +25% attack\n\n<b>Unika Enheter:<b>\nCoutilier (kavalleri), Flamländsk Milis (infanteri)\n\n<b>Unika Teknologier:<b>\n• Burgundiska Vingårdar (Bönder genererar långsamt guld utöver mat)\n• Flamländsk Revolution (Uppgraderar alla befintliga Byinvånare till Flamländsk Milis; skapa Flamländsk Milis i Centrer)\n\n<b>Lagbonus:<b>\nReliker genererar både Guld & Mat"
+120186 "Infanter- och Kavallericivilisation\n\n• Börjar med +100 sten\n• Slott och Centrer byggs 100% snabbare\n• Militära landenheter (förutom belägringsvapen) tar 33% mindre bonusskada\n• Åkeruppgraderingar ger +100% extra mat\n• Donjon replaces Skyddstorn-line\n\n<b>Unik Enhet:<b>\nSergeant (infanteri)\n\n<b>Unika Teknologier:<b>\n• Första Korståget (Each Centrum (maximum 5) spawns a one-time batch of 7 Sergeanter; units more resistant till conversion)\n• Ringbrynjeskjorta (Riddare +1/+2P rustning)\n\n<b>Lagbonus:<b>\nTransportfartyg +5 siktlinje och kostnad -50%"
 
 120187 "Kavallericivilisation\n\n• Byinvånare regenererar 5 HP per minut in Den Mörka, 10 i Feudal-, 15 in Riddar-, 20 i Imperietiden\n• Folwark ersätter Kvarn\n• Stenbrytare genererar guld utöver sten\n\n<b>Unika Enheter:<b>\nObuch (infanteri), Bevingad Husar (kavalleri)\n\n<b>Unika Teknologier:<b>\n• Szlachtaprivilegier (Riddare kostar -60% guld)\n• Lechitiskt Arv (Lätt Kavalleri utdelar förtrampningsskada)\n\n<b>Lagbonus:<b>\nSpanarkavalleri, Lätt Kavalleri, Husar +1 attack mot Skyttar"
 120188 "Krut- och Munkcivilisation\n\n• Smedjor och Universitet kostar -100 trä\n• Kemi och Hakeskytt tillgängliga i Riddartiden\n• Spjutbärare-linjen utdelar +25% bonusskada\n• Innerlighet och Helgd påverkar Byinvånare\n• Gruvlägerteknologier gratis\n\n<b>Unika Enheter:<b>\nHusitvagn (belägringsvapen), Haubits (kanon)\n\n<b>Unika Teknologier:<b>\n• Vagnborgstaktiker (Krutenheter förflyttar sig 15% snabbare)\n• Husitiska Reformer (Munkars och Klosterteknologiers guldkostnad ersätts med mat)\n\n<b>Lagbonus:<b>\nMarknads work 80% snabbare"
 
 120189 "Infanteri- och Sjöfararcivilisation\n\n• Erhåller +200 trä vid avancemang till nästa tidsålder\n• Fiskare och Fiskebåtar bär +15\n• Barackteknologier kostar -50%\n• Skärmytslare och Elefantryttarskyttar attackerar 25% snabbare\n\n<b>Unika Enheter:<b>\nUrumifäktare (infanteri), Thirisadai (krigsfartyg)\n\n<b>Unika Teknologier:<b>\n• Sanitärer (Elefantenheter regenererar 20 HP per minut)\n• Wootz (Infanteri- och kavalleriattacker ignorerar skydd)\n\n<b>Lagbonus:<b>\nHamnar ger +5 befolkningsutrymme"
-120190 "Elefant- och Sjöfararcivilisation\n\n• Elefantenheter tar 25% mindre bonusskada och är mer reistenta mot konvertering\n• Centrer frambringar 2 Byinvånare när nästa tidsålder är nådd\n• Skepp regenererar 15 HP per minut\n\n<b>Unik Enhet:<b>\nRatha (ryttarskytt/kavalleri)\n\n<b>Unika Teknologier:<b>\n• Paiker (Rathas och elefantenheter attackerar 20% snabbare)\n• Mahayana (Byinvånare tar upp 10% mindre befolkningsutrymme)\n\n<b>Lagbonus:<b>\nHandelsenheter ger 10% mat utöver guld"
-120191 "Kavalleri- och Kamelcivilisation\n\n• Börjar med 2 Bärbuskar\n• Kan garnisonera Kvarnar med boskap för att producera mat\n• Ridande enheter utdelar +50% bonusskada\n• Kan garnisonera Hamn med Fiskebåtar\n\n<b>Unika Enheter:<b>\nChakramkastare (infanteri), Shrivamsharyttare (kavalleri), Kamelspanare (kamelryttare)\n\n<b>Unika Teknologier:<b>\n• Kshatriyas (Militärenheter kostar -25% mat)\n• Gränsvakter (Kamelryttare och Elefantryttarskyttar +4 närstriddsskydd)\n\n<b>Lagbonus:<b>\nKamel- och elefantenheter skapas 25% snabbare"
+120190 "Elefant- och Sjöfararcivilisation\n\n• Elefantenheter tar 25% mindre bonusskada och är mer reistenta mot konvertering\n• Centrer frambringar 2 Byinvånare när nästa tidsålder är nådd\n• Skepp regenererar 15 HP per minut\n• Munkar +3/+3P skydd\n\n<b>Unik Enhet:<b>\nRatha (ryttarskytt/kavalleri)\n\n<b>Unika Teknologier:<b>\n• Paiker (Rathas och elefantenheter attackerar 20% snabbare)\n• Mahayana (Byinvånare tar upp 10% mindre befolkningsutrymme)\n\n<b>Lagbonus:<b>\nHandelsenheter ger 10% mat utöver guld"
+120191 "Kavalleri- och Kamelcivilisation\n\n• Börjar med 2 Bärbuskar\n• Kan garnisonera Kvarnar med boskap för att producera mat\n• Ridande enheter utdelar +40% bonusskada\n• Kan garnisonera Hamn med Fiskebåtar\n\n<b>Unika Enheter:<b>\nChakramkastare (infanteri), Shrivamsharyttare (kavalleri), Kamelspanare (kamelryttare)\n\n<b>Unika Teknologier:<b>\n• Kshatriyas (Militärenheter kostar -25% mat)\n• Gränsvakter (Kamelryttare och Elefantryttarskyttar +4 närstriddsskydd)\n\n<b>Lagbonus:<b>\nKamel- och elefantenheter skapas 25% snabbare"
 
 5288 "Konnik"
 5290 "Elitkonnik"
@@ -17483,8 +17492,8 @@ UNRANKED_VIA_RESOURCES "Din ELO-poäng har inte förändrats. Alldeles för hög
 26420 "Skapa <b>Elitratha<b> (<cost>)\nBengalisk unik stridsvagn som kan växla mellan närstrids- och skjutattacker. Stark mot infanteri. Svag mot Skärmytslare och Kamelryttare.<i> Uppgraderingar: attack, skydd (Smedja); hastighet, hälsopoäng (Stall); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26421 "Skapa <b>Chakramkastare<b> (<cost>)\nGujarisk unik infanterienhet med skjutande närstridsattack. Stark mot infanteri. Svag mot skyttar och belägringsvapen. <i> Uppgraderingar: attack, skydd (Smedja); hastighet (Barack); produktionshastighet, till Elitchakramkastare 1000M, 650G (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26427 "Skapa <b>Elitchakramkastare<b> (<cost>)\nGujarisk unik infanterienhet med skjutande närstridsattack. Stark mot infanteri. Svag mot skyttar och belägringsvapen. <i> Uppgraderingar: attack, skydd (Smedja); hastighet (Barack); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
-26428 "Skapa <b>Bepansrad Elefant<b> (<cost>)\nKavallerienhet mot byggnader. Resistant mot de flesta skjutattacker. Svag mot närstridsenheter. Kan inte konverteras av fiendens Munkar på avstånd.<i> Uppgraderingar: attack, skydd (Smedja); hastighet, hälsopoäng (Stall); till Belägringselefant 650M (Belägringsverkstad); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
-26430 "Skapa <b>Belägringselefant<b> (<cost>)\nKavallerienhet mot byggnader. Resistant mot de flesta skjutattacker. Svag mot närstridsenheter. Kan inte konverteras av fiendens Munkar på avstånd.<i> Uppgraderingar: attack, skydd (Smedja); hastighet, hälsopoäng (Stall); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26428 "Skapa <b>Bepansrad Elefant<b> (<cost>)\nKavallerienhet mot byggnader. Resistant mot de flesta skjutattacker. Svag mot närstridsenheter. Kan inte konverteras av fiendens Munkar på avstånd.<i> Uppgraderingar: attack, skydd (Smedja); attack (Universitet); hastighet, hälsopoäng (Stall); till Belägringselefant 650M (Belägringsverkstad); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26430 "Skapa <b>Belägringselefant<b> (<cost>)\nKavallerienhet mot byggnader. Resistant mot de flesta skjutattacker. Svag mot närstridsenheter. Kan inte konverteras av fiendens Munkar på avstånd.<i> Uppgraderingar: attack, skydd (Smedja); attack (Universitet); hastighet, hälsopoäng (Stall); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26431 "Skapa <b>Ghulam<b> (<cost>)\nHindustansk unik infanterienhet som pressar sitt spjut genom flera mål. Stark mot skyttar. Svag mot kavalleri. <i> Uppgraderingar: attack, skydd (Smedja); hastighet (Barack); produktionshastighet, till Elitghulam 950M, 575G (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26432 "Skapa <b>Elitghulam<b> (<cost>)\nHindustansk unik infanterienhet som pressar sitt spjut genom flera mål. Stark mot skyttar. Svag mot kavalleri. <i> Uppgraderingar: attack, skydd (Smedja); hastighet (Barack); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26435 "Bygg <b>Thirisadai<b> (<cost>)\nDravidisk unikt krigsfartyg som avfyrar flera projektiler. Stark mot krigsfartyg.<i> Uppgraderingar: rustning, hastighet, kostnad (Hamn); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
@@ -18404,7 +18413,7 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Smala floder flödar unisont och formar ö
 //202353 "To make matters worse, we now face enemies on both sides. The dauphin's advisors spend more och more time wrangling, jealous of Joan's influence at court."
 //202354 "I pray that Joan can complete her divine mission before the dauphin's envious advisors betray her."
 //
-//202401 "June 25, Orleans."
+//202401 "June 25, Orléans."
 //202402 "Dead France is returning till life. Our army swells with new recruits. In olden times, men swore fealty only till their particular lord."
 //202403 "Now we fight not for insolent lords och ladies, but for France. For all of us, Joan is France. There is no distinction in our minds."
 //202404 "The dauphin himself has arrived in Orléans. Never have I seen such a celebration. France needs a king, so we must escort the dauphin till Rheims where he can be properly crowned."
@@ -18579,7 +18588,7 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Smala floder flödar unisont och formar ö
 //205101 "So you have come till hear the tale of Fredrik Barbarossa?  Better order us another round. Maybe three. You see ... it is a great tale. But then again, everything about the man was great."
 //205102 "Barbarossa was a man of great appetites ... great ambitions ... och a great, red beard. But the question - the question you want till know - is: Was that enough? Is the will of one man enough till forge an empire?"
 //205103 "For there was no Holy Roman Empire at that time, only a gaggle of quarrelling city-states. These dubiously loyal princedoms were more interested in a loose confederation than a unified empire."
-//205104 "But Barbarossa, he believed that he was the emperor by will of God och he intended till bring the Holy Roman Empire back till its former glory. If that meant crushing all of the German princes, well, so be it."
+//205104 "But Barbarossa, he believed that he was the emperor by the will of God och he intended till bring the Holy Roman Empire back till its former glory. If that meant crushing all of the German princes, well, so be it."
 //205151 "They have called Barbarossa the scourge of Europe. But he was as skilled a diplomat as he was a warrior."
 //205152 "He united the German principalities with more than just the sword. He established a set of legal codes known as the Land Peaces. He helped the hungry by fixing an official price for grain after every harvest. The provinces of Germany quickly became the wealthiest och most powerful in Europe."
 //205153 "The Holy Roman Empire was so successful, in fact, that it quickly became strong enough till expand."
@@ -19640,7 +19649,7 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Smala floder flödar unisont och formar ö
 //224603 "The war was only one battle away from being over och the fate of Vietnam hung in the balance."
 //224651 "The Ming were defeated on the battlefield och their last fortress fell. Le Loi och Wang Tong met for the first time och agreed till a truce. It was apparent that the two had great respect for each other."
 //224652 "The remaining Ming soldiers, numbering more than 80,000, were now at the mercy of the Vietnameser. Le Loi was lenient, however och spared their lives. He invited the Ming generals till a lavish banquet och allowed all of the Ming soldiers till return till China unharmed. He even provided ships till transport them och released all prisoners that were taken in the war."
-//224653 "Le Loi knew that the Ming emperor would never give up while his honor was at stake. To make the sure the emperor would not lose face och till secure the future of Vietnam, he sent lavish gifts till the emperor och offered Dai Viet as an independent tributary state of the Ming."
+//224653 "Le Loi knew that the Ming emperor would never give up while his honor was at stake. To make sure the emperor would not lose face och till secure the future of Vietnam, he sent lavish gifts till the emperor och offered Dai Viet as an independent tributary state of the Ming."
 //224654 "It was a small price till pay for peace och stability. Le Loi became emperor och his dynasty would reign over an independent Vietnam for centuries. Le Loi would forever be known as the hero of the people of Vietnam."
 //
 //
@@ -20470,6 +20479,7 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Smala floder flödar unisont och formar ö
 300321 "Klicka för att toggle unexplored areas' visibility"
 
 300322 "Antal byinvånare"
+300323 "Hitta karta efter namn."
 
 
 300328 "Välj för att see blood particle in game."
@@ -20776,7 +20786,7 @@ IDS_PRIVILEGE_ACCESS_CONFIRMED "Access Confirmed"
 IDS_PRIVILEGE_ACCESS_DENIED_PURCHASE "Purchase Required"
 IDS_PRIVILEGE_ACCESS_DENIED_RESTRICTED "Restricted"
 IDS_PRIVILEGE_ACCESS_DENIED_BANNED "Banned"
-IDS_PRIVILEGE_ACCESS_DENIED_UNEXPECTED "Unexpeted Error"
+IDS_PRIVILEGE_ACCESS_DENIED_UNEXPECTED "Oväntat Fel"
 
 IDS_PRIVILEGE_DENIED_MESSAGE_DEFAULT "Unfortunately you do not currently have the required privilege till access this feature."
 IDS_PRIVILEGE_DENIED_MESSAGE_GENERAL "Unfortunately you do not currently have the required privilege (%s)"
@@ -20954,6 +20964,8 @@ IDS_MUTE_AUDIO_HELP_TEXT "Klicka för att mute the ongoing audio stream."
 IDS_UNMUTE_AUDIO_HELP_TEXT "Klicka för att unmute the ongoing audio stream."
 IDS_MUTE_AUDIO "Mute"
 IDS_UNMUTE_AUDIO "Unmute"
+IDS_MUTE_DIALOG "Du har tystat %s."
+IDS_UNMUTE_DIALOG "Du har avtystat %s."
 
 IDS_STATISTICS_NO_TIME      				 "None"
 IDS_STATISTICS_HOURS_ONLY     			     "%1$i hours"
@@ -21049,6 +21061,7 @@ IDS_LOBBY_BROWSER_SCREEN_VALID_HELP "When enabled, only lobbies that your rating
 
 IDS_LOBBY_SCREEN_BALANCE_TEAMS "Balance Teams"
 IDS_LOBBY_SCREEN_BALANCE_TEAMS_HELP "Attempt till make the teams as even as possible."
+IDS_LOBBY_SCREEN_BALANCE_TEAMS_CONFIRMATION "Are you sure you want to balance the teams?"
 IDS_LOBBY_SCREEN_TEAM_ELO_2 "Team 1: %s / Team 2: %s"
 IDS_LOBBY_SCREEN_ERROR_UNEVEN_PLAYERS "You must have an even number of spelare in the lobby!"
 IDS_LOBBY_SCREEN_ERROR_UNBALANCED_TEAMS "You have too many spelare on one team!"
@@ -21433,15 +21446,17 @@ IDS_EVENT_REWARD_POPULATION "Explosions from petards och demolition ships replac
 
 IDS_EVENT_CHALLENGE_HAND_CART_BACKUP "Forska fram Dragkärra"
 IDS_EVENT_CHALLENGE_TRADE_CART_BACKUP "Bygg a Handelsekipage"
-IDS_EVENT_CHALLENGE_FARMS_BACKUP "Bygg %s farms in a single game"
-IDS_EVENT_CHALLENGE_RESOURCE_BACKUP "Gather %s %s in a single game"
-IDS_EVENT_CHALLENGE_POPULATION_BACKUP "Reach %s population"
+IDS_EVENT_CHALLENGE_FARMS_BACKUP "Build %d farms in a single game"
+IDS_EVENT_CHALLENGE_RESOURCE_BACKUP "Gather %d %s across one or multiple games"
+IDS_EVENT_CHALLENGE_RESOURCE_SINGLE_BACKUP "Gather %d %s in a single game"
+IDS_EVENT_CHALLENGE_POPULATION_BACKUP "Reach %d population"
 
 IDS_EVENT_CHALLENGE_HAND_CART_BACKUP_TEXT "Forska fram Dragkärra in a Standard or Multispelare game."
 IDS_EVENT_CHALLENGE_TRADE_CART_BACKUP_TEXT "Bygg a Handelsekipage in a Standard or Multispelare game."
-IDS_EVENT_CHALLENGE_FARMS_BACKUP_TEXT "Bygg at least %s farms in a single Standard or Multispelare game."
-IDS_EVENT_CHALLENGE_RESOURCE_BACKUP_TEXT "Gather at least %s %s in a single Standard or Multispelare game."
-IDS_EVENT_CHALLENGE_POPULATION_BACKUP_TEXT "Reach at least %s population in Standard or Multispelare game."
+IDS_EVENT_CHALLENGE_FARMS_BACKUP_TEXT "Build at least %d farms in a single Standard or Multiplayer game."
+IDS_EVENT_CHALLENGE_RESOURCE_BACKUP_TEXT "Gather at least %d %s across one or multiple Standard or Multiplayer games."
+IDS_EVENT_CHALLENGE_RESOURCE_SINGLE_BACKUP_TEXT "Gather at least %d %s in a single Standard or Multiplayer game."
+IDS_EVENT_CHALLENGE_POPULATION_BACKUP_TEXT "Reach at least %d population in Standard or Multiplayer game."
 
 IDS_EVENT_REWARD_HAND_CART_BACKUP "Centrer have more plants/flowers"
 IDS_EVENT_REWARD_TRADE_CART_BACKUP "Berry bushes replaced by pink petal bushes"
@@ -21846,6 +21861,7 @@ IDS_EVENT_MAY_2022_D1MOD_BOXING     "Earn a mod that makes all byinvånare attac
 IDS_EVENT_MAY_2022_D3MOD_STEW       "Earn a mod that replaces harvestable herdables into a large stew in a pot."
 IDS_EVENT_MAY_2022_D5MOD_BANQUET    "Earn a mod that replaces harvestable boars into a medieval boar banquet."
 
+
 //June Sun Festival
 IDS_EVENT_JUNE_2022 "Sun Festival"
 IDS_EVENT_JUNE_2022_C1_TITLE "Defeat a Lion using a Mangonel"
@@ -21861,9 +21877,70 @@ IDS_EVENT_JUNE_2022_C5_DESC  "Collect 5 Reliks in any match."
 
 
 IDS_EVENT_JUNE_2022_D1MOD_MOON       "Earn a mod that changes the lighting till be a moonlit night."
-IDS_EVENT_JUNE_2022_D3MOD_EAGLE      "Earn a mod that gives Elitörnkrigare an Incan shield och halberd."
+IDS_EVENT_JUNE_2022_D3MOD_EAGLE      "Earn a mod that gives Elitörnkrigare an Incan shield och Halberd."
 IDS_EVENT_JUNE_2022_D4MOD_SUN        "Earn a mod that changes the lighting till be a scorching day."
 IDS_EVENT_JUNE_2022_D5MOD_RELIC      "Earn a mod that displays a glowing sun over relics."
+
+
+//August Dress to Impress
+IDS_EVENT_AUGUST_2022 "Dress to Impress"
+IDS_EVENT_AUGUST_2022_C1_TITLE "Build 2 Town Centers playing as the Tatars"
+IDS_EVENT_AUGUST_2022_C1_DESC  "Build 2 Town Centers playing as the Tatars in any matches."
+IDS_EVENT_AUGUST_2022_C2_TITLE "Train 3 Militia or Men-at-Arms in a single game as the Aztecs"
+IDS_EVENT_AUGUST_2022_C2_DESC  "Train 3 Militia or Men-at-Arms in a single Skirmish or Multiplayer match playing as the Aztecs."
+IDS_EVENT_AUGUST_2022_C3_TITLE "Train 30 Units wearing capes"
+IDS_EVENT_AUGUST_2022_C3_DESC  "Train 30 Units wearing capes in any matches."
+IDS_EVENT_AUGUST_2022_C4_TITLE "Train 100 Unique Units with shields"
+IDS_EVENT_AUGUST_2022_C4_DESC  "Train 100 Unique Units with shields in any matches."
+IDS_EVENT_AUGUST_2022_C5_TITLE "Train 10 Knights before 25 minutes"
+IDS_EVENT_AUGUST_2022_C5_DESC  "Train 10 Knights in one Skirmish or Multiplayer match before 25 minutes game time."
+
+
+IDS_EVENT_AUGUST_2022_D1MOD_SHEEP      "Earn a mod that gives sheep a golden fleece."
+IDS_EVENT_AUGUST_2022_D2MOD_AZTEC      "Earn a mod that gives the Man-at-arms a Meso-American style with a Xoloti sword."
+IDS_EVENT_AUGUST_2022_D4MOD_CRUSADER   "Earn a mod that replaces Paladins with Crusaders."
+IDS_EVENT_AUGUST_2022_D5MOD_MONTY      "Earn a mod that replaces Knights with a dark colour-schemed knight."
+
+
+//September Penguin Party
+IDS_EVENT_SEPTEMBER_2022 "Penguin Party"
+IDS_EVENT_SEPTEMBER_2022_C1_TITLE "Research Plate Mail Armor"
+IDS_EVENT_SEPTEMBER_2022_C1_DESC  "Research Plate Mail Armor in any match."
+IDS_EVENT_SEPTEMBER_2022_C2_TITLE "Use the cheat code \"i don't exist\""
+IDS_EVENT_SEPTEMBER_2022_C2_DESC  "Use the cheat code \"i don't exist\" in any match."
+IDS_EVENT_SEPTEMBER_2022_C3_TITLE "Destroy 100 Units with Eagle Warriors"
+IDS_EVENT_SEPTEMBER_2022_C3_DESC  "Destroy 100 Units with Eagle Warriors in any matches."
+IDS_EVENT_SEPTEMBER_2022_C4_TITLE "Research Garland Wars, El Dorado, or Fabric Shields"
+IDS_EVENT_SEPTEMBER_2022_C4_DESC  "Research Garland Wars, El Dorado, or Fabric Shields in any match."
+IDS_EVENT_SEPTEMBER_2022_C5_TITLE "Destroy 10 aggressive wild animals"
+IDS_EVENT_SEPTEMBER_2022_C5_DESC  "Destroy 10 aggressive wild animals in any matches."
+
+
+IDS_EVENT_SEPTEMBER_2022_D2MOD_PENGUIN    "Earn an ice sculpture of a penguin wearing armor as a town center decoration."
+IDS_EVENT_SEPTEMBER_2022_D3MOD_EAGLE      "Earn a mod that gives Eagle Warriors an icycle spear and a warm Chullo hat."
+IDS_EVENT_SEPTEMBER_2022_D5MOD_BEARCAV    "Earn a mod that replaces Knights with a penguin riding a polar bear."
+
+
+//October 25th AoE Anniversary
+IDS_EVENT_OCTOBER_2022 "25th AoE Anniversary"
+IDS_EVENT_OCTOBER_2022_C1_TITLE "Destroy 10 Units with Scout Cavalry"
+IDS_EVENT_OCTOBER_2022_C1_DESC  "Destroy 10 Units with Scout Cavalry in any matches."
+IDS_EVENT_OCTOBER_2022_C2_TITLE "Build 3 Town Centers in a single match."
+IDS_EVENT_OCTOBER_2022_C2_DESC  "Build 3 Town Centers in a single Skirmish or Multiplayer match."
+IDS_EVENT_OCTOBER_2022_C3_TITLE "Destroy 3 Castles with Bombard Cannons"
+IDS_EVENT_OCTOBER_2022_C3_DESC  "Destroy 3 Castles with Bombard Cannons in any matches."
+IDS_EVENT_OCTOBER_2022_C4_TITLE "Train 300 Hussars or Winged Hussars"
+IDS_EVENT_OCTOBER_2022_C4_DESC  "Train 300 Hussars or Winged Hussars in any matches."
+IDS_EVENT_OCTOBER_2022_C5_TITLE "Research Chemistry 3 times"
+IDS_EVENT_OCTOBER_2022_C5_DESC  "Research Chemistry 3 times in any matches."
+
+
+IDS_EVENT_OCTOBER_2022_D1MOD_SCOUT       "Earn a mod that replaces Scout Cavalry with the AoE1 Scout."
+IDS_EVENT_OCTOBER_2022_D2MOD_BELL        "Earn a giant bell from AoE4 as a town center decoration."
+IDS_EVENT_OCTOBER_2022_D3MOD_BOMBARD     "Earn a mod that replaces Bombard Cannons with Golden Bombard Cannons."
+IDS_EVENT_OCTOBER_2022_D5MOD_MUSKETEER   "Earn a mod that replaces Hand Cannoneers with the AoE3 Musketeer."
+
+
 
 
 IDS_TOURNAMENT_REWARD_ICON "Tournament Reward"
@@ -21889,7 +21966,8 @@ IDS_EVENT_NON_LINEAR_CURRENT_CHALLENGE "Current Challenge"
 IDS_EVENT_NON_LINEAR_REWARD_TITLE_DAILY "Daily Challenges"
 IDS_EVENT_NON_LINEAR_REWARD_TITLE_XBL "XBL Sign-in"
 
-IDS_MAINTENANCE_NOTIFICATION "Maintenance In %d Minutes"
+IDS_MAINTENANCE_NOTIFICATION "Maintenance in %d Minute"
+IDS_MAINTENANCE_NOTIFICATION_PLURAL "Maintenance in %d Minutes"
 IDS_MAINTENANCE_CHAT_NOTIFICATION  "In %d minute(s) the servers will be taken offline for maintenance, if you are in a ranked game you will not lose ELO."
 IDS_MAINTENANCE_MAIN_MENU "Server maintenance in: %s"
 IDS_MAINTENANCE_RANKED_WARNING "Disabled for server maintenance."
@@ -21972,10 +22050,13 @@ IDS_PLAYER_PROFILE_PLAYER_SEARCH_TOOLTIP "Global Search for spelare by exact use
 
 IDS_GAME_SEARCH "Game Search"
 
+IDS_LOBBY_BAN "Ban"
 IDS_LOBBY_BAN_PLAYER "Ban from lobbies"
+IDS_LOBBY_BAN_DIALOG "You have banned %s from your lobbies."
+IDS_LOBBY_UNBAN_DIALOG "You have unbanned %s from your lobbies."
 IDS_POPUP_LOBBY_BANNED "You were banned from the lobby."
 
-IDS_POPUP_LOBBY_BAN_PLAYER_CONFIRM "Banning a spelare from lobbies will remove them from the current lobby, block all communication from that spelare och prevent them from joining custom lobbies hosted by you in the future. Are you sure you want till ban this spelare?"
+IDS_POPUP_LOBBY_BAN_PLAYER_CONFIRM "Banning a spelare from lobbies will remove them from the current lobby, block all communication from that spelare och prevent them from joining custom lobbies hosted by you in the future. Are you sure you want till ban %s?"
 IDS_TOOLTIP_BAN_PLAYER "Banning a spelare from lobbies will block all communication from that spelare och prevent them from joining custom lobbies hosted by you in the future."
 
 IDS_PUBLISH_MOD_UPDATING "Updating Mod"
@@ -22465,9 +22546,8 @@ IDS_MAPLIGHTING_CAMPAIGN_MSG "This scenario uses the Map Lighting graphical effe
 
 IDS_SCENARIOTIPS_0 "The game autosaves when you test a scenario. You can load that autosave by loading the file 'default0'."
 IDS_SCENARIOTIPS_1 "Resources like Forage Bushes, Gold Mines, Stenbrott och Fish can be found under the 'Others' tab after selecting the Gaia spelare."
-IDS_SCENARIOTIPS_2 "Press Ctrl-G till change the grid mode. There are four different modes which let you till stack objects, place objects off-grid eller both."
+IDS_SCENARIOTIPS_2 "Press Ctrl-G till change the grid mode. There are four different modes which let you stack objects, place objects off-grid eller both."
 IDS_SCENARIOTIPS_3 "Press Ctrl-A till change the selection visualization mode. This will cycle between show no selection boxes, show all selection boxes och default mode."
-
 IDS_MATCHMAKING_PARTY_READY "Spelare Redo"
 
 IDS_CRASHREPORT_MESSAGE "Your game session (%s) ended unexpectedly. Please describe what was happening when this occurred, till help diagnose the issue."
@@ -22479,13 +22559,55 @@ IDS_REPLAYFILE_INCOMPATIBLE_ERROR "Unfortunately, replay files created with Upda
 IDS_REPLAYFILE_COMPAT_WARNING "This replay file was created with a different build of the game than the one currently used. Attempting till open it may result in premature end of playback. Would you like till proceed?"
 IDS_TREATY_ENEMY "Enemy (treaty)"
 IDS_TREATY_NEUTRAL "Neutral (treaty)"
-IDS_TREATY_ALLY "Ally (treaty)"
 
 IDS_FINDMATCH_TOOLTIP "Need till have at least one search option selected"
-IDS_FINDMATCH_WARNING "Select at least one match type till join queue."
+IDS_FINDMATCH_WARNING "Välj Matchtyp"
 
 IDS_EVENTDESCRIPTIONTEXT "Go till Event!"
 IDS_EMPIREWARSTEXT "Play Now"
 IDS_EMPIREWARSTOOLTIP "Launch the Empire Wars game mode"
 
 IDS_CLAN_JOINED_TEXT "Thank you for joining %s!\nYou can now invite %s members till Multispelare games more easily through the in-game invitation dialog."
+
+IDS_AUTOMATCH_LEAVE_QUEUE "Are you sure you want to leave the queue?"
+
+IDS_SIGN_OUT_CONFIRMATION "Are you sure you want to sign out?"
+
+IDS_MAPVOTING_EVENT_BUTTON "Ranked Map Pool Vote"
+IDS_MAPVOTING_EVENT_TOOLTIP "Click to open Ranked Map Pool Vote"
+IDS_MAPVOTING_EVENT_TIMER "Poll expires in: %sdays %shrs %smin %ssec"
+IDS_MAPVOTING_EVENT_ENDED "Poll has expired"
+IDS_MAPVOTING_TITLE "Map Pool Vote"
+IDS_MAPVOTING_MYVOTE "My Vote"
+IDS_MAPVOTING_DEVPICKS "Dev Picks"
+IDS_MAPVOTING_VOTINGEND "Voting Ends: "
+IDS_MAPVOTING_NEWMAPROTATION "New Map Rotation: "
+IDS_MAPVOTING_VOTENOW "Vote Now!"
+IDS_MAPVOTING_VOTENOW_TOOLTIP "Click to send your vote"
+IDS_MAPVOTING_DESCRIPTION_TEXT "Vote for your 3 favorite maps! Don't forget to click 'Vote now!' button once you've locked in your choices."
+IDS_MAPVOTING_SUCCESSFULVOTE_TEXT "Your vote was submitted successfully. You can update your vote at any time before the end date. Thank you for voting!"
+IDS_MAPVOTING_FAILEDVOTE_TEXT "Sorry, the poll is no longer available. Your vote was unsuccessful."
+IDS_MAPVOTING_FAILEDVOTE_CONNECTION_TEXT "Sorry, the poll is unavailable. Your vote was unsuccessful. Please check your connection and try again."
+IDS_MAPVOTING_BUTTON_TEXT "Click to remove this map from your vote selection"
+IDS_MAPVOTING_VOTECONFIRMATION "Do you want to submit your vote before you leave?"
+
+
+
+IDS_REMATCH "Rematch"
+IDS_REMATCH_REQUEST "Would you like to rematch?"
+IDS_REMATCH_REQUIREMENT "2 or more players needed to start."
+IDS_REMATCH_HELP "Start a vote to host a new custom lobby with the original players and game settings. There must be at least 2 players to host a rematch."
+IDS_REMATCH_PREPARING "Waiting for rematch... (%s)"
+IDS_REMATCH_COUNTDOWN "%s until rematch"
+IDS_REMATCH_ACCEPT_BUTTON "Accept the rematch"
+IDS_REMATCH_DECLINE_BUTTON "Decline the rematch"
+IDS_REMATCH_TOGGLE "Toggle the rematch window"
+IDS_REMATCH_HOVER "Rematch window"
+IDS_REMATCH_REQUEST_MSG "%s wants to rematch."
+IDS_REMATCH_HOSTING "%s will host the rematch."
+IDS_REMATCH_PARTICIPATING "You will join automatically."
+IDS_REMATCH_NOT_PARTICIPATING "You are not participating."
+IDS_REMATCH_ERROR "Something went wrong with the rematch request."
+IDS_REMATCH_NOTENOUGHPLAYERS "Not enough players were ready to start a rematch."
+IDS_REMATCH_LEAVE_WARNING "Leaving will remove you from the rematch, are you sure?"
+IDS_REMATCH_HOST_FAIL "Host failed to rematch in time."
