@@ -252,7 +252,7 @@
 3116 "Du gav en tribut med %d sten till %s."
 3117 "Uppdragen har förändrats."
 3118 "%s förlöjligar dina ynkliga bravader. Relik- och Underverkssegrar kommer nu ta längre tid och Reliker genererar nu mindre guld!"
-3119 "Du måste vänta 15 sekunder mellan kapitel."
+3119 "Du måste vänta 60 sekunder mellan kapitel."
 3120 "Du har %d pauseringar kvar."
 3121 "Du har fått slut på pauseringar"
 3122 "Du måste vänta 5 sekunder mellan skärmdumpar."
@@ -4918,6 +4918,7 @@
 15264 "Relikträproduktionshastighet"
 15265 "Relikstenproduktionshastighet"
 15266 "Vedkapningsguldproduktivitet"
+15266 "Bärplockningsträproduktivitet"
 
 
 16068 "S"
@@ -14343,11 +14344,11 @@
 120166 "Kavallericivilisation\n\n• Behöver inga hus, men börjar med -100 trä\n• Ryttarskyttar kostar -10% Riddar, -20% Imperietiden\n• Blidor +30% träffsäkerhet\n\n<b>Unik Enhet:<b> \nTarkhan (kavalleri)\n\n<b>Unika Teknologier:<b> \n• Marodörer (Skapa Tarkhaner i stall)\n• Ateism (+100 år Relik-, Underverkssegrar; fiendens reliker genererar -50% resurser)\n\n<b>Lagbonus:<b> \nStall arbetar 20% snabbare"
 120167 "Försvars- och Sjöfararcivilisation\n\n• Byinvånare +3 siktlinje\n• Stenbrytare arbetar 20% snabbare\n• Tornuppgraderingar gratis (Kanontorn kräver Kemi)\n• Skyttarskyddsuppgraderingar gratis\n• Militära enheter (förutom belägringsvapen) kostar -20% trä\n\n<b>Unika Enheter:<b> \nKrigsvagn (kavalleriskytt), Sköldpaddsfartyg (krigsfartyg)\n\n<b>Unika Teknologier:<b> \n• Eupseong (Skyddstorn, Vakttorn och Kärntorn +2 räckvidd)\n• Shinkichon (Mangonel-linjen +1 räckvidd)\n\n<b>Lagbonus:<b> \nMangonel-linjen lägstaräckvidd reducerad"
 120168 "Skytte- och Sjöfararcivilisation\n\n• Avancera till nästa tidsålder kostar -15%\n• Hamn- och Universitetsteknologier kostar -33%\n• Fiskebåtar kostar -15%\n• Krutenheter kostar -20%\n\n<b>Unika Enheter:<b> \nGenuesisk Armborstskytt (skytt), Kondottiär (infanteri)\n\n<b>Unika Teknologier:<b> \n• Pavis (fotskyttar och Condottieri +1 skytt/+1 pilskydd)\n• Sidenvägen (handelsenheter kostar -50%)\n\n<b>Lagbonus:<b> \nKondottiär tillgänglig i Barackerna i Imperietiden"
-120169 "Kamel- och Krutcivilisation\n\n• Byinvånare kostar -10% Den Mörka, -15% Feodal-, -20% Riddar-, -25% Imperietiden\n• Kamelryttare attackerar 25% snabbare\n• Krutenheter +1/+1P skydd\n• Kan bygga Karavanseraj i Imperietiden\n\n<b>Unika Enheter:<b> \nGhulam (infanteri), Imperiekamelryttare (kamelryttare)\n\n<b>Unika Teknologier:<b> \n• Stora Stamvägen (All guldinkomst 10% snabbare)\n• Shatagni (Hakeskyttar +2 räckvidd)\n\n<b>Lagbonus:<b> \nKamel- och lätta kavallerienheter +2 attack mot byggnader"
+120169 "Kamel- och Krutcivilisation\n\n• Byinvånare kostar -10% Den Mörka, -15% Feodal-, -20% Riddar-, -25% Imperietiden\n• Kamelryttare attackerar 20% snabbare\n• Krutenheter +1/+1P skydd\n• Kan bygga Karavanseraj i Imperietiden\n\n<b>Unika Enheter:<b> \nGhulam (infanteri), Imperiekamelryttare (kamelryttare)\n\n<b>Unika Teknologier:<b> \n• Stora Stamvägen (All guldinkomst 10% snabbare)\n• Shatagni (Hakeskyttar +2 räckvidd)\n\n<b>Lagbonus:<b> \nKamel- och lätta kavallerienheter +2 attack mot byggnader"
 120170 "Infantericivlisation\n\n• Börjar med en gratis Llama\n• Byinvånare påverkas av Smedjeuppgraderingar från och med Riddartiden\n• Hus försörjer 10 befolkning\n• Byggnader kostar -15% sten\n\n<b>Unika Enheter:<b> \nKamajuk (infanteri), Slungkastare (skytt)\n\n<b>Unika Teknologier:<b> \n• Andinsk Slunga (Skärmytslare och Slungkastare ingen lägstaräckvidd)\n• Tygsköldar (Kamajuker, Slungkastare, Örnar +1/+2P skydd)\n\n<b>Lagbonus:<b> \nSpjutbärare och Skärmytslare +2 siktlinje"
 120171 "Kavallericivilisation\n\n• Byinvånare dödar vargar på 1 slag\n• Smide, Järngjutning, Masugn gratis\n• Spanarkavalleri, Lätt Kavalleri, Husar kostar -15%\n\n<b>Unik Enhet:<b> \nMagyarisk Husar (kavalleri)\n\n<b>Unika Teknologier:<b> \n• Corviniansk Armé (Magyariska Husarer kostar inget guld)\n• Recurvebåge (Ryttarskyttar +1 räckvidd, +1 attack)\n\n<b>Lagbonus:<b> \nFotskyttar +2 siktlinje"
 120172 "Infanteri- och Belägringscivilisation\n\n• Bönder arbetar 10% snabbare\n• Förnödenheter gratis\n• Belägringsverkstadsenheter 15% billigare\n\n<b>Unik Enhet:<b> \nBojar (kavalleri)\n\n<b>Unika Teknologier:<b> \n• Detinetter (Ersätter 40% av Slotts och Torns stenkostnad med trä)\n• Družina (Infanteri skadar angränsande enheter)\n\n<b>Lagbonus:<b> \nMilitära byggnader tillhandahåller +5 befolkningsutrymme"
-120173 "Sjöfarar- och Krutcivilisation\n\n• Alla enheter kostar -20% guld\n• Teknologier forskas fram 30% snabbare\n• Skepp +10% HP\n• Kan bygga Feitoria i Imperietiden\n\n<b>Unika Enheter:<b> \nOrgelbössa (belägring), Karavell (krigsfartyg)\n\n<b>Unika Teknologier:<b> \n• Galeas (Fartyg +1/+1 rustning)\n• Arkebuse (krutenheter mer träffsäkra)\n\n<b>Lagbonus:<b> \nSiktlinjen delas med laget från och med Den Mörka Tiden"
+120173 "Sjöfarar- och Krutcivilisation\n\n• Alla enheter kostar -20% guld\n• Bärplockare genererar trä utöver mat\n• Skepp +10% HP\n• Kan bygga Feitoria i Imperietiden\n\n<b>Unika Enheter:<b> \nOrgelbössa (belägring), Karavell (krigsfartyg)\n\n<b>Unika Teknologier:<b> \n• Galeas (Fartyg +1/+1 rustning)\n• Arkebuse (krutenheter mer träffsäkra)\n\n<b>Lagbonus:<b> \nTeknologier forskas fram 25% snabbare"
 120174 "Skyttecivilisation\n\n• Skyttar avfyrar 18% snabbare\n• Erhåller +100 guld, +100 mat vid avancemang till nästa tidsålder\n• Pikeneraruppgradering gratis\n\n<b>Unik Enhet:<b> \nShotelkrigare (infanteri)\n\n<b>Unika Teknologier:<b> \n• Kungliga Arvingar (Shotelkrigare tränas nästa ögonblickligen)\n• Torsionsmotorer (ökar sprängradien på Belägringsverkstadsenheter)\n\n<b>Lagbonus:<b> \nTorn och Utposter +3 siktlinje"
 120175 "Infantericivlisation\n\n• Byggnader kostar -15% trä\n• Barackenheter +1P skydd per tidsålder (från och med Feodaltiden)\n• Guldgruvor håller 30% längre\n\n<b>Unik Enhet:<b> \nGbeto (infanteri)\n\n<b>Unika Teknologier:<b> \n• Tigui (Centrer avfyrar pilar ogarnisonerade)\n• Farimba (Kavalleri +5 attack)\n\n<b>Lagbonus:<b> \nUniversitet arbetar 80% snabbare"
 120176 "Kavalleri- och Sjöfararcivilisation\n\n• Byinvånare förflyttar sig 10% snabbare\n• Stallenheter kostar -15% i Riddar-, -20% i Imperietiden\n• Skepp förflyttar sig 10% snabbare\n\n<b>Unika Enheter:<b> \nKamelryttarskytt (ryttarskytt), Jinete (ridande skärmytslare)\n\n<b>Unika Teknologier:<b> \n• Kasbah (lagslott arbetar 25% snabbare)\n• Maghrebkameler (Kamelenheter regenererar)\n\n<b>Lagbonus:<b> \nJinete tillgänglig i Skjutbanan från och med Riddartiden"
@@ -16021,8 +16022,8 @@ IDS_SAVE_GAME_FILE_WARNING "* There was an issue trying till load this file *"
 26147 "Skapa <b>Elitballistaelefant<b> (<cost>)\nKhmerisk unik elefant försedd med en Scorpio. Kan ta ner träd. Stark mot infanteri och skyttar. Svag mot kavalleri och belägringsvapen.<i> Uppgraderingar: skydd (Smedja); hastighet, hälsopoäng (Stall); attack, räckvidd (Universitet); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26148 "Skapa <b>Karambitkrigare<b> (<cost>)\nMalajisk unik infanterienhet. Billig och upptar endast en halv befolkningsenhet. Starka i höga antal. Svag mot kavalleri och skyttar.<i> Uppgraderingar: attack, skydd (Smedja); hastighet (Barack); produktionshastighet, till Elitkarambitkrigare 900M, 600G (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26150 "Skapa <b>Elitkarambitkrigare<b> (<cost>)\nMalajisk unik infanterienhet. Billig och upptar endast en halv befolkningsenhet. Starka i höga antal. Svag mot kavalleri och skyttar.<i> Uppgraderingar: attack, skydd (Smedja); hastighet (Barack); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
-26151 "Skapa <b>Arambai<b> (<cost>)\nBurmesisk unik ryttarskytt med en kraftig men spretig pilattack. Stark mot infanteri och kavalleri. Svag mot skyttar.<i> Uppgraderingar: skydd (Smedja); hastighet, hälsopoäng (Stall); träffsäkerhet (Universitet); produktionshastighet, till Elitarambai 1100M, 675G (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
-26152 "Skapa <b>Elitarambai<b> (<cost>)\nBurmesisk unik ryttarskytt med en kraftig men spretig pilattack. Stark mot infanteri och kavalleri. Svag mot skyttar.<i> Uppgraderingar: skydd (Smedja); hastighet, hälsopoäng (Stall); träffsäkerhet (Universitet); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26151 "Skapa <b>Arambai<b> (<cost>)\nBurmesisk unik ryttarskytt med en kraftig men spretig pilattack. Stark mot infanteri och kavalleri. Svag mot skyttar.<i> Uppgraderingar: skydd (Smedja); hastighet, hälsopoäng (Stall); skydd (Skjutbana); träffsäkerhet (Universitet); produktionshastighet, till Elitarambai 1100M, 675G (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26152 "Skapa <b>Elitarambai<b> (<cost>)\nBurmesisk unik ryttarskytt med en kraftig men spretig pilattack. Stark mot infanteri och kavalleri. Svag mot skyttar.<i> Uppgraderingar: skydd (Smedja); hastighet, hälsopoäng (Stall); skydd (Stall); träffsäkerhet (Universitet); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26165 "Skapa <b>Rottingskytt<b> (<cost>)\nVietnamesisk unik skytt med högt pilskydd. Stark mot skyttar och infanteri. Svag mot kavalleri och Skärmytslare.<i> Uppgraderingar: attack, räckvidd, skydd (Smedja); träffsäkerhet, skydd (Skjutbana); attack, träffsäkerhet (Universitet); produktionshastighet, till Elitrottingskytt 1000M, 750G (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26166 "Skapa <b>Elitrottingskytt<b> (<cost>)\nVietnamesisk unik skytt med högt pilskydd. Stark mot skyttar och infanteri. Svag mot kavalleri och Skärmytslare.<i> Uppgraderingar: attack, räckvidd, skydd (Smedja); träffsäkerhet, skydd (Skjutbana); attack, träffsäkerhet (Universitet); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26167 "Skapa <b>Stridselefant<b> (<cost>)\nLångsamt och tungt kavalleri. Stark mot kavalleri, infanteri och skyttar. Svag mot Munkar och Pikenerare.<i> Uppgraderingar: attack, skydd (Smedja); hastighet, hälsopoäng, till Elitstridselefant 1200M, 900G (Stall); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
@@ -17008,7 +17009,7 @@ LOBBYFILTER_OFFICIAL_DATASETS_ONLY "Officiella Dataset"
 LOBBYFILTER_MODDED_DATASETS_ALLOWED "Moddade Dataset"
 LOBBYBROWSER_DATMOD_TITLE_FORMAT "DatMod: \"%s\""
 
-IDS_MULTI_SAVE_FAIL "Du måste vänta 10 sekunder inann du kan spara igen."
+IDS_MULTI_SAVE_FAIL "Du måste vänta 20 sekunder inann du kan spara igen."
 
 MAIN_MENU_JSON_FAILED "Misslyckades att läsa in den moddade huvudmenyn.json\nMod: %s\nFel: %s\nAnvänder standard main-menu.json. Rekommenderat att avaktivera denna mod"
 CAMPAIGN_MENU_JSON_FAILED "Misslyckades att läsa in den moddade kampanjen json\nMod: %s\nFel: %s\nAnvänder standardkampanj-json. Rekommanderat att avaktivera denna mod"
@@ -17227,7 +17228,7 @@ UNRANKED_VIA_RESOURCES "Din ELO-poäng har inte förändrats. Alldeles för hög
 
 120189 "Infanteri- och Sjöfararcivilisation\n\n• Erhåller +200 trä vid avancemang till nästa tidsålder\n• Fiskare och Fiskebåtar bär +15\n• Barackteknologier kostar -50%\n• Skärmytslare och Elefantryttarskyttar attackerar 25% snabbare\n\n<b>Unika Enheter:<b>\nUrumifäktare (infanteri), Thirisadai (krigsfartyg)\n\n<b>Unika Teknologier:<b>\n• Sanitärer (Elefantenheter regenererar 20 HP per minut)\n• Wootz (Infanteri- och kavalleriattacker ignorerar skydd)\n\n<b>Lagbonus:<b>\nHamnar ger +5 befolkningsutrymme"
 120190 "Elefant- och Sjöfararcivilisation\n\n• Elefantenheter tar 25% mindre bonusskada och är mer reistenta mot konvertering\n• Centrer frambringar 2 Byinvånare när nästa tidsålder är nådd\n• Skepp regenererar 15 HP per minut\n• Munkar +3/+3P skydd\n\n<b>Unik Enhet:<b>\nRatha (ryttarskytt/kavalleri)\n\n<b>Unika Teknologier:<b>\n• Paiker (Rathas och elefantenheter attackerar 20% snabbare)\n• Mahayana (Byinvånare tar upp 10% mindre befolkningsutrymme)\n\n<b>Lagbonus:<b>\nHandelsenheter ger 10% mat utöver guld"
-120191 "Kavalleri- och Kamelcivilisation\n\n• Börjar med 2 Bärbuskar\n• Kan garnisonera Kvarnar med boskap för att producera mat\n• Ridande enheter utdelar +40% bonusskada\n• Kan garnisonera Hamn med Fiskebåtar\n\n<b>Unika Enheter:<b>\nChakramkastare (infanteri), Shrivamsharyttare (kavalleri), Kamelspanare (kamelryttare)\n\n<b>Unika Teknologier:<b>\n• Kshatriyas (Militärenheter kostar -25% mat)\n• Gränsvakter (Kamelryttare och Elefantryttarskyttar +4 närstriddsskydd)\n\n<b>Lagbonus:<b>\nKamel- och elefantenheter skapas 25% snabbare"
+120191 "Kavalleri- och Kamelcivilisation\n\n• Börjar med 2 Bärbuskar\n• Kan garnisonera Kvarnar med boskap för att producera mat\n• Ridande enheter utdelar +20% bonusskada i Feodal-, +30% i Riddar-, +40% i Imperietiden\n• Kan garnisonera Hamn med Fiskebåtar\n\n<b>Unika Enheter:<b>\nChakramkastare (infanteri), Shrivamsharyttare (kavalleri), Kamelspanare (kamelryttare)\n\n<b>Unika Teknologier:<b>\n• Kshatriyas (Militärenheter kostar -25% mat)\n• Gränsvakter (Kamelryttare och Elefantryttarskyttar +4 närstriddsskydd)\n\n<b>Lagbonus:<b>\nKamel- och elefantenheter skapas 25% snabbare"
 
 5288 "Konnik"
 5290 "Elitkonnik"
@@ -21329,6 +21330,7 @@ IDS_EVENT_REWARD_RETAIN_UNLOCKS "Retain unlocked content after this event"
 IDS_EVENT_NAME "Age of Empires DE Anniversary Event"
 IDS_EVENT_NAME_SHORT "AoE DE Anniversary Event"
 
+IDS_EVENT_COMPLETED "Event completed!"
 IDS_EVENT_COMPLETE_CONGRATS "Congratulations!"
 IDS_EVENT_COMPLETE_PROFILE_ICON "Profile Icon"
 
@@ -21899,7 +21901,7 @@ IDS_EVENT_AUGUST_2022_C5_DESC  "Train 10 Knights in one Skirmish or Multiplayer 
 IDS_EVENT_AUGUST_2022_D1MOD_SHEEP      "Earn a mod that gives sheep a golden fleece."
 IDS_EVENT_AUGUST_2022_D2MOD_AZTEC      "Earn a mod that gives the Man-at-arms a Meso-American style with a Xoloti sword."
 IDS_EVENT_AUGUST_2022_D4MOD_CRUSADER   "Earn a mod that replaces Paladins with Crusaders."
-IDS_EVENT_AUGUST_2022_D5MOD_MONTY      "Earn a mod that replaces Knights with a dark colour-schemed knight."
+IDS_EVENT_AUGUST_2022_D5MOD_MONTY      "Earn a mod that replaces Knights with a dark color-schemed knight."
 
 
 //September Penguin Party
@@ -21939,6 +21941,59 @@ IDS_EVENT_OCTOBER_2022_D1MOD_SCOUT       "Earn a mod that replaces Scout Cavalry
 IDS_EVENT_OCTOBER_2022_D2MOD_BELL        "Earn a giant bell from AoE4 as a town center decoration."
 IDS_EVENT_OCTOBER_2022_D3MOD_BOMBARD     "Earn a mod that replaces Bombard Cannons with Golden Bombard Cannons."
 IDS_EVENT_OCTOBER_2022_D5MOD_MUSKETEER   "Earn a mod that replaces Hand Cannoneers with the AoE3 Musketeer."
+
+
+//NOVEMBER Spicy Expeditions
+IDS_EVENT_NOVEMBER_2022                  "Spicy Expeditions"
+IDS_EVENT_NOVEMBER_2022_C1_TITLE         "Research Wheelbarrow before 13 minutes game time"
+IDS_EVENT_NOVEMBER_2022_C1_DESC          "Research Wheelbarrow in one Skirmish or Multiplayer match before 13 minutes game time."
+IDS_EVENT_NOVEMBER_2022_C2_TITLE         "Gather 5000 Food"
+IDS_EVENT_NOVEMBER_2022_C2_DESC          "Gather 5000 Food in any matches."
+IDS_EVENT_NOVEMBER_2022_C3_TITLE         "Build 3 Town Centers in a single match"
+IDS_EVENT_NOVEMBER_2022_C3_DESC          "Build 3 Town Centers in any single match."
+IDS_EVENT_NOVEMBER_2022_C4_TITLE         "Train 30 Trade Carts or Trade Cogs in a single match"
+IDS_EVENT_NOVEMBER_2022_C4_DESC          "Train 30 Trade Carts or Trade Cogs in any single match."
+IDS_EVENT_NOVEMBER_2022_C5_TITLE         "Train 50 Unique Units with at least 3 different fabric colors on their icon"
+IDS_EVENT_NOVEMBER_2022_C5_DESC          "Train 50 Unique Units with at least 3 different fabric colors on their icon in any matches. Leather, Feathers, and Metal do not count."
+IDS_EVENT_NOVEMBER_2022_D1MOD_SAFFRON    "Earn a mod that replaces farms with Saffron farms." 
+IDS_EVENT_NOVEMBER_2022_D3MOD_SPICYTC    "Earn a mod that turns the Town Center into a colorful shop."
+IDS_EVENT_NOVEMBER_2022_D5MOD_EXPLOSION  "Earn a mod that replaces gunpowder effects with Paprika powder." 
+
+
+//December Frosty Friends from the North
+IDS_EVENT_DECEMBER_2022                  "Frosty Friends from the North"
+IDS_EVENT_DECEMBER_2022_C1_TITLE         "Research 9 Technologies with fiery icons to keep you warm"
+IDS_EVENT_DECEMBER_2022_C1_DESC          "Research 9 Technologies with fiery icons in any matches."
+IDS_EVENT_DECEMBER_2022_C2_TITLE         "Train 40 wheeled Units"
+IDS_EVENT_DECEMBER_2022_C2_DESC          "Train 40 wheeled Units in any matches."
+IDS_EVENT_DECEMBER_2022_C3_TITLE         "Defeat 50 Units with Scorpions, Ballista Elephant, Caravels, Thirisadai, War Galleys, or Galleons"
+IDS_EVENT_DECEMBER_2022_C3_DESC          "Defeat 50 Units with Scorpions, Ballista Elephant, Caravels, Thirisadai, War Galleys, or Galleons in any matches."
+IDS_EVENT_DECEMBER_2022_C4_TITLE         "Train 50 bearded Unique Units"
+IDS_EVENT_DECEMBER_2022_C4_DESC          "Train 50 bearded Unique Units in any matches."
+IDS_EVENT_DECEMBER_2022_C5_TITLE         "Train 400 Light Cavalry-line Units"
+IDS_EVENT_DECEMBER_2022_C5_DESC          "Train 400 Light Cavalry-line Units in any matches."
+IDS_EVENT_DECEMBER_2022_D1MOD_REINDEER   "Earn a mod that replaces wild deer with Santa's Reindeer." 
+IDS_EVENT_DECEMBER_2022_D3MOD_SCORPION   "Earn a mod that replaces the Scorpion projectiles with Christmas trees."
+IDS_EVENT_DECEMBER_2022_D5MOD_HRIMFAXI   "Earn a mod that replaces the Light Cavalry horse with Hrímfaxi the frost-maned horse." 
+
+
+//January Upside Down
+IDS_EVENT_JANUARY_2023                  "Upside Down"
+IDS_EVENT_JANUARY_2023_C1_TITLE         "Capture 5 Relics"
+IDS_EVENT_JANUARY_2023_C1_DESC          "Capture 5 Relics in any matches."
+IDS_EVENT_JANUARY_2023_C2_TITLE         "Defeat 50 Spearmen-line Units with Knights, Cavalier, or Paladins"
+IDS_EVENT_JANUARY_2023_C2_DESC          "Defeat 50 Spearmen-line Units with Knights, Cavalier, or Paladins in any matches."
+IDS_EVENT_JANUARY_2023_C3_TITLE         "Defeat 10 Units with Petards"
+IDS_EVENT_JANUARY_2023_C3_DESC          "Defeat 10 Units with Petards in any matches."
+IDS_EVENT_JANUARY_2023_C4_TITLE         "Build 3 Markets or Caravanserais in a single match"
+IDS_EVENT_JANUARY_2023_C4_DESC          "Build 3 Markets or Caravanserais in any single match."
+IDS_EVENT_JANUARY_2023_C5_TITLE         "Defeat 30 Skirmishers with Cavalry Archers"
+IDS_EVENT_JANUARY_2023_C5_DESC          "Defeat 30 Skirmishers with Cavalry Archers in any matches."
+IDS_EVENT_JANUARY_2023_D1MOD_RELICART   "Earn a mod that makes European Monks travel around on a Relic cart." 
+IDS_EVENT_JANUARY_2023_D3MOD_PETARDED   "Earn a mod that makes the Petard travel around on a barrel."
+IDS_EVENT_JANUARY_2023_D5MOD_REVERSED   "Earn a mod that teaches Horse Archers the lost art of reverse Parthian tactics." 
+
+
 
 
 
@@ -22611,3 +22666,18 @@ IDS_REMATCH_ERROR "Någonting gick fel med revanschförfrågan."
 IDS_REMATCH_NOTENOUGHPLAYERS "Inte tillräckligt med spelare var redo för en returmatch."
 IDS_REMATCH_LEAVE_WARNING "Att gå ur kommer att ta bort dig från returmatchen, är du säker?"
 IDS_REMATCH_HOST_FAIL "Värden misslyckades tidsmässigt med returmatchen."
+
+IDS_TIME_GRANULAR_DAY      "1 day"
+IDS_TIME_GRANULAR_DAYS     "%d days"
+IDS_TIME_GRANULAR_HOUR     "1 hour"
+IDS_TIME_GRANULAR_HOURS    "%d hours"
+IDS_TIME_GRANULAR_MINUTE   "1 minute"
+IDS_TIME_GRANULAR_MINUTES  "%d minutes"
+IDS_TIME_GRANULAR_SECOND   "1 second"
+IDS_TIME_GRANULAR_SECONDS  "%d seconds"
+IDS_TIME_GRANULAR_4        "%1$s, %2$s, %3$s and %4$s"
+IDS_TIME_GRANULAR_3        "%1$s, %2$s and %3$s"
+IDS_TIME_GRANULAR_2        "%1$s and %2$s"
+IDS_MAINMENU_EVENTS_TITLE  "Active Events"
+IDS_EVENT_ENDS_COUNTDOWN   "Event ends in: %s"
+IDS_EVENT_ENDS_COUNTDOWN_0 "Event has concluded"
