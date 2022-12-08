@@ -252,7 +252,7 @@
 3116 "You paid %d stone in tribute to %s."
 3117 "Objectives have changed."
 3118 "%s mocks your puny achievements. Relic and Wonder victories now take longer and Relics now generate less gold!"
-3119 "You must wait 15 seconds between chapters."
+3119 "You must wait 60 seconds between chapters."
 3120 "You have %d pauses left."
 3121 "You have run out of pauses"
 3122 "You must wait 5 seconds between snapshots."
@@ -4918,6 +4918,7 @@
 15264 "Relic Wood Production Rate"
 15265 "Relic Stone Production Rate"
 15266 "Chopping Gold Productivity"
+15267 "Foraging Wood Productivity"
 
 
 16068 "S"
@@ -14343,11 +14344,11 @@
 120166 "Cavalry civilization\n\n• Do not need houses, but start with -100 wood\n• Cavalry Archers cost -10% Castle, -20% Imperial Age\n• Trebuchets +30% accuracy\n\n<b>Unique Unit:<b> \nTarkan (cavalry)\n\n<b>Unique Techs:<b> \n• Marauders (Create Tarkans at stables)\n• Atheism (+100 years Relic, Wonder victories; enemy relics generate -50% resources)\n\n<b>Team Bonus:<b> \nStables work 20% faster"
 120167 "Defensive and Naval civilization\n\n• Villagers +3 line of sight\n• Stone miners work 20% faster\n• Tower upgrades free (Bombard Tower requires Chemistry)\n• Archer armor upgrades free\n• Military units (except siege weapons) cost -20% wood\n\n<b>Unique Units:<b> \nWar Wagon (cavalry archer), Turtle Ship (war ship)\n\n<b>Unique Techs:<b> \n• Eupseong (Watch Towers, Guard Towers and Keeps +2 range)\n• Shinkichon (Mangonel-line +1 range)\n\n<b>Team Bonus:<b> \nMangonel-line minimum range reduced"
 120168 "Archer and Naval civilization\n\n• Advancing to the next age costs -15%\n• Dock and University technologies cost -33%\n• Fishing Ships cost -15%\n• Gunpowder units cost -20%\n\n<b>Unique Units:<b> \nGenoese Crossbowman (archer), Condottiero (infantry)\n\n<b>Unique Techs:<b> \n• Pavise (foot archers and Condottieri +1 armor/+1 pierce armor)\n• Silk Road (trade units cost -50%)\n\n<b>Team Bonus:<b> \nCondottiero available in the Barracks in Imperial Age"
-120169 "Camel and Gunpowder civilization\n\n• Villagers cost -10% Dark, -15% Feudal, -20% Castle, -25% Imperial Age\n• Camel Riders attack 25% faster\n• Gunpowder units +1/+1P armor\n• Can build Caravanserai in Imperial Age\n\n<b>Unique Units:<b> \nGhulam (infantry), Imperial Camel Rider (camel rider)\n\n<b>Unique Techs:<b> \n• Grand Trunk Road (All gold income 10% faster)\n• Shatagni (Hand Cannoneers +2 range)\n\n<b>Team Bonus:<b> \nCamel and light cavalry units +2 attack vs. buildings"
+120169 "Camel and Gunpowder civilization\n\n• Villagers cost -10% Dark, -15% Feudal, -20% Castle, -25% Imperial Age\n• Camel Riders attack 20% faster\n• Gunpowder units +1/+1P armor\n• Can build Caravanserai in Imperial Age\n\n<b>Unique Units:<b> \nGhulam (infantry), Imperial Camel Rider (camel rider)\n\n<b>Unique Techs:<b> \n• Grand Trunk Road (All gold income 10% faster)\n• Shatagni (Hand Cannoneers +2 range)\n\n<b>Team Bonus:<b> \nCamel and light cavalry units +2 attack vs. buildings"
 120170 "Infantry civilization\n\n• Start with a free Llama\n• Villagers affected by Blacksmith upgrades starting in the Castle Age\n• Houses support 10 population\n• Buildings cost -15% stone\n\n<b>Unique Units:<b> \nKamayuk (infantry), Slinger (archer)\n\n<b>Unique Techs:<b> \n• Andean Sling (Skirmishers and Slingers no minimum range)\n• Fabric Shields (Kamayuks, Slingers, Eagles +1/+2P armor)\n\n<b>Team Bonus:<b> \nSpearmen and Skirmishers +2 line of sight"
 120171 "Cavalry civilization\n\n• Villagers kill wolves with 1 strike\n• Forging, Iron Casting, Blast Furnace free\n• Scout Cavalry, Light Cavalry, Hussar cost -15%\n\n<b>Unique Unit:<b> \nMagyar Huszar (cavalry)\n\n<b>Unique Techs:<b> \n• Corvinian Army (Magyar Huszars cost no gold)\n• Recurve Bow (Cavalry archers +1 range, +1 attack)\n\n<b>Team Bonus:<b> \nFoot archers +2 line of sight"
 120172 "Infantry and Siege civilization\n\n• Farmers work 10% faster\n• Supplies free\n• Siege Workshop units 15% cheaper\n\n<b>Unique Unit:<b> \nBoyar (cavalry)\n\n<b>Unique Techs:<b> \n• Detinets (Replaces 40% of Castles' and Towers' stone cost with wood)\n• Druzhina (Infantry damage adjacent units)\n\n<b>Team Bonus:<b> \nMilitary buildings provide +5 population room"
-120173 "Naval and Gunpowder civilization\n\n• All units cost -20% gold\n• Technologies researched 30% faster\n• Ships +10% HP\n• Can build Feitoria in Imperial Age\n\n<b>Unique Units:<b> \nOrgan Gun (siege), Caravel (war ship)\n\n<b>Unique Techs:<b> \n• Carrack (Ships +1/+1 armor)\n• Arquebus (gunpowder units more accurate)\n\n<b>Team Bonus:<b> \nLine of sight is shared with the team starting in the Dark Age"
+120173 "Naval and Gunpowder civilization\n\n• All units cost -20% gold\n• Foragers generate wood in addition to food\n• Ships +10% HP\n• Can build Feitoria in Imperial Age\n\n<b>Unique Units:<b> \nOrgan Gun (siege), Caravel (war ship)\n\n<b>Unique Techs:<b> \n• Carrack (Ships +1/+1 armor)\n• Arquebus (gunpowder units more accurate)\n\n<b>Team Bonus:<b> \nTechnologies researched 25% faster"
 120174 "Archer civilization\n\n• Archers fire 18% faster\n• Receive +100 gold, +100 food when advancing to the next age\n• Pikeman upgrade free\n\n<b>Unique Unit:<b> \nShotel Warrior (infantry)\n\n<b>Unique Techs:<b> \n• Royal Heirs (Shotel Warriors train nearly instantly)\n• Torsion Engines (increases blast radius of Siege Workshop units)\n\n<b>Team Bonus:<b> \nTowers and Outposts +3 line of sight"
 120175 "Infantry civilization\n\n• Buildings cost -15% wood\n• Barracks units +1P armor per age (starting from Feudal Age)\n• Gold Mines last 30% longer\n\n<b>Unique Unit:<b> \nGbeto (infantry)\n\n<b>Unique Techs:<b> \n• Tigui (Town Centers fire arrows when ungarrisoned)\n• Farimba (Cavalry +5 attack)\n\n<b>Team Bonus:<b> \nUniversities work 80% faster"
 120176 "Cavalry and Naval civilization\n\n• Villagers move 10% faster\n• Stable units cost -15% in Castle, -20% in Imperial Age\n• Ships move 10% faster\n\n<b>Unique Units:<b> \nCamel Archer (cavalry archer), Genitour (mounted skirmisher)\n\n<b>Unique Techs:<b> \n• Kasbah (team castles work 25% faster)\n• Maghrebi Camels (Camel units regenerate)\n\n<b>Team Bonus:<b> \nGenitour available in the Archery Range starting in the Castle Age"
@@ -16021,8 +16022,8 @@ IDS_SAVE_GAME_FILE_WARNING "* There was an issue trying to load this file *"
 26147 "Create <b>Elite Ballista Elephant<b> (<cost>)\nKhmer unique elephant equipped with a Scorpion. Can destroy trees. Strong vs. infantry and archers. Weak vs. cavalry and siege weapons.<i> Upgrades: armor (Blacksmith); speed, hit points (Stable); attack, range (University); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26148 "Create <b>Karambit Warrior<b> (<cost>)\nMalay unique infantry unit. Cheap and only takes half a population unit. Strong in high numbers. Weak vs. cavalry and archers.<i> Upgrades: attack, armor (Blacksmith); speed (Barracks); creation speed, to Elite Karambit Warrior 900F, 600G (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26150 "Create <b>Elite Karambit Warrior<b> (<cost>)\nMalay unique infantry unit. Cheap and only takes half a population unit. Strong in high numbers. Weak vs. cavalry and archers.<i> Upgrades: attack, armor (Blacksmith); speed (Barracks); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
-26151 "Create <b>Arambai<b> (<cost>)\nBurmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); speed, hit points (Stable); accuracy (University); creation speed, to Elite Arambai 1100F, 675G (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
-26152 "Create <b>Elite Arambai<b> (<cost>)\nBurmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); speed, hit points (Stable); accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26151 "Create <b>Arambai<b> (<cost>)\nBurmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); speed, hit points (Stable); armor (Archery Range); accuracy (University); creation speed, to Elite Arambai 1100F, 675G (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
+26152 "Create <b>Elite Arambai<b> (<cost>)\nBurmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers.<i> Upgrades: armor (Blacksmith); speed, hit points (Stable); armor (Archery Range); accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26165 "Create <b>Rattan Archer<b> (<cost>)\nVietnamese unique archer with high pierce armor. Strong vs. archers and infantry. Weak vs. cavalry and Skirmishers.<i> Upgrades: attack, range, armor (Blacksmith); accuracy, armor (Archery Range); attack, accuracy (University); creation speed, to Elite Rattan Archer 1000F, 750G (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26166 "Create <b>Elite Rattan Archer<b> (<cost>)\nVietnamese unique archer with high pierce armor. Strong vs. archers and infantry. Weak vs. cavalry and Skirmishers.<i> Upgrades: attack, range, armor (Blacksmith); accuracy, armor (Archery Range); attack, accuracy (University); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
 26167 "Create <b>Battle Elephant<b> (<cost>)\nSlow and heavy cavalry. Strong vs. cavalry, infantry, and archers. Weak vs. Monks and Pikemen.<i> Upgrades: attack, armor (Blacksmith); speed, hit points, to Elite Battle Elephant 1200F, 900G (Stable); creation speed (Castle); more resistant to Monks (Monastery).<i>\n<hp> <attack> <armor> <piercearmor> <range>"
@@ -17008,7 +17009,7 @@ LOBBYFILTER_OFFICIAL_DATASETS_ONLY "Official Datasets"
 LOBBYFILTER_MODDED_DATASETS_ALLOWED "Modded Datasets"
 LOBBYBROWSER_DATMOD_TITLE_FORMAT "DatMod: \"%s\""
 
-IDS_MULTI_SAVE_FAIL "You must wait 10 seconds before saving again."
+IDS_MULTI_SAVE_FAIL "You must wait 20 seconds before saving again."
 
 MAIN_MENU_JSON_FAILED "Failed to parse modded main-menu.json\nMod: %s\nError: %s\nUsing default main-menu.json. Recommend disabling this mod"
 CAMPAIGN_MENU_JSON_FAILED "Failed to parse modded campaign json\nMod: %s\nError: %s\nUsing default campaign json. Recommend disabling this mod"
@@ -17227,7 +17228,7 @@ UNRANKED_VIA_RESOURCES "Your ELO score has not changed. Too high starting resour
 
 120189 "Infantry and Naval civilization\n\n• Receive +200 wood when advancing to the next age\n• Fishermen and Fishing Ships carry +15\n• Barracks technologies cost -50%\n• Skirmishers and Elephant Archers attack 25% faster\n\n<b>Unique Units:<b>\nUrumi Swordsman (infantry), Thirisadai (warship)\n\n<b>Unique Techs:<b>\n• Medical Corps (Elephant units regenerate 20 HP per minute)\n• Wootz Steel (Infantry and cavalry attacks ignore armor)\n\n<b>Team Bonus:<b>\nDocks provide +5 population room"
 120190 "Elephant and Naval civilization\n\n• Elephant units receive 25% less bonus damage and are more resistant to conversion\n• Town Centers spawn 2 Villagers when the next Age is reached\n• Ships regenerate 15 HP per minute\n• Monks +3/+3P armor\n\n<b>Unique Unit:<b>\nRatha (cavalry archer/cavalry)\n\n<b>Unique Techs:<b>\n• Paiks (Rathas and elephant units attack 20% faster)\n• Mahayana (Villagers take 10% less population space)\n\n<b>Team Bonus:<b>\nTrade units yield 10% food in addition to gold"
-120191 "Cavalry and Camel civilization\n\n• Start with 2 Forage Bushes\n• Can garrison Mills with livestock to produce food\n• Mounted units deal +40% bonus damage\n• Can garrison Docks with Fishing Ships\n\n<b>Unique Units:<b>\nChakram Thrower (infantry), Shrivamsha Rider (cavalry), Camel Scout (camel rider)\n\n<b>Unique Techs:<b>\n• Kshatriyas (Military units cost -25% food)\n• Frontier Guards (Camel Riders and Elephant Archers +4 melee armor)\n\n<b>Team Bonus:<b>\nCamel and elephant units created 25% faster"
+120191 "Cavalry and Camel civilization\n\n• Start with 2 Forage Bushes\n• Can garrison Mills with livestock to produce food\n• Mounted units deal +20% bonus damage Feudal, +30% Castle, +40% Imperial Age\n• Can garrison Docks with Fishing Ships\n\n<b>Unique Units:<b>\nChakram Thrower (infantry), Shrivamsha Rider (cavalry), Camel Scout (camel rider)\n\n<b>Unique Techs:<b>\n• Kshatriyas (Military units cost -25% food)\n• Frontier Guards (Camel Riders and Elephant Archers +4 melee armor)\n\n<b>Team Bonus:<b>\nCamel and elephant units created 25% faster"
 
 5288 "Konnik"
 5290 "Elite Konnik"
@@ -21329,6 +21330,7 @@ IDS_EVENT_REWARD_RETAIN_UNLOCKS "Retain unlocked content after this event"
 IDS_EVENT_NAME "Age of Empires DE Anniversary Event"
 IDS_EVENT_NAME_SHORT "AoE DE Anniversary Event"
 
+IDS_EVENT_COMPLETED "Event completed!"
 IDS_EVENT_COMPLETE_CONGRATS "Congratulations!"
 IDS_EVENT_COMPLETE_PROFILE_ICON "Profile Icon"
 
@@ -21899,7 +21901,7 @@ IDS_EVENT_AUGUST_2022_C5_DESC  "Train 10 Knights in one Skirmish or Multiplayer 
 IDS_EVENT_AUGUST_2022_D1MOD_SHEEP      "Earn a mod that gives sheep a golden fleece."
 IDS_EVENT_AUGUST_2022_D2MOD_AZTEC      "Earn a mod that gives the Man-at-arms a Meso-American style with a Xoloti sword."
 IDS_EVENT_AUGUST_2022_D4MOD_CRUSADER   "Earn a mod that replaces Paladins with Crusaders."
-IDS_EVENT_AUGUST_2022_D5MOD_MONTY      "Earn a mod that replaces Knights with a dark colour-schemed knight."
+IDS_EVENT_AUGUST_2022_D5MOD_MONTY      "Earn a mod that replaces Knights with a dark color-schemed knight."
 
 
 //September Penguin Party
@@ -21939,6 +21941,59 @@ IDS_EVENT_OCTOBER_2022_D1MOD_SCOUT       "Earn a mod that replaces Scout Cavalry
 IDS_EVENT_OCTOBER_2022_D2MOD_BELL        "Earn a giant bell from AoE4 as a town center decoration."
 IDS_EVENT_OCTOBER_2022_D3MOD_BOMBARD     "Earn a mod that replaces Bombard Cannons with Golden Bombard Cannons."
 IDS_EVENT_OCTOBER_2022_D5MOD_MUSKETEER   "Earn a mod that replaces Hand Cannoneers with the AoE3 Musketeer."
+
+
+//NOVEMBER Spicy Expeditions
+IDS_EVENT_NOVEMBER_2022                  "Spicy Expeditions"
+IDS_EVENT_NOVEMBER_2022_C1_TITLE         "Research Wheelbarrow before 13 minutes game time"
+IDS_EVENT_NOVEMBER_2022_C1_DESC          "Research Wheelbarrow in one Skirmish or Multiplayer match before 13 minutes game time."
+IDS_EVENT_NOVEMBER_2022_C2_TITLE         "Gather 5000 Food"
+IDS_EVENT_NOVEMBER_2022_C2_DESC          "Gather 5000 Food in any matches."
+IDS_EVENT_NOVEMBER_2022_C3_TITLE         "Build 3 Town Centers in a single match"
+IDS_EVENT_NOVEMBER_2022_C3_DESC          "Build 3 Town Centers in any single match."
+IDS_EVENT_NOVEMBER_2022_C4_TITLE         "Train 30 Trade Carts or Trade Cogs in a single match"
+IDS_EVENT_NOVEMBER_2022_C4_DESC          "Train 30 Trade Carts or Trade Cogs in any single match."
+IDS_EVENT_NOVEMBER_2022_C5_TITLE         "Train 50 Unique Units with at least 3 different fabric colors on their icon"
+IDS_EVENT_NOVEMBER_2022_C5_DESC          "Train 50 Unique Units with at least 3 different fabric colors on their icon in any matches. Leather, Feathers, and Metal do not count."
+IDS_EVENT_NOVEMBER_2022_D1MOD_SAFFRON    "Earn a mod that replaces farms with Saffron farms." 
+IDS_EVENT_NOVEMBER_2022_D3MOD_SPICYTC    "Earn a mod that turns the Town Center into a colorful shop."
+IDS_EVENT_NOVEMBER_2022_D5MOD_EXPLOSION  "Earn a mod that replaces gunpowder effects with Paprika powder." 
+
+
+//December Frosty Friends from the North
+IDS_EVENT_DECEMBER_2022                  "Frosty Friends from the North"
+IDS_EVENT_DECEMBER_2022_C1_TITLE         "Research 9 Technologies with fiery icons to keep you warm"
+IDS_EVENT_DECEMBER_2022_C1_DESC          "Research 9 Technologies with fiery icons in any matches."
+IDS_EVENT_DECEMBER_2022_C2_TITLE         "Train 40 wheeled Units"
+IDS_EVENT_DECEMBER_2022_C2_DESC          "Train 40 wheeled Units in any matches."
+IDS_EVENT_DECEMBER_2022_C3_TITLE         "Defeat 50 Units with Scorpions, Ballista Elephant, Caravels, Thirisadai, War Galleys, or Galleons"
+IDS_EVENT_DECEMBER_2022_C3_DESC          "Defeat 50 Units with Scorpions, Ballista Elephant, Caravels, Thirisadai, War Galleys, or Galleons in any matches."
+IDS_EVENT_DECEMBER_2022_C4_TITLE         "Train 50 bearded Unique Units"
+IDS_EVENT_DECEMBER_2022_C4_DESC          "Train 50 bearded Unique Units in any matches."
+IDS_EVENT_DECEMBER_2022_C5_TITLE         "Train 400 Light Cavalry-line Units"
+IDS_EVENT_DECEMBER_2022_C5_DESC          "Train 400 Light Cavalry-line Units in any matches."
+IDS_EVENT_DECEMBER_2022_D1MOD_REINDEER   "Earn a mod that replaces wild deer with Santa's Reindeer." 
+IDS_EVENT_DECEMBER_2022_D3MOD_SCORPION   "Earn a mod that replaces the Scorpion projectiles with Christmas trees."
+IDS_EVENT_DECEMBER_2022_D5MOD_HRIMFAXI   "Earn a mod that replaces the Light Cavalry horse with Hrímfaxi the frost-maned horse." 
+
+
+//January Upside Down
+IDS_EVENT_JANUARY_2023                  "Upside Down"
+IDS_EVENT_JANUARY_2023_C1_TITLE         "Capture 5 Relics"
+IDS_EVENT_JANUARY_2023_C1_DESC          "Capture 5 Relics in any matches."
+IDS_EVENT_JANUARY_2023_C2_TITLE         "Defeat 50 Spearmen-line Units with Knights, Cavalier, or Paladins"
+IDS_EVENT_JANUARY_2023_C2_DESC          "Defeat 50 Spearmen-line Units with Knights, Cavalier, or Paladins in any matches."
+IDS_EVENT_JANUARY_2023_C3_TITLE         "Defeat 10 Units with Petards"
+IDS_EVENT_JANUARY_2023_C3_DESC          "Defeat 10 Units with Petards in any matches."
+IDS_EVENT_JANUARY_2023_C4_TITLE         "Build 3 Markets or Caravanserais in a single match"
+IDS_EVENT_JANUARY_2023_C4_DESC          "Build 3 Markets or Caravanserais in any single match."
+IDS_EVENT_JANUARY_2023_C5_TITLE         "Defeat 30 Skirmishers with Cavalry Archers"
+IDS_EVENT_JANUARY_2023_C5_DESC          "Defeat 30 Skirmishers with Cavalry Archers in any matches."
+IDS_EVENT_JANUARY_2023_D1MOD_RELICART   "Earn a mod that makes European Monks travel around on a Relic cart." 
+IDS_EVENT_JANUARY_2023_D3MOD_PETARDED   "Earn a mod that makes the Petard travel around on a barrel."
+IDS_EVENT_JANUARY_2023_D5MOD_REVERSED   "Earn a mod that teaches Horse Archers the lost art of reverse Parthian tactics." 
+
+
 
 
 
@@ -22612,3 +22667,17 @@ IDS_REMATCH_NOTENOUGHPLAYERS "Not enough players were ready to start a rematch."
 IDS_REMATCH_LEAVE_WARNING "Leaving will remove you from the rematch, are you sure?"
 IDS_REMATCH_HOST_FAIL "Host failed to rematch in time."
 
+IDS_TIME_GRANULAR_DAY      "1 day"
+IDS_TIME_GRANULAR_DAYS     "%d days"
+IDS_TIME_GRANULAR_HOUR     "1 hour"
+IDS_TIME_GRANULAR_HOURS    "%d hours"
+IDS_TIME_GRANULAR_MINUTE   "1 minute"
+IDS_TIME_GRANULAR_MINUTES  "%d minutes"
+IDS_TIME_GRANULAR_SECOND   "1 second"
+IDS_TIME_GRANULAR_SECONDS  "%d seconds"
+IDS_TIME_GRANULAR_4        "%1$s, %2$s, %3$s and %4$s"
+IDS_TIME_GRANULAR_3        "%1$s, %2$s and %3$s"
+IDS_TIME_GRANULAR_2        "%1$s and %2$s"
+IDS_MAINMENU_EVENTS_TITLE  "Active Events"
+IDS_EVENT_ENDS_COUNTDOWN   "Event ends in: %s"
+IDS_EVENT_ENDS_COUNTDOWN_0 "Event has concluded"
