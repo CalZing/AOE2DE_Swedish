@@ -14751,8 +14751,8 @@ IDS_OPTIONS_GLOBAL_QUEUE_COLUMN_LABEL "Global Queue Items"
 IDS_OPTIONS_GLOBAL_QUEUE_COLUMN_LABEL_HELP_TEXT "Global queue displays icons for in progress och pending unit production och Forska fram progress for all your byggnader. Green indicates percentage complete. Yellow indicates pending. Red indicates unit cannot be built due till hitting the population cap. You can choose whether till display icons across 2 rows, 1 row or till turn it off entirely. 1 row active only will not display pending research/units"
 IDS_OPTIONS_PARTICLES "Particles"
 IDS_OPTIONS_PARTICLES_HELP_TEXT "Low displays only the essential particles which were present in the original game. Medium displays some additional subtle particles such as unit trails. High displays all particle effects"
-IDS_OPTIONS_ENABLE_CROSSPLAY "Aktivera Crossplay"
-IDS_OPTIONS_ENABLE_CROSSPLAY_HELP_TEXT "Allows cross network play between Steam och Microsoft users with the same Crossplay setting. When enabled lobbies from other users with Crossplay enabled will be visible. When disabled only lobbies from your own network who also have Crossplay disabled will be visible"
+IDS_OPTIONS_ENABLE_CROSSPLAY "Aktivera Mellannätsspel"
+IDS_OPTIONS_ENABLE_CROSSPLAY_HELP_TEXT "Allows cross network play between Steam och Microsoft users with the same Mellannätsspel setting. When enabled lobbies from other users with Mellannätsspel enabled will be visible. When disabled only lobbies from your own network who also have Mellannätsspel disabled will be visible"
 IDS_OPTIONS_UNIQUE_COLORS "Unique Spelare Colors"
 IDS_OPTIONS_UNIQUE_COLORS_HELP_TEXT "[Help] Unique Spelare Colors"
 IDS_OPTIONS_CLOSE_WARNING "Discard Changes?"
@@ -14770,7 +14770,7 @@ IDS_OPTIONS_ENHANCED_GRAPHICS_MIN_REQUIREMENT_HELP_TEXT "Intended for Ultra HD d
 IDS_OPTIONS_INTERFACE_TAB_TOOLTIP "Customize settings such as Language, Colorblind Modes och Interface specifics"
 IDS_OPTIONS_GRAPHICS_TAB_TOOLTIP "Customize settings such as Resolution, Grid Display och Render effects"
 IDS_OPTIONS_AUDIO_TAB_TOOLTIP "Customize settings such as Volumes, Soundtrack och Narration"
-IDS_OPTIONS_GAME_TAB_TOOLTIP "Customize settings such as Game Speed, Crossplay och Scroll Speeds"
+IDS_OPTIONS_GAME_TAB_TOOLTIP "Customize settings such as Game Speed, Mellannätsspel och Scroll Speeds"
 IDS_OPTIONS_HOTKEYS_TAB_TOOLTIP "Customize hotkeys till your preference"
 IDS_OPTIONS_VILLAGER_DOUBLE_CLICK_HELP_TEXT "Choose what happens when you double-click a Villager. By default, all Villagers will be selected. If Only Select Idle Villagers option is enabled, only Villagers who are not working will be selected. If disabled, no Villagers will be selected upon double-click."
 IDS_OPTIONS_BUILDING_RANGE_INDICATOR_HELP_TEXT "Choose how Bygging Range Indicators are displayed. Always On: Show a räckvidd indicator for all defensive building structures och Folwarker regardless if they are selected or not. Show When Selected: Only show räckvidd indicators when the defensive structure or Folwark is selected. Never Show: Do not show räckvidd indicators."
@@ -20135,13 +20135,13 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Smala floder flödar unisont och formar ö
 300051 "Imperie-\nTiden"
 300052 "Riddar-\nTiden"
 300053 "Feodal-\nTiden"
-300054 "Aktivera Mellannätverskspel"
-300055 "[Help Text] Mellannätverskspel"
+300054 "Aktivera Mellannätsspel"
+300055 "[Help Text] Mellannätsspel"
 300056 "Gå med i Spel"
 300057 "Du har blivit inbjuden\ntill ett spel."
 300058 "Titta"
 300059 "Klanförfrågningar"
-300060 "Mellannätverksspel Aktiverat: Du kan nu paras ihop med spelare från andra nätverk.\nDu kan avaktivera denna funktionen på Alternativskärmen under Spelfliken."
+300060 "Mellannätsspel Aktiverat: Du kan nu paras ihop med spelare från andra nätverk.\nDu kan avaktivera denna funktionen på Alternativskärmen under Spelfliken."
 300061 "Rapportera"
 300062 "Medlemmar"
 300063 "Triggers"
@@ -20701,7 +20701,7 @@ IDS_MATCHMAKING_BENCHMARK_NOTIFY_1V1_ONLY "* Ditt nuvarande prestandaresultat p�
 300542 "Vinn ett Flerspelarspel spelandes olika civilisationer och med minst 2 människospelare för att låsa upp."
 300543 "Vinn %s Flerspelarspel spelandes olika civilisationer och med minst 2 människospelare för att låsa upp."
 300544 "Nå %s befolkning i ett Flerspelarspel med minst 2 människospelare för att låsa upp."
-300545 "Spela %s Flerspelarspel med minst 2 människospelare och nå %s befolkning för att låsa upp."
+300545 "Nå %1s befolkning i %0s Flerspelarspel med minst 2 människospelare för att låsa upp."
 300546 "Vinn ett Spel mot %s Extrem AI för att låsa upp."
 300547 "Vinn %s Spel mot %s Extrem AI för att låsa upp."
 300548 "Nu kör Vi"
@@ -20753,148 +20753,148 @@ IDS_CAPTURE_RELIC_OBJ_DESC "Inhämta minst % Reliker"
 
 
 IDS_OPTIONS_GAMESPEED "Spelhastighet"
-IDS_OPTIONS_GAMESPEED_HELP "Sets the game hastighet of any active games och the default setting in a creation screen"
+IDS_OPTIONS_GAMESPEED_HELP "Sätter spelhastigheten för pågående spel och standardinställningen på skapandeskärmen"
 
 //Achievements Screen
 IDS_ACHIEVEMENT_REPLAYS "Återgå till Repriser"
-IDS_ACHIEVEMENT_NEXT_LEVEL "Next Level"
-IDS_ACHIEVEMENT_NEXT_LEVEL_HELP "Advance till the next level in this campaign"
+IDS_ACHIEVEMENT_NEXT_LEVEL "Nästa Nivå"
+IDS_ACHIEVEMENT_NEXT_LEVEL_HELP "Gå vidare till nästa kampanjnivå"
 
-IDS_MOD_PACK_REWARD "Mod Pack"
-IDS_MOD_PACK_REWARD_DESCRIPTION "Earn a mod pack containing the following;"
+IDS_MOD_PACK_REWARD "Moddpaket"
+IDS_MOD_PACK_REWARD_DESCRIPTION "Erhåll ett moddpaket som innehåller följande;"
 
-IDS_ICON_PACK_REWARD "Icon Pack"
-IDS_ICON_PACK_REWARD_DESCRIPTION "Earn an icon pack containing the following;"
+IDS_ICON_PACK_REWARD "Ikonpaket"
+IDS_ICON_PACK_REWARD_DESCRIPTION "Erhåll ett ikonpaket som innehåller följande;"
 
 
 //
 // Privileges - XboxLive
 //
-IDS_PRIVILEGE_CONFIRMING_REQUIREMENT "Confirming Privilege %s for User (%s)."
+IDS_PRIVILEGE_CONFIRMING_REQUIREMENT "Bekräfta Rättighet %s för Användare (%s)."
 
-IDS_PRIVILEGE_NAME_UNRECOGNIZED "Unrecognized Privilege"
-IDS_PRIVILEGE_NAME_CROSSPLAY "Crossplay"
-IDS_PRIVILEGE_NAME_UGC "User Generated Content"
-IDS_PRIVILEGE_NAME_MULTIPLAYER "Multispelare"
-IDS_PRIVILEGE_NAME_COMMS "Communications"
+IDS_PRIVILEGE_NAME_UNRECOGNIZED "Okänd Rättighet"
+IDS_PRIVILEGE_NAME_CROSSPLAY "Mellannätsspel"
+IDS_PRIVILEGE_NAME_UGC "Användargenererat Innehåll"
+IDS_PRIVILEGE_NAME_MULTIPLAYER "Flerspelare"
+IDS_PRIVILEGE_NAME_COMMS "Kommunikationer"
 
-IDS_PRIVILEGE_ERROR_DIALOG_TITLE "User Privilege Error!"
-IDS_PRIVILEGE_NO_CONTEXT "There was a problem communicating with Xbox Live."
-IDS_PRIVILEGE_NO_USER "No Xbox Live user is currently signed in."
-IDS_PRIVILEGE_CHECK_ERROR "Checking Privilege resulted in error."
+IDS_PRIVILEGE_ERROR_DIALOG_TITLE "Användarrättighetsfel!"
+IDS_PRIVILEGE_NO_CONTEXT "Det var problem med att kommunicera med Xbox Live."
+IDS_PRIVILEGE_NO_USER "Ingen Xbox Live-användar är för tillfället inloggad."
+IDS_PRIVILEGE_CHECK_ERROR "Rättighetskontroll resulterade i ett fel."
 
-IDS_PRIVILEGE_ACCESS_CONFIRMED "Access Confirmed"
-IDS_PRIVILEGE_ACCESS_DENIED_PURCHASE "Purchase Required"
-IDS_PRIVILEGE_ACCESS_DENIED_RESTRICTED "Restricted"
-IDS_PRIVILEGE_ACCESS_DENIED_BANNED "Banned"
+IDS_PRIVILEGE_ACCESS_CONFIRMED "Tillgång Bekräftad"
+IDS_PRIVILEGE_ACCESS_DENIED_PURCHASE "Köp Krävs"
+IDS_PRIVILEGE_ACCESS_DENIED_RESTRICTED "Begränsad"
+IDS_PRIVILEGE_ACCESS_DENIED_BANNED "Fördbjuden"
 IDS_PRIVILEGE_ACCESS_DENIED_UNEXPECTED "Oväntat Fel"
 
-IDS_PRIVILEGE_DENIED_MESSAGE_DEFAULT "Unfortunately you do not currently have the required privilege till access this feature."
-IDS_PRIVILEGE_DENIED_MESSAGE_GENERAL "Unfortunately you do not currently have the required privilege (%s)"
-IDS_PRIVILEGE_DENIED_MESSAGE_CROSSPLAY "Crossplay will now be disabled."
-IDS_PRIVILEGE_DENIED_MESSAGE_UGC "User Generated Content will now be blocked. Unfortunately you cannot join Multispelare Lobbies because users may have enabled User Generated Content."
-IDS_PRIVILEGE_DENIED_MULTIPLAYER_UGC "Multispelare will now be blocked."
-IDS_PRIVILEGE_DENIED_COMMS "Chat och communications will now be blocked."
+IDS_PRIVILEGE_DENIED_MESSAGE_DEFAULT "Tyvärr har du för tillfället inte den behörighet som krävs för att ha tillgång till denna funktion."
+IDS_PRIVILEGE_DENIED_MESSAGE_GENERAL "Tyvärr har du för tillfället inte behörigheten (%s)"
+IDS_PRIVILEGE_DENIED_MESSAGE_CROSSPLAY "Mellannätsspel kommer nu att inaktiveras."
+IDS_PRIVILEGE_DENIED_MESSAGE_UGC "Användargenererat innehåll kommer nu att blockeras. Tyvärr kommer du inte att kunna gå med i Flerspelarspelslobbyer eftersom användare kan ha aktiverat Användargenererat Innehåll."
+IDS_PRIVILEGE_DENIED_MULTIPLAYER_UGC "Flerspelarspel kommer nu att blockeras."
+IDS_PRIVILEGE_DENIED_COMMS "Chatt och kommunikationer kommer nu att blockeras."
 
-IDS_PRIVILEGE_DENIED_UGC_LOBBY "Sorry, you're currently prevented from seeing content other people make. You cannot join the Multispelare Lobby because users may have enabled User Generated Content. Please review your community creation privileges on Xbox.com for more information."
-IDS_PRIVILEGE_DENIED_UGC_BLOCKED "Sorry, you're currently prevented from seeing content other people make. Please review your community creation privileges on Xbox.com for more information."
-IDS_PRIVILEGE_DENIED_UGC_WARNING "Sorry, you're currently prevented from seeing content other people make. You may be restricted from joining certain multispelare lobbies. Please review your community creation privileges on Xbox.com for more information."
-IDS_PRIVILEGE_DENIED_INVITATION_BLOCKED "Sorry, you're currently prevented from sending och receiving invitations. Please check your account settings on Xbox.com for more information."
-IDS_PRIVILEGE_DENIED_CHAT_BLOCKED "Sorry, you're currently prevented from communicating with other users. Please check your account settings on Xbox.com for more information."
-IDS_PRIVILEGE_DENIED_MULTIPLAYER_BLOCKED "Sorry, you're currently prevented from playing with other users. Please check your account settings on Xbox.com for more information."
-IDS_PRIVILEGE_DENIED_CROSSPLAY_BLOCKED "Sorry, you're currently prevented from playing with cross play users from other networks. Please check your account settings on Xbox.com for more information."
+IDS_PRIVILEGE_DENIED_UGC_LOBBY "Beklagar, du begränsas för tillfället från att se innehåll som andra människor gör. Du kan inte gå med i Flerspelarspelslobbyer eftersom användare där kan ha aktiverat Användargenererat Innehåll. Var god se över dina communityskaparrättigheter på Xbox.com för mer information."
+IDS_PRIVILEGE_DENIED_UGC_BLOCKED "Beklarag, du begränsas för tillfället från att se innehåll som andra människor gör. Var god se över dina communityskaparrättigheter på Xbox.com för mer information."
+IDS_PRIVILEGE_DENIED_UGC_WARNING "Beklagar, du begränsas för tillfället från att se innehåll som andra människor gör. Du kan vara begränsad från att gå med i flerspelarspelslobbyer. Var god se över dina communityskaparrättigheter på Xbox.com för mer information."
+IDS_PRIVILEGE_DENIED_INVITATION_BLOCKED "Beklagar, du är för tillfället hindrad från att skicka och ta emot inbjudningar. Var god se över dina kontoinställningar på Xbox.com för mer information."
+IDS_PRIVILEGE_DENIED_CHAT_BLOCKED "Beklagar, du är för tillfället hindrad från att kommunivera med andra användare. Var god se över dina kontoiställningar på Xbox.com för mer information."
+IDS_PRIVILEGE_DENIED_MULTIPLAYER_BLOCKED "Beklagar, du är för tillfället hindrad från att spela med andra användare. Var god se över dina kontoinställningar på Xbox.com för mer information."
+IDS_PRIVILEGE_DENIED_CROSSPLAY_BLOCKED "Beklagar, du är för tillfället begränsad från att spela med användare från andra nätverk. Var god se över ina kontoinställningar på Xbox.com för mer information."
 
-IDS_PRIVILEGE_DENIED_GENERAL_WARNING "Sorry, your account settings restrict you from certain features of the game. Please check your account settings on Xbox.com for more information."
+IDS_PRIVILEGE_DENIED_GENERAL_WARNING "Beklagar, dina kontoinställningar begränsar dig från vissa funktioner i spelet. Var god se över dina kontoinställningar på Xbox.com för mer information."
 
-IDS_PRIVILEGE_BLOCKED_INVITION "Sorry, an invitation was denied due till your account privileges. Please check your settings on Xbox.com for more information."
+IDS_PRIVILEGE_BLOCKED_INVITION "Beklagar, en inbjudan nekades på grund av dina kontorättigheter. Var god se över dina inställningar på Xbox.com för mer information."
 
-IDS_PRIVILEGE_CHECK_SETTINGS "Please review your account settings on Xbox.com for more information."
+IDS_PRIVILEGE_CHECK_SETTINGS "Var god se över dina kontoinställningar på Xbox.com för mer information."
 
-IDS_OFFLINE_PROGRESS_WARNING "Warning. We encountered issues while retrieving your Xbox Id. Without your spelare profile, we are unable till save any changes. This means you will be unable till save progress in campaigns och will not be awarded any achievements."
-IDS_OFFLINE_MENU_LOCKED_WARNING "Warning. We encountered issues while retrieving your Xbox Id. You are unable till play the game without signing in till Xbox Live."
+IDS_OFFLINE_PROGRESS_WARNING "Varning. Vi stötte på problem när vi hämtade ditt Xbox-Id. Utan din spelarprofil kommer vi inte kunna spara några ändringar. Detta betyder att du inte kommer att kunna spara någon framgång i kampanjer och kommer heller inte att belönas några prestationer."
+IDS_OFFLINE_MENU_LOCKED_WARNING "Varning. Vi stötte på problem när vi hämtade ditt Xbox-Id. Du kan inte spela spelet utan att logga in på Xbox Live."
 
 //Regions
-IDS_REGION_DEFAULT "Default"
+IDS_REGION_DEFAULT "Standard"
 IDS_REGION_LAN "LAN"
 IDS_REGION_LAN_TAG "[LAN] %s"
 // Other regions removed because they don't match the actual regions from the server (which can get changed at any time).
 
 // Klaner
 
-IDS_CLANS_LEAVE_CONFRIM "Are you sure you want till leave the Klan?"
+IDS_CLANS_LEAVE_CONFRIM "Är du säker på att du vill lämna Klanen?"
 
 //Campaign Editor
-IDS_CAMPEDTR_DETAILS "Author: %0s\n\nDate Skapad:\n%1s\n\nSpelare: %d\nTriggers: %d"
-IDS_CAMPEDTR_PLAYER_TITLE "Spelare Details"
-IDS_CAMPEDTR_INSTRUCTION "Add Scenarios till Custom Campaign"
-IDS_CAMPEDTR_NAME "Name Campaign"
-IDS_CAMPEDTR_SCENARIOS "Scenarios"
-IDS_CAMPEDTR_CAMP_SCENARIOS "Campaign Scenarios"
-IDS_CAMPEDTR_CAMP_SAVE "Save Campaign"
-IDS_CAMPEDTR_CAMP_SAVE_HELP_TEXT "[Help] Save Campaign"
+IDS_CAMPEDTR_DETAILS "Upphovsman: %0s\n\nDatum Skapad:\n%1s\n\nSpelare: %d\nTriggers: %d"
+IDS_CAMPEDTR_PLAYER_TITLE "Spelardetaljer"
+IDS_CAMPEDTR_INSTRUCTION "Lägg till Scenarioer till Anpassad Kampanj"
+IDS_CAMPEDTR_NAME "Namnge Kampanj"
+IDS_CAMPEDTR_SCENARIOS "Scenarier"
+IDS_CAMPEDTR_CAMP_SCENARIOS "Kampanjscenarier"
+IDS_CAMPEDTR_CAMP_SAVE "Spara Kampanj"
+IDS_CAMPEDTR_CAMP_SAVE_HELP_TEXT "[Hjälp] Save Campaign"
 
 IDS_CAMPEDTR_CAMP_DELETE "Delete Campaign"
-IDS_CAMPEDTR_CAMP_DELETE_HELP_TEXT "[Help] Delete Campaign"
-IDS_CAMPEDTR_CAMP_DELETE_HELP "Delete the selected Campaign"
+IDS_CAMPEDTR_CAMP_DELETE_HELP_TEXT "[Hjälp] Radera Kampanj"
+IDS_CAMPEDTR_CAMP_DELETE_HELP "Radera den valda Kampanjen"
 
-IDS_CAMPEDTR_LEVEL "Level\nOrder"
+IDS_CAMPEDTR_LEVEL "Nivå-\nOrdning"
 
-IDS_CAMPEDTR_LIST "List of Custom Campaign files present in the local user directory or mods."
+IDS_CAMPEDTR_LIST "Lista över Anpassade Kampanjfler tillgängliga i den lokala användarmappen eller i moddar."
 
 //
 // Rich Presence
 //
 
-IDS_RP_NULL "Nothing happening"
-IDS_RP_STARTINGUP "Starting up"
-IDS_RP_MAINMENU "In main menu"
+IDS_RP_NULL "Ingenting händer"
+IDS_RP_STARTINGUP "Startar upp"
+IDS_RP_MAINMENU "I huvudmenyn"
 
-IDS_RP_HOSTINGLOBBY "Hosting a multispelare lobby"
-IDS_RP_BROWSINGLOBBY "Browsing for a multispelare lobby"
-IDS_RP_MATCHMAKINGQUEUE "Searching for a ranked game"
-IDS_RP_MATCHMAKINGSTARTINGGAME "Joining a ranked game"
+IDS_RP_HOSTINGLOBBY "Är värd i en flerspelarspelslobby"
+IDS_RP_BROWSINGLOBBY "Letar efter en flerspelarspelslobby"
+IDS_RP_MATCHMAKINGQUEUE "Söker efter ett rankat spel"
+IDS_RP_MATCHMAKINGSTARTINGGAME "Går med i ett rankat spel"
 
-IDS_RP_MATCHMAKINGRANDOMMAPGAME "In a ranked random map game"
-IDS_RP_MATCHMAKINGDEATHMATCHGAME "In a ranked death match game"
-IDS_RP_MATCHMAKINGDEATHMATCHGAME_EW "In a ranked empire wars game"
-IDS_RP_MULTIPLAYERLOBBY "In a multispelare lobby"
-IDS_RP_MULTIPLAYERGAME "In a multispelare game"
-IDS_RP_RESTOREMULTIPLAYERGAME "Restoring a multispelare game"
+IDS_RP_MATCHMAKINGRANDOMMAPGAME "I ett rankat slumpkartsspel"
+IDS_RP_MATCHMAKINGDEATHMATCHGAME "I ett rankat dödsmatchsspel"
+IDS_RP_MATCHMAKINGDEATHMATCHGAME_EW "I ett rankat imperiekrigsspel"
+IDS_RP_MULTIPLAYERLOBBY "I en flerspelarspelslobby"
+IDS_RP_MULTIPLAYERGAME "I ett flerspelarspel"
+IDS_RP_RESTOREMULTIPLAYERGAME "Återställer ett flerspelarspel"
 
-IDS_RP_SINGLEPLAYERLOBBY "In a single spelare lobby"
-IDS_RP_SINGLEPLAYERGAME "In a single spelare game"
-IDS_RP_CAMPAIGNGAME "In a campaign game"
-IDS_RP_HISTORICALGAME "In a historical game"
-IDS_RP_TRAININGGAME "In a training game"
-IDS_RP_RESTORESINGLEPLAYERGAME "Restoring a single spelare game"
-IDS_RP_WATCHINGREPLAY "Watching a replay"
-IDS_RP_FINDINGREPLAY "Searching for a replay"
+IDS_RP_SINGLEPLAYERLOBBY "I en enspelarspelslobby"
+IDS_RP_SINGLEPLAYERGAME "I ett enspelarspel"
+IDS_RP_CAMPAIGNGAME "I ett kampanjspel"
+IDS_RP_HISTORICALGAME "I ett historiskt spel"
+IDS_RP_TRAININGGAME "I ett träningsspel"
+IDS_RP_RESTORESINGLEPLAYERGAME "Återställer ett enspelarspel"
+IDS_RP_WATCHINGREPLAY "Ser på en repris"
+IDS_RP_FINDINGREPLAY "Letar efter en repris"
 
-IDS_RP_HISTORY "In the history screen"
-IDS_RP_MODMANAGER "In the mod manager"
-IDS_RP_MODPUBLISH "In the mod publisher"
-IDS_RP_NEWS "In the news screen"
-IDS_RP_EDITOR "In the scenario editor"
+IDS_RP_HISTORY "Inuti historieskärmen"
+IDS_RP_MODMANAGER "Inuti moddhanteraren"
+IDS_RP_MODPUBLISH "Inuti moddpubliceraren"
+IDS_RP_NEWS "Inuti nyhetsskärmen"
+IDS_RP_EDITOR "Inuti scenarioredigeraren"
 
-IDS_RP_TECHTREE "I teknologiträder"
+IDS_RP_TECHTREE "Inuti teknologiträdet"
 IDS_RP_OPTIONS "På Alternativskärmen"
 IDS_RP_HOTKEY "På Snabbtangentsskärmen"
 IDS_RP_ACHIEVEMENTS "På sammanfattningsskärmen"
-IDS_RP_LEADERBOARD "Se Topplistorna"
+IDS_RP_LEADERBOARD "Tittar på Topplistorna"
 IDS_RP_SPECTATOR "Tittar på en match"
 
-IDS_RP_SPECTATORBROWSER "Looking for a match till spectate"
-IDS_RP_CLANBROWSER "Browsing Klaner"
-IDS_RP_CLANCREATE "Setting up a new Klan"
-IDS_RP_CLANMANAGE "Organizing their Klan"
-IDS_RP_CLANRECRUIT "Looking for new Klan members"
+IDS_RP_SPECTATORBROWSER "Letar efter en match att titta på"
+IDS_RP_CLANBROWSER "Kollar på Klaner"
+IDS_RP_CLANCREATE "Sätter upp en ny Klan"
+IDS_RP_CLANMANAGE "Organiserar sin Klan"
+IDS_RP_CLANRECRUIT "Letar efter nya Klanmedlemmar"
 
-IDS_RP_PLAYERPROFILE "Checking their spelare profile"
-IDS_RP_MIXER "Watching game videos on Mixer"
-IDS_RP_CREDITS "Checking out the credits roll"
+IDS_RP_PLAYERPROFILE "Kollar in sin spelarprofil"
+IDS_RP_MIXER "Kollar spelvideor på Mixer"
+IDS_RP_CREDITS "Kollar på Upphovsmänslistan"
 
 IDS_INVITES_PENDING "Väntande Inbjudningar"
-IDS_INVITES_STEAM_FAILED "Something went wrong, the match might not be available anymore."
+IDS_INVITES_STEAM_FAILED "Nägonting gick fel, matchen kanske inte längre är tillgänglig."
 
 //
 // Force single glyphs till be generated into the font map
@@ -20906,242 +20906,242 @@ IDS_FORCE_SINGLE_GLYPH_INFINITY "∞" // +221e
 IDS_FORCE_SINGLE_GLYPH_MENU "≣" //+2263
 
 
-IDS_REMOVE_CLAN_USER_DIALOG_TEXT "Are you sure you want till remove \"%s\" from your Klan?"
+IDS_REMOVE_CLAN_USER_DIALOG_TEXT "Är du säker på att du vill avlägsna \"%s\" från din Klan?"
 
 IDS_STATISTICS_RETURN_CAMPAIGN "Återgå till Kampanjer"
 IDS_STATISTICS_RETURN_BATTLES "Återgå till Slag"
 IDS_STATISTICS_RETURN_CHALLENGES "Återgå till Utmaningar"
 
-IDS_COLOR_LIGHT_BLUE "Light Blue"
-IDS_COLOR_LIGHT_YELLOW "Light Yellow"
-IDS_COLOR_PINK "Pink"
+IDS_COLOR_LIGHT_BLUE "Ljusblå"
+IDS_COLOR_LIGHT_YELLOW "Ljusgul"
+IDS_COLOR_PINK "Rosa"
 
-IDS_TECHTREE_CIVDROPDOWN_HINT "Select the civilisation till display information for."
+IDS_TECHTREE_CIVDROPDOWN_HINT "Välj civilisationen att visa information om."
 
-IDS_OBJECTIVES_INSTRUCTIONS "Instructions"
-IDS_OBJECTIVES_INSTRUCTIONS_HELP "Shows the instructions till help you complete the scenario"
+IDS_OBJECTIVES_INSTRUCTIONS "Instruktioner"
+IDS_OBJECTIVES_INSTRUCTIONS_HELP "Visar instruktionerna för att hjälpa dig slutföra scenariet"
 
-IDS_BETA_DISCLAIMER_MESSAGE "Pre-Release Software. This game is in a pre-release stage of development. This means that some parts of the game, including features (like chat och multispelare), might not function as expected (or might not function at all). The game might even crash. Because this is a pre-release game, Microsoft och the developer do not commit till providing customer support for the game."
+IDS_BETA_DISCLAIMER_MESSAGE "Förhandsmjukvara. Detta spelet är i ett förhandsstadie i utvecklingen. Detta innebär att vissa delar av spelet, inklusive funktioner (såsom chatt och flerspelarläge), kanske inte fungerar som förväntat (eller kanske inte fungerar över huvud taget). Spelet kan till och med krascha. Eftersom att detta är en förhandsrelease av spelet så kan Microsoft och utvecklarna inte åta sig att ge kundsupport för spelet."
 
-IDS_TAMPERING_DETECTED_MESSAGE "Tampering detected. Please restart the application."
+IDS_TAMPERING_DETECTED_MESSAGE "Mixtrande upptäckt. Vänligen starta om applikationen."
 
-IDS_UNDEFINED_ERROR "Undefined error."
+IDS_UNDEFINED_ERROR "Odefinierat fel."
 
-IDS_RELIC_ERROR_GENREAL	"General error."
-IDS_RELIC_ERROR_NO_LOBBY	"Lobby is no longer there."
-IDS_RELIC_ERROR_SERVER	"Server error."
-IDS_RELIC_ERROR_NO_SLOT	"There are no slots available."
-IDS_RELIC_ERROR_CONNECT_FAILED	"Connection failed."
-IDS_RELIC_ERROR_TIMEOUT	"Timed out."
-IDS_RELIC_ERROR_EXPIRED "Match no longer exists."
-IDS_RELIC_ERROR_UNKOWN	"Unknown error."
-IDS_RELIC_JOIN_ERROR_BANNED	"This account has been suspended from multispelare services."
-IDS_RELIC_NAT_FAILURE	"Unable till detect Battleserver.\n\nHaving trouble joining a LAN game? Please visit https://www.ageofempires.com/support/aoe2/#lan-issues for help."
-IDS_RELIC_JOIN_ERROR_LOBBY_BAN "Banned From Lobby."
-IDS_RELIC_ERROR_CREDENTIALS "Invalid credentials."
-IDS_RELIC_ERROR_AUTHENTICATION "Server authentication failed."
-IDS_RELIC_ERROR_LOGGED_IN "This account is already logged in."
-IDS_RELIC_ERROR_OLD_VERSION "This is an old version of the game.\nPlease update till the newest version."
-IDS_RELIC_ERROR_TOO_MANY_USERS "Too many users on the server."
-IDS_RELIC_JOIN_ERROR_SUSPENDED "This account has been suspended from multispelare services."
-IDS_RELIC_LOGIN_DISABLED "Login is currently disabled."
-IDS_RELIC_ERROR_TOO_MANY_LOGINS "Too many logins at this time.\nPlease try again later."
-IDS_RELIC_JOIN_ERROR_NOT_JOINABLE "Invitation may have expired."
-IDS_RELIC_ADVERTISEMENT_NOT_FOUND "Invalid match ID."
-IDS_RELIC_JOIN_ERROR_INCOMPATIBLE_MATCH "Waiting till leave the previous match.\nPlease try again shortly."
-IDS_RELIC_JOIN_ERROR_CROSSPLAY_DISABLED "Crossplay is disabled."
+IDS_RELIC_ERROR_GENREAL	"Allmänt fel."
+IDS_RELIC_ERROR_NO_LOBBY	"Lobbyn finns inte längre."
+IDS_RELIC_ERROR_SERVER	"Serverfel."
+IDS_RELIC_ERROR_NO_SLOT	"Det finns inga platser tillgängliga."
+IDS_RELIC_ERROR_CONNECT_FAILED	"Anslutning misslyckades."
+IDS_RELIC_ERROR_TIMEOUT	"Tidsgräns överskreds."
+IDS_RELIC_ERROR_EXPIRED "Matchen existerar inte längre."
+IDS_RELIC_ERROR_UNKOWN	"Okänt fel."
+IDS_RELIC_JOIN_ERROR_BANNED	"Detta kontot har stängts av från flerspelartjästerna."
+IDS_RELIC_NAT_FAILURE	"Kunde inte hitta Battleserver.\n\nHar du problem med att gå med i ett LAN-spel? Besök gärna https://www.ageofempires.com/support/aoe2/#lan-issues för hjälp."
+IDS_RELIC_JOIN_ERROR_LOBBY_BAN "Utesluten Från Lobby."
+IDS_RELIC_ERROR_CREDENTIALS "Ogiltiga signaturer."
+IDS_RELIC_ERROR_AUTHENTICATION "Serverautentisering misslyckades."
+IDS_RELIC_ERROR_LOGGED_IN "Detta konto är reda inloggat."
+IDS_RELIC_ERROR_OLD_VERSION "Detta är en gammal version av spelet.\nVar god uppdatera till den nyaste versionen."
+IDS_RELIC_ERROR_TOO_MANY_USERS "För många användare på servern."
+IDS_RELIC_JOIN_ERROR_SUSPENDED "Detta kontot har stängts av från flerspelartjästerna."
+IDS_RELIC_LOGIN_DISABLED "Inloggning är avstängt för tillfället."
+IDS_RELIC_ERROR_TOO_MANY_LOGINS "För många inloggningar vid detta tillfälle.\nFörsök igen senare."
+IDS_RELIC_JOIN_ERROR_NOT_JOINABLE "Inbjudan kan ha utgått."
+IDS_RELIC_ADVERTISEMENT_NOT_FOUND "Ogiltigt match-ID."
+IDS_RELIC_JOIN_ERROR_INCOMPATIBLE_MATCH "Väntar på att lämna den föregående matchen.\nVar god försök igen inom kort."
+IDS_RELIC_JOIN_ERROR_CROSSPLAY_DISABLED "Mellannätsspel är avstängt."
 
 IDS_STATISTICS_SEND_CLAN_INVITE "Skicka Klaninbjudan"
-IDS_STATISTICS_BLOCK_PLAYER_CHECKBOX "Block Spelare Checkbox"
+IDS_STATISTICS_BLOCK_PLAYER_CHECKBOX "Blockera Spelare Kryssruta"
 IDS_STATISTICS_TEAM "Lag %s"
 IDS_STATISTICS_NO_TEAM "Inget Lag"
-IDS_BLOCK "Lobby Ban"
-IDS_UNBLOCK "Lobby Unban"
-IDS_MUTE_HELP_TEXT "Mute spelare. When muted this spelare will be automatically muted in lobbies och multispelare games."
-IDS_UNMUTE_HELP_TEXT "Unmute spelare. When muted this spelare will be automatically muted in lobbies och multispelare games."
-IDS_MUTE "Mute"
-IDS_UNMUTE "Unmute"
-IDS_MUTE_AUDIO_HELP_TEXT "Klicka för att mute the ongoing audio stream."
-IDS_UNMUTE_AUDIO_HELP_TEXT "Klicka för att unmute the ongoing audio stream."
-IDS_MUTE_AUDIO "Mute"
-IDS_UNMUTE_AUDIO "Unmute"
+IDS_BLOCK "Blockera från Lobby"
+IDS_UNBLOCK "Tillåt i Lobby"
+IDS_MUTE_HELP_TEXT "Tysta spelare. Är spelaren tystad kommer denne automatiskt att tystas i lobbyer och flerspelarspel."
+IDS_UNMUTE_HELP_TEXT "Avtysta spelare. Är spelaren tystad kommer denne automatiskt att tystas i lobbyer och flerspelarspel."
+IDS_MUTE "Tysta"
+IDS_UNMUTE "Avtysta"
+IDS_MUTE_AUDIO_HELP_TEXT "Klicka för att tysta den pågående ljudströmmen."
+IDS_UNMUTE_AUDIO_HELP_TEXT "Klicka för att avtysta den pågående ljudströmmen."
+IDS_MUTE_AUDIO "Tysta"
+IDS_UNMUTE_AUDIO "Avtysta"
 IDS_MUTE_DIALOG "Du har tystat %s."
 IDS_UNMUTE_DIALOG "Du har avtystat %s."
 
-IDS_STATISTICS_NO_TIME      				 "None"
-IDS_STATISTICS_HOURS_ONLY     			     "%1$i hours"
-IDS_STATISTICS_MINUTES_ONLY   				 "%2$i minutes"
-IDS_STATISTICS_HOURS_AND_MINUTES  			 "%1$i hours och %2$i minutes"
-IDS_STATISTICS_SECONDS_ONLY    			     "%3$i seconds"
-IDS_STATISTICS_HOURS_AND_SECONDS    		 "%1$i hours och %3$i seconds"
-IDS_STATISTICS_MINUTES_AND_SECONDS 			 "%2$i minutes och %3$i seconds"
-IDS_STATISTICS_HOURS_MINTUSE_AND_SECONDS     "%1$i hours, %2$i minutes och %3$i seconds"
+IDS_STATISTICS_NO_TIME      				 "Ingen"
+IDS_STATISTICS_HOURS_ONLY     			     "%1$i timmar"
+IDS_STATISTICS_MINUTES_ONLY   				 "%2$i minuter"
+IDS_STATISTICS_HOURS_AND_MINUTES  			 "%1$i timmar och %2$i minuter"
+IDS_STATISTICS_SECONDS_ONLY    			     "%3$i sekunder"
+IDS_STATISTICS_HOURS_AND_SECONDS    		 "%1$i timmar och %3$i sekunder"
+IDS_STATISTICS_MINUTES_AND_SECONDS 			 "%2$i minuter och %3$i skunder"
+IDS_STATISTICS_HOURS_MINTUSE_AND_SECONDS     "%1$i timmar, %2$i minuter och %3$i sekunder"
 
-IDS_GAME_NOTIFICATION_PANEL_DEFEAT	"%s was defeated"
-IDS_GAME_NOTIFICATION_PANEL_RESIGNED "%s has resigned"
+IDS_GAME_NOTIFICATION_PANEL_DEFEAT	"%s har utplånats"
+IDS_GAME_NOTIFICATION_PANEL_RESIGNED "%s har gett upp"
 
 
-IDS_LOBBY_QUIT_CONFIRM	"Are you sure you want till leave?"
-IDS_LOBBY_FILE_TRANSFER_CONFIRM	"The host has enabled user generated content for this lobby, which has not been verified or reviewed by Xbox Game Studios as part of the game. You bear the risk in downloading the following files."
-IDS_LOBBY_FILE_TRANSFER_EXTRA_FILES " och %i other files."
-IDS_LOBBY_FILE_TRANSFER_CONFIRM_CONTINUE	"Continue?"
-IDS_LOBBY_FILE_TRANSFER_CONFIRM_DISABLE_NOTIFICATION	"* This warning can be disabled in the Options Screen, Game tab. *"
-IDS_LOBBY_FILE_TRANSFER_CONFIRM_RESTORE "In order till participate in this lobby, you must download the restore file from the host."
+IDS_LOBBY_QUIT_CONFIRM	"Är du säker på att du vill lämna?"
+IDS_LOBBY_FILE_TRANSFER_CONFIRM	"Värden har aktiverat användargenererat innehåll för denna lobby, vilket varken har verifierats eller granskats av Xbox Game Studios som en del av spelet. Du laddar ned följande filer helt på egen risk."
+IDS_LOBBY_FILE_TRANSFER_EXTRA_FILES " och %i övriga filer."
+IDS_LOBBY_FILE_TRANSFER_CONFIRM_CONTINUE	"Fortsätt?"
+IDS_LOBBY_FILE_TRANSFER_CONFIRM_DISABLE_NOTIFICATION	"* Denna varning kan stängas av på Alternativskärmen under Spel-fliken. *"
+IDS_LOBBY_FILE_TRANSFER_CONFIRM_RESTORE "För att kunna deltaga i denna lobby så måste du ladda ned återskapningsfilen från värden."
 
-IDS_LOBBY_FILE_TRANSFER_CHAT_HOST_NOTIFICATION_A	"* You have enabled lobby settings which may require a file transfer *"
-IDS_LOBBY_FILE_TRANSFER_CHAT_HOST_NOTIFICATION_B	"* The transfer will begin when you ready up *"
-IDS_LOBBY_FILE_TRANSFER_CHAT_CLIENT_NOTIFICATION_A	"* The Host is configuring lobby settings which may require a file transfer *"
-IDS_LOBBY_FILE_TRANSFER_CHAT_CLIENT_NOTIFICATION_B	"* The transfer will begin when the Host readies up *"
-IDS_LOBBY_FILE_TRANSFER_CHAT_NOTIFICATION_RESTORE	"* This is a restore lobby och will require a file transfer *"
+IDS_LOBBY_FILE_TRANSFER_CHAT_HOST_NOTIFICATION_A	"* Du har aktiverat lobbyinställningar som kan behöva en filövervöring *"
+IDS_LOBBY_FILE_TRANSFER_CHAT_HOST_NOTIFICATION_B	"* Överföringen kommar att börja när du gör dig redo *"
+IDS_LOBBY_FILE_TRANSFER_CHAT_CLIENT_NOTIFICATION_A	"* Värden sätter upp lobbyinställningar som kan behöva en filöverföring *"
+IDS_LOBBY_FILE_TRANSFER_CHAT_CLIENT_NOTIFICATION_B	"* Överföringen kommer starta när Värden gör sig redo *"
+IDS_LOBBY_FILE_TRANSFER_CHAT_NOTIFICATION_RESTORE	"* Detta är en återställningslobby och kommer behöva en filöverföring *"
 
-IDS_LOBBY_BR_NOT_SUPPORTED	"* The Battle Royale game mode is not supported for some users present in the lobby. *"
-IDS_LOBBY_RESTRICTED_USER	"* Unable till host game as one or more spelare does not have permission till play with unofficial custom content. Please disable custom content till continue. *"
+IDS_LOBBY_BR_NOT_SUPPORTED	"* Battle Royale-spelläget stöds inte för vissa användare som är närvarande i lobbyn. *"
+IDS_LOBBY_RESTRICTED_USER	"* Kan ej skapa spelet eftersom att en eller flera spelare inte har tillåtelse att spela med inofficiellt anpassat innehåll. Vänligen inaktivera anpassat innehåller för att fortsätta. *"
 
-IDS_LOBBY_MSIXVC_LAN_WARNING_P1	"* Having trouble hosting a LAN game? *"
-IDS_LOBBY_MSIXVC_LAN_WARNING_P2	"* Please visit https://www.ageofempires.com/support/aoe2/#lan-issues for help. *"
+IDS_LOBBY_MSIXVC_LAN_WARNING_P1	"* Har du problem med att vara värd för ett LAN-spel? *"
+IDS_LOBBY_MSIXVC_LAN_WARNING_P2	"* Besök https://www.ageofempires.com/support/aoe2/#lan-issues för hjälp. *"
 
 IDS_BLOCKED_CHARACTER "█"
 
-IDS_TEAM_NAME "%s's Team"
+IDS_TEAM_NAME "%ss Lag"
 
-IDS_RANKED_SAVED_WARNING "Please note: The saved game will not count as ranked when it is restored."
+IDS_RANKED_SAVED_WARNING "Observera: Det sparade spelet kommer inte att räknas som rankat när det återskapats."
 
-IDS_FAILED_TO_HOST "Failed To Host Game\nPlease try again"
+IDS_FAILED_TO_HOST "Misslyckades med att Skapa Spelet\nVar god försök igen"
 
-IDS_LOBBY_BROWSER_TAB_HELP_TEXT "Skapa och join unranked casual custom games."
-IDS_MATCH_MAKING_TAB_HELP_TEXT "Play against opponents in ranked matches, battling it out for a Leaderboard Rating."
-IDS_SPECATATE_BROWSER_TAB_HELP_TEXT "Spectate games from around the world."
-IDS_CLAN_TAB_HELP_TEXT "Skapa, View or Invite People till your Klan. Klaner are a group of spelare from across platforms you can invite till games."
-IDS_LEADERBOARD_TAB_HELP_TEXT "See your Matchmaking Ranking for Solo och Team Games."
-IDS_PROFILE_TAB_HELP_TEXT "View spelare stats och information."
+IDS_LOBBY_BROWSER_TAB_HELP_TEXT "Skapa och gå med i orankade och sällskapliga anpassade spel."
+IDS_MATCH_MAKING_TAB_HELP_TEXT "Spelet emot motståndare i rankade matcher för att få en Topplisterating."
+IDS_SPECATATE_BROWSER_TAB_HELP_TEXT "Titta på matcher från världen över."
+IDS_CLAN_TAB_HELP_TEXT "Skapa, Granska eller Bjud In Folk till din Klan. Klaner är en grupp spelare från olika plattformar som du kan bjuda in till spel."
+IDS_LEADERBOARD_TAB_HELP_TEXT "Se din Matchmaking-Ranking för Singel- och Lagspel."
+IDS_PROFILE_TAB_HELP_TEXT "Se spelarstatistik och information."
 
-IDS_XBOX_SIGNIN_DIALOG_MESSAGE "A Microsoft or Xbox Live Account is required till access this content."
-IDS_XBOX_SIGNIN_POPUP_MESSAGE "Please sign into Xbox Live till continue"
-IDS_XBOX_CREATE_ACCOUNT "Please sign in or create a new account for free."
+IDS_XBOX_SIGNIN_DIALOG_MESSAGE "Ett Microsoft- eller Xbox Live-konto behövs för att få tillgång till detta innehåll."
+IDS_XBOX_SIGNIN_POPUP_MESSAGE "Vänligen logga in till Xbox Live för att fortsätta"
+IDS_XBOX_CREATE_ACCOUNT "Var god logga in eller skapa ett nytt konto helt gratis."
 IDS_RETURN_TO_MAP "Återgå till Karta"
 
-IDS_MPS_RESERVED_ME "Reserved For You"
-IDS_MPS_RESERVED "Reserved"
-IDS_RELIC_LINK_MAINTENANCE "Sorry. The Multispelare Services are currently down for maintenance."
+IDS_MPS_RESERVED_ME "Reserverat För Dig"
+IDS_MPS_RESERVED "Reserverat"
+IDS_RELIC_LINK_MAINTENANCE "Beklagar. Flerspelartjänsterna är för tillfället nedstängda för underhåll."
 
-IDS_SEND_FILE_FAILED "Failed till transfer %0s till %1s."  //%0s = file name, %1s = spelare name
-IDS_RECEIVE_FILE_FAILED "Failed till receive %s from the host.\nYou have been removed from the lobby."
+IDS_SEND_FILE_FAILED "Misslyckades att överföra %0s till %1s."  //%0s = file name, %1s = spelare name
+IDS_RECEIVE_FILE_FAILED "Misslyckades med att ta emot %s från värden.\nDu har avlägsnats från lobbyn."
 
-IDS_SERVER_COMMUNICATION "Please wait, communicating with server."
-IDS_FEATURE_UNAVAILABLE "Sorry, this feature is currently unavailable."
+IDS_SERVER_COMMUNICATION "Var god vänta, kommunicerar med server."
+IDS_FEATURE_UNAVAILABLE "Beklagar, denna funktion är otillgänglig för tillfällig."
 
-IDS_HOTKEY_WARNING_1 "Warning: Key"
-IDS_HOTKEY_WARNING_2 "uses the same hotkey"
+IDS_HOTKEY_WARNING_1 "Varning: Tangent"
+IDS_HOTKEY_WARNING_2 "använder samma snabbtangent"
 
-IDS_POPUP_LOBBY_KICK_PLAYER_CONFIRM "Are you sure you want till kick this spelare?"
-IDS_POPUP_LOBBY_KICK_PLAYERS_CONFIRM "Are you sure you want till kick these spelare?"
-IDS_POPUP_LOBBY_KICKED "You were kicked from the lobby. Please wait 60 seconds till try again"
+IDS_POPUP_LOBBY_KICK_PLAYER_CONFIRM "Är du säker på att du vill porta denna spelare?"
+IDS_POPUP_LOBBY_KICK_PLAYERS_CONFIRM "Är du säker på att du vill porta dessa spelare?"
+IDS_POPUP_LOBBY_KICKED "Du portades från lobbyn. Var god vänta 60 sekunder innan du kan försöka igen"
 
-IDS_PROFILE_RANK_NO_RANK "No Rank"
-IDS_PROFILE_RANK_BRONZE "Bronze"
+IDS_PROFILE_RANK_NO_RANK "Ingen Rank"
+IDS_PROFILE_RANK_BRONZE "Brons"
 IDS_PROFILE_RANK_SILVER "Silver"
-IDS_PROFILE_RANK_GOLD "Gold"
+IDS_PROFILE_RANK_GOLD "Guld"
 
-IDS_POPUP_HIGHQUALITYGRAPHICS_NOT_INSTALLED "You don't have the free \"Enhanced Graphics Pack\" DLC installed"
+IDS_POPUP_HIGHQUALITYGRAPHICS_NOT_INSTALLED "Du har inte installerat det gratis DLC-paketet \"Enhanced Graphics Pack\""
 
 IDS_LOBBY_TAB "Lobby"
 
-IDS_INVITES "Invites"
-IDS_INVITES_HELP_TEXT "Check the games you have been invited till play."
+IDS_INVITES "Inbjudningar"
+IDS_INVITES_HELP_TEXT "Se vilka spel du har bjudits in att spela."
 
-IDS_MPS_BEHIND_WARNING "Lowering your graphics settings may improve your performance. You can continue playing without doing so; however, you may notice delays when making commands. Graphics settings can be found in the Graphics tab of the Options menu."
-IDS_MPS_RECONNECTING "Lost connection till server. Attempting till reconnect..."
-IDS_MPS_RECONNECTED "Successfully reconnected. Catching back up till server."
+IDS_MPS_BEHIND_WARNING "Att sänka dina grafikinställningar kan förbättra din prestanda. Du kan fortsätta att spela utan att göra detta; dock kan du uppleva fördröjningar när du utför kommandon. Grafikinställningarna hittas under Grafik-fliken i Alternativmenyn."
+IDS_MPS_RECONNECTING "Tappade anslutningen till servern. Försöker återansluta..."
+IDS_MPS_RECONNECTED "Återanslutning lyckades. Kommer ikapp server."
 
-IDS_LOBBY_BROWSER_SCREEN_TITLE "Lobby Browser (Unranked)"
-IDS_LOBBY_BROWSER_SCREEN_LOBBY_TYPE "Lobby Type:"
-IDS_LOBBY_BROWSER_SCREEN_LOBBY_TYPE_HELP "The type of lobbies that will be displayed in the browser"
-IDS_LOBBY_BROWSER_SCREEN_RATING "Rating: %s"
-IDS_LOBBY_BROWSER_SCREEN_VALID "Valid"
-IDS_LOBBY_BROWSER_SCREEN_VALID_HELP "When enabled, only lobbies that your rating allows you till join will be displayed"
+IDS_LOBBY_BROWSER_SCREEN_TITLE "Lobbyletare (Orankat)"
+IDS_LOBBY_BROWSER_SCREEN_LOBBY_TYPE "Lobbytyp:"
+IDS_LOBBY_BROWSER_SCREEN_LOBBY_TYPE_HELP "Typ av lobbyer som visas i lobbyletaren"
+IDS_LOBBY_BROWSER_SCREEN_RATING "Ranking: %s"
+IDS_LOBBY_BROWSER_SCREEN_VALID "Giltig"
+IDS_LOBBY_BROWSER_SCREEN_VALID_HELP "När denna ruta är ifylld kommer enbart lobbyer som din ranking tillåter dig att gå med i att visas"
 
-IDS_LOBBY_SCREEN_BALANCE_TEAMS "Balance Teams"
-IDS_LOBBY_SCREEN_BALANCE_TEAMS_HELP "Attempt till make the teams as even as possible."
-IDS_LOBBY_SCREEN_BALANCE_TEAMS_CONFIRMATION "Are you sure you want to balance the teams?"
-IDS_LOBBY_SCREEN_TEAM_ELO_2 "Team 1: %s / Team 2: %s"
-IDS_LOBBY_SCREEN_ERROR_UNEVEN_PLAYERS "You must have an even number of spelare in the lobby!"
-IDS_LOBBY_SCREEN_ERROR_UNBALANCED_TEAMS "You have too many spelare on one team!"
-IDS_LOBBY_SCREEN_ERROR_NOT_ENOUGH_PLAYERS "You don't have enough spelare till play this game mode!"
+IDS_LOBBY_SCREEN_BALANCE_TEAMS "Balansera Lag"
+IDS_LOBBY_SCREEN_BALANCE_TEAMS_HELP "Försöker att göra lagen så jämna som möjligt."
+IDS_LOBBY_SCREEN_BALANCE_TEAMS_CONFIRMATION "Är du säker på att du vill balansera lagen?"
+IDS_LOBBY_SCREEN_TEAM_ELO_2 "Lag 1: %s / Lag 2: %s"
+IDS_LOBBY_SCREEN_ERROR_UNEVEN_PLAYERS "Du måste ha ett jämnt antal spelare i lobbyn!"
+IDS_LOBBY_SCREEN_ERROR_UNBALANCED_TEAMS "Du har för många spelare i ena laget!"
+IDS_LOBBY_SCREEN_ERROR_NOT_ENOUGH_PLAYERS "Du har inte tillräckligt med spelare för att spela detta spelläget!"
 
 IDS_LOBBY_SCREEN_NARRATOR_PLAYER_NAME "Spelare: %s."
-IDS_LOBBY_SCREEN_NARRATOR_PLAYER_NAME_AND_RATING "Spelare: %s. Rating: %s"
-IDS_LOBBY_SCREEN_NARRATOR_PLAYER_NAME_AND_HANDICAP "Spelare: %s. Handicap: %s percent"
+IDS_LOBBY_SCREEN_NARRATOR_PLAYER_NAME_AND_RATING "Spelare: %s. Ranking: %s"
+IDS_LOBBY_SCREEN_NARRATOR_PLAYER_NAME_AND_HANDICAP "Spelare: %s. Handikapp: %s procent"
 
-IDS_RESTORE_SCREEN_LISTBOX_HELP "All your saved games appear in this list."
-IDS_SAVE_SCREEN_LISTBOX_HELP "All your saved games appear in this list."
+IDS_RESTORE_SCREEN_LISTBOX_HELP "Alla dina sparade spel dyker upp i denna listan."
+IDS_SAVE_SCREEN_LISTBOX_HELP "Alla dina sparade spel dyker upp i denna listan."
 
-IDS_COLOR_WARMER_AUTUMN "Autumn"
-IDS_COLOR_WARMER_DESERT "Desert"
-IDS_COLOR_WARMER_EMPTY "Empty"
-IDS_COLOR_WARMER_JUNGLE "Jungle"
-IDS_COLOR_WARMER_WINTER "Winter"
-IDS_COLOR_WARMER_NIGHT "Night"
+IDS_COLOR_WARMER_AUTUMN "Höst"
+IDS_COLOR_WARMER_DESERT "Öken"
+IDS_COLOR_WARMER_EMPTY "Tom"
+IDS_COLOR_WARMER_JUNGLE "Djungel"
+IDS_COLOR_WARMER_WINTER "Vinter"
+IDS_COLOR_WARMER_NIGHT "Natt"
 
-IDS_OPT_TOOLTIPSCALE "Tooltip Scale"
-IDS_OPT_TOOPTIP_SCALE_HELP_TEXT "Tooltip Scale"
+IDS_OPT_TOOLTIPSCALE "Verktygstips Skala"
+IDS_OPT_TOOPTIP_SCALE_HELP_TEXT "Skala Verktygstips"
 IDS_OPT_TOOLTIPSIZE_50 "50%"
 IDS_OPT_TOOLTIPSIZE_100 "100%"
 
-IDS_DIPLOMACY_LINE_NARRATION "%0s, Their Stance %1s, %2s Checked, %3d of 3"
+IDS_DIPLOMACY_LINE_NARRATION "%0s, Deras Hållning %1s, %2s Ifylld, %3d av 3"
 
-IDS_WIDGET_TEXTBOXINPUT_EDITING "Editing"
-IDS_WIDGET_TEXTBOXINPUT_INPUTBOX "Input Box"
+IDS_WIDGET_TEXTBOXINPUT_EDITING "Redigerar"
+IDS_WIDGET_TEXTBOXINPUT_INPUTBOX "Inmatningsruta"
 
-IDS_KEYBOARD_KEYCODE_96  "grave accent" // ``
-IDS_KEYBOARD_KEYCODE_126 "tilda" // ~~
-IDS_KEYBOARD_KEYCODE_33  "exclamation point" // !!
-IDS_KEYBOARD_KEYCODE_64  "at symbol" // @@
-IDS_KEYBOARD_KEYCODE_35  "number sign" // ##
-IDS_KEYBOARD_KEYCODE_36  "dollar sign" // $$
-IDS_KEYBOARD_KEYCODE_37  "percent sign" // %%
-IDS_KEYBOARD_KEYCODE_94  "carrot" // ^^
-IDS_KEYBOARD_KEYCODE_38  "ampersand" // &&
-IDS_KEYBOARD_KEYCODE_42  "asterix" // **
-IDS_KEYBOARD_KEYCODE_40  "opening parenthesis" // ((
-IDS_KEYBOARD_KEYCODE_41  "closing parenthesis" // ))
-IDS_KEYBOARD_KEYCODE_95  "underscore" // __
-IDS_KEYBOARD_KEYCODE_43  "plus sign" // ++
-IDS_KEYBOARD_KEYCODE_45  "hyphen" // --
-IDS_KEYBOARD_KEYCODE_61  "equals sign" // ==
-IDS_KEYBOARD_KEYCODE_123 "opening brace" // {{
-IDS_KEYBOARD_KEYCODE_125 "closing brace" // }}
-IDS_KEYBOARD_KEYCODE_91  "opening bracket" // [[]
-IDS_KEYBOARD_KEYCODE_93  "closing bracket" // ]
-IDS_KEYBOARD_KEYCODE_92  "backslash" // \\
-IDS_KEYBOARD_KEYCODE_124 "vertical bar" // ||
-IDS_KEYBOARD_KEYCODE_59  "semi colon" // ;;
-IDS_KEYBOARD_KEYCODE_58  "colon" // ::
-IDS_KEYBOARD_KEYCODE_39  "single quote" // ''
-IDS_KEYBOARD_KEYCODE_34  "double quote" // "
-IDS_KEYBOARD_KEYCODE_44  "comma" // ,,
-IDS_KEYBOARD_KEYCODE_60  "less than sign" // <<
-IDS_KEYBOARD_KEYCODE_46  "period" // ..
-IDS_KEYBOARD_KEYCODE_62  "greater than sign" // >>
-IDS_KEYBOARD_KEYCODE_47  "slash" // //
-IDS_KEYBOARD_KEYCODE_63  "question mark" // ??
+IDS_KEYBOARD_KEYCODE_96  "grav accent" // ``
+IDS_KEYBOARD_KEYCODE_126 "tilde" // ~~
+IDS_KEYBOARD_KEYCODE_33  "utropstecken" // !!
+IDS_KEYBOARD_KEYCODE_64  "snabel-a" // @@
+IDS_KEYBOARD_KEYCODE_35  "nummertecken" // ##
+IDS_KEYBOARD_KEYCODE_36  "dollartecken" // $$
+IDS_KEYBOARD_KEYCODE_37  "procenttecken" // %%
+IDS_KEYBOARD_KEYCODE_94  "insättningstecken" // ^^
+IDS_KEYBOARD_KEYCODE_38  "et-tecken" // &&
+IDS_KEYBOARD_KEYCODE_42  "asterisk" // **
+IDS_KEYBOARD_KEYCODE_40  "vänsterparentes" // ((
+IDS_KEYBOARD_KEYCODE_41  "högerparentes" // ))
+IDS_KEYBOARD_KEYCODE_95  "understreck" // __
+IDS_KEYBOARD_KEYCODE_43  "plustecken" // ++
+IDS_KEYBOARD_KEYCODE_45  "bindestreck" // --
+IDS_KEYBOARD_KEYCODE_61  "likhetstecken" // ==
+IDS_KEYBOARD_KEYCODE_123 "vänster klammerparentes" // {{
+IDS_KEYBOARD_KEYCODE_125 "höger klammerparentes" // }}
+IDS_KEYBOARD_KEYCODE_91  "vänster hakparentes" // [[]
+IDS_KEYBOARD_KEYCODE_93  "höger hakparentes" // ]
+IDS_KEYBOARD_KEYCODE_92  "omvänt snedstreck" // \\
+IDS_KEYBOARD_KEYCODE_124 "lodstreck" // ||
+IDS_KEYBOARD_KEYCODE_59  "semikolon" // ;;
+IDS_KEYBOARD_KEYCODE_58  "kolon" // ::
+IDS_KEYBOARD_KEYCODE_39  "enkelt citattecken" // ''
+IDS_KEYBOARD_KEYCODE_34  "dubbelt citattecken" // "
+IDS_KEYBOARD_KEYCODE_44  "komma" // ,,
+IDS_KEYBOARD_KEYCODE_60  "mindre än-tecken" // <<
+IDS_KEYBOARD_KEYCODE_46  "punkt" // ..
+IDS_KEYBOARD_KEYCODE_62  "större än-tecken" // >>
+IDS_KEYBOARD_KEYCODE_47  "snedstreck" // //
+IDS_KEYBOARD_KEYCODE_63  "frågetecken" // ??
 
 //narration text used for team och color selection
-IDS_HELP_TEAM_ID_NONE    "bindsestreck, inget lag"
-IDS_HELP_TEAM_ID_RANDOM  "question mark, random team"
+IDS_HELP_TEAM_ID_NONE    "bindestreck, inget lag"
+IDS_HELP_TEAM_ID_RANDOM  "frågetecken, slumpvalt lag"
 IDS_HELP_TEAM_ID_ONE    "lag ett"
 IDS_HELP_TEAM_ID_TWO    "lag två"
 IDS_HELP_TEAM_ID_THREE  "lag tre"
 IDS_HELP_TEAM_ID_FOUR   "lag fyra"
 
-IDS_HELP_COLOR_ID_RANDOM "question mark, random color, random position"
-IDS_HELP_COLOR_ID_ONE   "blue, position one"
-IDS_HELP_COLOR_ID_TWO   "red, position two"
-IDS_HELP_COLOR_ID_THREE "green, position three"
-IDS_HELP_COLOR_ID_FOUR  "yellow, position four"
-IDS_HELP_COLOR_ID_FIVE  "cyan, position five"
-IDS_HELP_COLOR_ID_SIX   "pink, position six"
-IDS_HELP_COLOR_ID_SEVEN "grey, position seven"
-IDS_HELP_COLOR_ID_EIGHT "oräckvidd, position eight"
+IDS_HELP_COLOR_ID_RANDOM "frågetecken, slumpad färg, slumpad position"
+IDS_HELP_COLOR_ID_ONE   "blå, position ett"
+IDS_HELP_COLOR_ID_TWO   "röd, position två"
+IDS_HELP_COLOR_ID_THREE "grön, position tre"
+IDS_HELP_COLOR_ID_FOUR  "gul, position fyra"
+IDS_HELP_COLOR_ID_FIVE  "turkos, position fem"
+IDS_HELP_COLOR_ID_SIX   "rosa, position sex"
+IDS_HELP_COLOR_ID_SEVEN "grå, position sju"
+IDS_HELP_COLOR_ID_EIGHT "orange, position åtta"
 IDS_HELP_COLOR_COMMON "%s, position, %s"
 IDS_HELP_COLOR_Index_ONE "Ett"
 IDS_HELP_COLOR_Index_TWO "Två"
@@ -21152,48 +21152,48 @@ IDS_HELP_COLOR_Index_SIX "Sex"
 IDS_HELP_COLOR_Index_SEVEN "Sju"
 IDS_HELP_COLOR_Index_EIGHT "Åtta"
 
-IDS_HELP_PLAYER_READIED "%s redo att börja"
+IDS_HELP_PLAYER_READIED "%s är redo att börja"
 IDS_HELP_PLAYER_JOINED "%s har gått med i lobbyn"
-IDS_OBJECTIVES_TAB_1_NARATION "Selected Objektives tab 1 of 3, %s"
-IDS_OBJECTIVES_TAB_2_NARATION "Selected Hints tab 2 of 3, %s"
-IDS_OBJECTIVES_TAB_3_NARATION "Selected Scouts tab 3 of 3, %s"
-IDS_ICON_HIGHLIGHT_NUMBER "icon %d\n%s\n"
+IDS_OBJECTIVES_TAB_1_NARATION "Valda Uppdrag flik 1 av 3, %s"
+IDS_OBJECTIVES_TAB_2_NARATION "Valda Tips flik 2 av 3, %s"
+IDS_OBJECTIVES_TAB_3_NARATION "Valda Spaningar flik 3 av 3, %s"
+IDS_ICON_HIGHLIGHT_NUMBER "ikon %d\n%s\n"
 
-IDS_NETWORK_DISCONNECTED_MESSAGE "You have been disconnected from the network.  Please check your connection och try again.\nA save has been created for restoring.\nWould you like till exit without viewing the map och final game statistics?"
-IDS_FINAL_OPPONENT_DISCONNECTED_MESSAGE "Spelare \"%s\" has disconnected.\nA save has been created for restoring.\nWould you like till exit without viewing the map och final game statistics?"
-IDS_FINAL_OPPONENT_DISCONNECTED_RANKED_MESSAGE "\n(A result has already been recorded for this game. Restoring this save will not affect either spelare's Ranked rating.)"
+IDS_NETWORK_DISCONNECTED_MESSAGE "Du har frånkopplats från nätverket. Vänligen kontrollera din anslutning och försök igen.\nEn sparfil har skapats för återskapande.\nVill du avsluta utan att titta på kartan och den slutglitiga spelstatistiken?"
+IDS_FINAL_OPPONENT_DISCONNECTED_MESSAGE "Spelaren \"%s\" frånkopplades.\nEn sparfil har skapats för återskapanade.\nVill du avsluta utan att titta på kartan och den slutgiltia spelstatistiken?"
+IDS_FINAL_OPPONENT_DISCONNECTED_RANKED_MESSAGE "\n(Ett resultat har redan registrerats för detta spel. Att återskapa denna sparfilen kommer inte att påverka någon spelares ranking.)"
 
 IDS_LEAVE_MAP "Lämna Karta"
 
 IDS_MATCHMAKING_INVITE_TO_PARTY "Bjud In Till Sällskapet"
-IDS_STATISTICS_BLOCK_HELP_TEXT "Block spelare. When blocked this spelare will be automatically muted in lobbies och multispelare games."
+IDS_STATISTICS_BLOCK_HELP_TEXT "Blockera spelare. När denna spelaren är blockerad så kommer den automatiskt att tystas i lobbyer och flerspelarspel."
 
-IDS_PROFILE_LOSSES "Losses"
-IDS_PROFILE_TOTAL "Total"
+IDS_PROFILE_LOSSES "Förloster"
+IDS_PROFILE_TOTAL "Totalt"
 
-IDS_RATE_REVIEW_RATE "Rate"
-IDS_RATE_REVIEW_ASK_LATER "Ask Later"
-IDS_RATE_REVIEW_NO "No"
-IDS_RATE_REVIEW_MESSAGE "Enjoying Age of Empires II: Definitive Edition?\nRate the game och let us know!"
-IDS_RATE_REVIEW_TITLE "Thanks for Playing"
+IDS_RATE_REVIEW_RATE "Betygsätt"
+IDS_RATE_REVIEW_ASK_LATER "Fråga Senare"
+IDS_RATE_REVIEW_NO "Nej"
+IDS_RATE_REVIEW_MESSAGE "Gillar du Age of Empires II: Definitive Edition?\nLåt oss få reda på det och betygsätt spelet!"
+IDS_RATE_REVIEW_TITLE "Tack för att du Spelar"
 
-IDS_POPUP_GPU_CHECK_TITLE  "Failed graphics card startup"
-IDS_POPUP_GPU_BLACKLISTED  "%ws graphics card (vendor id %d, device ID %d) is not DirectX 11 compliant."
-IDS_POPUP_DIRECTX11_NO_SUPPORT   "Unable till find a graphics accelerator with DirectX 11 support. Make sure your computer meets the minimum specifications"
-IDS_POPUP_DIRECTX11_MBRD_IN_USE   "The active graphics driver is general purpose och performance may be unsatisfactory. You should install a dedicated %ws driver if available."
-IDS_POPUP_GPU_DRIVER_OBSOLETE   "The active graphics driver version %ls is obsolete och needs till be upgraded till a newer release."
-IDS_POPUP_GPU_DRIVER_BLACKLISTED "The active graphics driver version %ls is reported till have issues when running this game och needs till be upgraded."
+IDS_POPUP_GPU_CHECK_TITLE  "Misslyckades med att starta graifkkortet"
+IDS_POPUP_GPU_BLACKLISTED  "%ws grafikkort (tillverkar-id %d, enhets-ID %d) är inte DirectX 11-kompatibel."
+IDS_POPUP_DIRECTX11_NO_SUPPORT   "Kunder inte hitta en grafikaccelerator med DirectX 11-stöd. Kolla att din dator möter minimikraven"
+IDS_POPUP_DIRECTX11_MBRD_IN_USE   "Den aktiva grafikdrivrutinen är en allmän drivrutin och prestandan kan därför vara otillfredsställande. Du gör installera en dedikerad %ws-drivrutin om den finns tillgänglig."
+IDS_POPUP_GPU_DRIVER_OBSOLETE   "Den aktiva grafikdrivrutinen med version %ls är föråldrad och behöver uppgraderas till en nyare utgåva."
+IDS_POPUP_GPU_DRIVER_BLACKLISTED "Den aktiva grafikdrivrutinen med version %ls har inrapporterats ha problem med att köra spelet och behöver därför uppgraderas."
 
-IDS_POPUP_MIN_SPEC_OS "Age of Empires II: Definitive Edition minimum specification recommends Windows 10 64bit. This computer does not meet that requirement."
-IDS_POPUP_MIN_SPEC_CPU "Age of Empires II: Definitive Edition minimum specification recommends at least a Intel Core 2 Duo or AMD Athlon 64x2 5600+. This computer does not meet that requirement."
-IDS_POPUP_MIN_SPEC_DIRECTX "Age of Empires II: Definitive Edition minimum specification kräver a DirectX 11 compatible display adaptor. This computer does not meet that requirement."
-IDS_POPUP_MIN_SPEC_GPU "Age of Empires II: Definitive Edition minimum specification recommends at least a NVIDIA® GeForce® GT 420, ATI™ Radeon™ HD 6850 or Intel® HD Graphics 3000. This computer does not meet that requirement."
-IDS_POPUP_MIN_SPEC_SYSTEM_RAM "Age of Empires II: Definitive Edition minimum specification recommends at least %dGB of system memory. This computer does not meet that requirement."
-IDS_POPUP_MIN_SPEC_VIDEO_RAM "Age of Empires II: Definitive Edition minimum specification recommends at least %dGB of dedicated VRAM. This computer does not meet that requirement."
-IDS_POPUP_MIN_SPEC_VIDEO_RAM_INTEGRATED "Age of Empires II: Definitive Edition minimum specification recommends at least %dGB of system memory when using an integrated GPU. This computer does not meet that requirement."
-IDS_POPUP_MIN_SPEC_HARDWARE_WARNING "Age of Empires II: Definitive Edition Minimum Specification"
-IDS_POPUP_MIN_SPEC_HARDWARE_MESSAGE1 "The minimum specification for Age of Empires II: Definitive Edition has not been met.\nContinuing may result in instability och poor performance."
-IDS_POPUP_MIN_SPEC_HARDWARE_MESSAGE2 "The minimum specification for Age of Empires II: Definitive Edition has not been met."
+IDS_POPUP_MIN_SPEC_OS "Age of Empires II: Definitive Edition lägstakrav rekommenderar Windows 10 64bit. Denna dator uppfyller inte detta kravet."
+IDS_POPUP_MIN_SPEC_CPU "Age of Empires II: Definitive Edition lägstakrav rekommenderar minst Intel Core 2 Duo eller AMD Athlon 64x2 5600+. Denna dator uppfyller inte detta kravet."
+IDS_POPUP_MIN_SPEC_DIRECTX "Age of Empires II: Definitive Edition lägstakrav kräver en DirectX 11-kompatible bildskärmsadapter. Denna dator uppfyller inte detta kravet."
+IDS_POPUP_MIN_SPEC_GPU "Age of Empires II: Definitive Edition lägstakrav rekommenderar minst NVIDIA® GeForce® GT 420, ATI™ Radeon™ HD 6850 eller Intel® HD Graphics 3000. Denna dator uppfyller inte detta kravet."
+IDS_POPUP_MIN_SPEC_SYSTEM_RAM "Age of Empires II: Definitive Edition lägstakrav rekommenderar minst %dGB systemminne. Denna dator uppfyller inte detta kravet."
+IDS_POPUP_MIN_SPEC_VIDEO_RAM "Age of Empires II: Definitive Edition lägstakrav rekommenderar minst %dGB dedikerat VRAM. Denna dator uppfyller inte detta kravet."
+IDS_POPUP_MIN_SPEC_VIDEO_RAM_INTEGRATED "Age of Empires II: Definitive Edition lägstakrav rekommenderar minst %dGB systemminne när en integrerad GPU används. Detta dator uppfyller inte detta kravet."
+IDS_POPUP_MIN_SPEC_HARDWARE_WARNING "Age of Empires II: Definitive Edition Lägstakrav"
+IDS_POPUP_MIN_SPEC_HARDWARE_MESSAGE1 "Lägstakraven för Age of Empires II: Definitive Edition har ej uppfyllts.\nAtt fortsätta kan leda till instabilitet och dålig prestanda."
+IDS_POPUP_MIN_SPEC_HARDWARE_MESSAGE2 "Lägstakraven för Age of Empires II: Definitive Edition har ej uppfyllts."
 IDS_POPUP_MIN_SPEC_HARDWARE_DONT_EVER_AGAIN "Visa inte igen"
 IDS_POPUP_MIN_SPEC_HARDWARE_CONTINUE_ANYWAY "Fortsätt"
 IDS_POPUP_MIN_SPEC_HARDWARE_EXIT_GAME "Avsluta"
@@ -21209,8 +21209,8 @@ IDS_ACHIEVEMENT_SCREEN_CASTLE_AGE "Riddar-\nTiden"
 IDS_ACHIEVEMENT_SCREEN_IMPERIAL_AGE "Imperie-\nTiden"
 
 
-IDS_NEW_NO_NEWS_BODY "No News Available"
-IDS_NEW_NO_NEWS_TITLE "No News Available"
+IDS_NEW_NO_NEWS_BODY "Inga Tillgängliga Nyheter"
+IDS_NEW_NO_NEWS_TITLE "Inga Tillgängliga Nyheter"
 
 
 IDS_LOBBY_TAB_HELP_TEXT "Open unranked multispelare lobby"
@@ -22667,17 +22667,17 @@ IDS_REMATCH_NOTENOUGHPLAYERS "Inte tillräckligt med spelare var redo för en re
 IDS_REMATCH_LEAVE_WARNING "Att gå ur kommer att ta bort dig från returmatchen, är du säker?"
 IDS_REMATCH_HOST_FAIL "Värden misslyckades tidsmässigt med returmatchen."
 
-IDS_TIME_GRANULAR_DAY      "1 day"
-IDS_TIME_GRANULAR_DAYS     "%d days"
-IDS_TIME_GRANULAR_HOUR     "1 hour"
-IDS_TIME_GRANULAR_HOURS    "%d hours"
-IDS_TIME_GRANULAR_MINUTE   "1 minute"
-IDS_TIME_GRANULAR_MINUTES  "%d minutes"
-IDS_TIME_GRANULAR_SECOND   "1 second"
-IDS_TIME_GRANULAR_SECONDS  "%d seconds"
-IDS_TIME_GRANULAR_4        "%1$s, %2$s, %3$s and %4$s"
-IDS_TIME_GRANULAR_3        "%1$s, %2$s and %3$s"
-IDS_TIME_GRANULAR_2        "%1$s and %2$s"
-IDS_MAINMENU_EVENTS_TITLE  "Active Events"
-IDS_EVENT_ENDS_COUNTDOWN   "Event ends in: %s"
-IDS_EVENT_ENDS_COUNTDOWN_0 "Event has concluded"
+IDS_TIME_GRANULAR_DAY      "1 dag"
+IDS_TIME_GRANULAR_DAYS     "%d dagar"
+IDS_TIME_GRANULAR_HOUR     "1 timme"
+IDS_TIME_GRANULAR_HOURS    "%d timmar"
+IDS_TIME_GRANULAR_MINUTE   "1 minut"
+IDS_TIME_GRANULAR_MINUTES  "%d minuter"
+IDS_TIME_GRANULAR_SECOND   "1 sekund"
+IDS_TIME_GRANULAR_SECONDS  "%d sekunder"
+IDS_TIME_GRANULAR_4        "%1$s, %2$s, %3$s och %4$s"
+IDS_TIME_GRANULAR_3        "%1$s, %2$s och %3$s"
+IDS_TIME_GRANULAR_2        "%1$s och %2$s"
+IDS_MAINMENU_EVENTS_TITLE  "Pågående Tillställningar"
+IDS_EVENT_ENDS_COUNTDOWN   "Tillställning avslutas om: %s"
+IDS_EVENT_ENDS_COUNTDOWN_0 "Tillställningen är över"
