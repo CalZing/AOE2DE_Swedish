@@ -41,7 +41,7 @@
 1007 "EULA.RTF"
 1008 "WARRANTY.RTF"
 1009 "EULAX.RTF"
-1010 "WARRANTYX.RTF"/flamm
+1010 "WARRANTYX.RTF"
 1011 "http://www.microsoft.com/games/conquerors"
 1012 "http://www.ensemblestudios.com"
 1101 "Laddar speldata ..."
@@ -7619,12 +7619,12 @@
 //44223	"Each House supports 5 units. The population indicator at the top of the screen shows your current/supportable population."
 //44224	"Selecting different byggnader or units gives you different options in the lower-left corner of the screen."
 //44225	"We will need many soldiers till defend our homeland. To win, you will need till create 4 Milis."
-//44226	"+ Träna 4 Miliser."
-//44227  "+ <MilitiaTrained>/4 Miliser tränade."^M
-//44228  "- Bygg <HousesTotal> Hus."^M
-//44229  "- <HousesBuilt>/<HousesTotal> Hus byggda."^M
-//44230  "- Bygg en Barrack."^M
-//44231  "- Bygg en Barrack."^M
+//44226	" Träna 4 Miliser."
+//44227 " <MilitiaTrained>/4 Miliser tränade."
+//44228 "- Bygg <HousesTotal> Hus."
+//44229 "- <HousesBuilt>/<HousesTotal> Hus byggda."
+//44230 "- Bygg en Barrack."
+//44231 "- Bygg en Barrack."
 //
 ////
 //// Wallace 4
@@ -10782,8 +10782,8 @@
 //66336	"-- Riddartiden is now available. --"
 //66337	"-- Imperietiden is now available. --"
 //66338	"<AQUA>The Magyarer have settled down."
-//66339  "- For every Bulgarian Krepost and Castle that you raze, you will pillage 500 gold."^M
-//66340  "- Raze Bulgarian Kreposts and Castles for gold."^M
+//66339  "- For every Bulgarian Krepost and Castle that you raze, you will pillage 500 gold."
+//66340  "- Raze Bulgarian Kreposts and Castles for gold."
 //
 ////
 //// Battles of the Forgotten - Kurikara
@@ -11397,8 +11397,8 @@
 //67904	"Kemal Reis"
 //67905	"Banu Arous"
 //67906	"Guanches"
-//67908  "1. You are restricted to the Castle Age and a population limit of 125.\n\n2. Caravels boosted by Carrack are powerful against large numbers of warships.\n\n3. The Banu Arous guard key resources across the mainland.\n\n4. The Emir can be a powerful ally, but weigh his assistance with the threat of giving him cannons."^M
-//67909  "Your scouts report:\n\n- Francisco de Almeida commands Fort Graciosa on the Loukkos River. The island has limited resources and must rely on Berber villages on either side of the river.\n\n- The Emir (Red) rules El Araich, a city on the estuary to the west. The threat of Portuguese cannons has kept him friendly. Until we gain the upperhand over the Pirates, he may be a worthwhile ally... for a heathen.\n\n- The Barbary Pirates (Green) occupy the north bank of the river. They are a strong enemy as long as their fleets are numerous. They are skilled sailors, archers, and spearmen.\n\n- The Banu Arous (Yellow) are mounted raiders from the deserts to the south and east. Venturing into the desert and destroying their military buildings is the only way to end their raids.\n\n- Off the coast are the Canary Islands, territory of Spanish Castile. European treaties matter little on this frontier, however, and the islands would be a rich source of resources, provided the native Guanches (Purple) can be pacified.\n\n- The flagship of the Ottoman privateer Kemal Reis (Grey) has been seen off the coast, attacking Christian ships in support of the beleaguered Emir of Granada. Defeating him would be a boon to the war against the Moors and Ottomans.\n\n- And somewhere off the African coast, an expedition led by Duarte Pacheco Pereira has been rumored lost."^M
+//67908  "1. You are restricted to the Castle Age and a population limit of 125.\n\n2. Caravels boosted by Carrack are powerful against large numbers of warships.\n\n3. The Banu Arous guard key resources across the mainland.\n\n4. The Emir can be a powerful ally, but weigh his assistance with the threat of giving him cannons."
+//67909  "Your scouts report:\n\n- Francisco de Almeida commands Fort Graciosa on the Loukkos River. The island has limited resources and must rely on Berber villages on either side of the river.\n\n- The Emir (Red) rules El Araich, a city on the estuary to the west. The threat of Portuguese cannons has kept him friendly. Until we gain the upperhand over the Pirates, he may be a worthwhile ally... for a heathen.\n\n- The Barbary Pirates (Green) occupy the north bank of the river. They are a strong enemy as long as their fleets are numerous. They are skilled sailors, archers, and spearmen.\n\n- The Banu Arous (Yellow) are mounted raiders from the deserts to the south and east. Venturing into the desert and destroying their military buildings is the only way to end their raids.\n\n- Off the coast are the Canary Islands, territory of Spanish Castile. European treaties matter little on this frontier, however, and the islands would be a rich source of resources, provided the native Guanches (Purple) can be pacified.\n\n- The flagship of the Ottoman privateer Kemal Reis (Grey) has been seen off the coast, attacking Christian ships in support of the beleaguered Emir of Granada. Defeating him would be a boon to the war against the Moors and Ottomans.\n\n- And somewhere off the African coast, an expedition led by Duarte Pacheco Pereira has been rumored lost."
 //67910	"<BLUE>Francisco: Pirate sails! Defend the fort!"
 //67911	"<BLUE>Francisco: We cannot remain holed up on this island like galley rats! The emir controls the estuary. He must be made till understand our position."
 //67912	"<BLUE>Francisco: The Ottoman pirate Kemal Reis! I will make that ship his casket och the Atlantic his grave!"
@@ -11448,7 +11448,7 @@
 //68004	"Zanzibar"
 //68005	"Swahili Villages"
 //68006	"Bantu"
-//68008  "1. You are restricted to a population limit of 150.\n\n2. Bring Muhammad ibn Rukn ad Din to flags at the center of Swahili Villages to raise his armies. Alternatively, you can send him to Kilwa to be executed and gain the support of the Kilwan ruler.\n\n3. The choice of siding with or betraying Muhammad ibn Rukn ad Din will have significant impacts. Siding with him will allow you to gather a rebel army on the mainland. Opposing him will make defeating Kilwa easier but draw the anger of Zanzibar and the rebels.\n\n4. Portuguese castaways and lost ships can be found throughout the sea.\n\n5. Gold is rare but can be obtained by sinking Zanzibar's Trade Cogs. You can attack Zanzibar at will by changing diplomacy.\n\n6. The Mutapa gold mines are somewhere in the west past the thickest Baobab trees. Bring lumberjacks to get to them."^M
+//68008  "1. You are restricted to a population limit of 150.\n\n2. Bring Muhammad ibn Rukn ad Din to flags at the center of Swahili Villages to raise his armies. Alternatively, you can send him to Kilwa to be executed and gain the support of the Kilwan ruler.\n\n3. The choice of siding with or betraying Muhammad ibn Rukn ad Din will have significant impacts. Siding with him will allow you to gather a rebel army on the mainland. Opposing him will make defeating Kilwa easier but draw the anger of Zanzibar and the rebels.\n\n4. Portuguese castaways and lost ships can be found throughout the sea.\n\n5. Gold is rare but can be obtained by sinking Zanzibar's Trade Cogs. You can attack Zanzibar at will by changing diplomacy.\n\n6. The Mutapa gold mines are somewhere in the west past the thickest Baobab trees. Bring lumberjacks to get to them."
 //68009	"Your scouts report:\n\n- Storms have separated Francisco de Almeida och his son Lourenço from the rest of their armada. The damaged ships have reached Songo Songo, an island off the Swahili coast.\n\n- Kilwa (Red) is the sultanate nearest Songo Songo. It is ruled by Ibrahim, a minister who murdered the sultan och usurped the throne. He is opposed by an exiled prince named Muhammad ibn Rukn ad Din. The prince can be surrendered till Kilwa as a bribe or brought till the Swahili Villages (Green) till raise an army loyal till Portugal.\n\n- The Swahili villages are held by Bantu warriors (Orange). Destroying the Bantu camps will end their raids.\n\n- Mombasa (Yellow), an island stronghold north of Kilwa, is defended by a powerful navy.\n\n- Zanzibar (Cyan) lies on two islands off the coast. While her fleet is strong, Zanzibar's small army makes her vulnerable till invasion.\n\n- Finally, the Africans tell tales of the gold-filled kingdom called Mutapa just beyond where the baobab trees grow thickest."
 //68010	"<BLUE>Francisco: The rebel prince promises us an army till conquer Kilwa, but he could also make an effective bribe till gain the city's trust."
 //68011	"<BLUE>Francisco: The prince has been executed och the emir grants us an island. We must take advantage of this friendship till bring an army into the city. I will not forgive the emir's inhospitality."
@@ -11537,7 +11537,7 @@
 //68142	"Timoji the Pirate Lord"
 //68143	"Lourenço de Almeida"
 //68144	"Talwar Fäktare"
-//68145  "<GREEN>%d minute(s) left to destroy the Zamorin's Cannon Galleons."^M
+//68145  "<GREEN>%d minute(s) left to destroy the Zamorin's Cannon Galleons."
 //
 ////
 //// Almeida 5
@@ -14687,7 +14687,7 @@ IDS_CREATE_LOBBY_DEFAULT "Standard"
 
 IDS_CREATE_LOBBY_TYPE "Lobbytyp"
 IDS_CREATE_LOBBY_TYPE_HELP "Välj vilken lobbytyp som kommer skapas."
-IDS_CREATE_LOBBY_RESTRICT_RATINGS "Begränsa Ratingar
+IDS_CREATE_LOBBY_RESTRICT_RATINGS "Begränsa Ratingar"
 IDS_CREATE_LOBBY_RESTRICT_RATINGS_HELP "När detta är valt så kommer spelare att hindras från att gå med i lobbyn om de ligger mer än 10% från värdens ELO."
 
 //leaderboard screen
