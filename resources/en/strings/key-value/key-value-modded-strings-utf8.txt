@@ -6472,7 +6472,7 @@
 28409 "Forska fram <b>Blodlinjer<b> (<cost>)\nridande enheter har +20 hälsopoäng."
 28410 "Forska fram <b>Karavan<b> (<cost>)\nHandelsekipage och Handelsskepp förflyttar sig 50% snabbare (så att guld ansamlas fortare)."
 28411 "Forska fram <b>Tumring<b> (<cost>)\nSkyttar avfyrar snabbare och med 100% träffsäkerhet."
-28412 "Forska fram <b>Kätteri<b> (<cost>)\nEnheter som konverteras av en Munk hos fienden (eller Missionär) för istället för att byta till fiendens spelarfärg."
+28412 "Forska fram <b>Kätteri<b> (<cost>)\nEnheter som konverteras av en Munk hos fienden (eller Missionär) dör istället för att byta till fiendens spelarfärg."
 28413 "Uppgradera till <b>Örnkrigare<b> (<cost>)\nUppgraderar dina Örnspanare och låter dig skapa Örnkrigare som är starkare."
 28414 "Uppgradera till <b>Hillebardjär<b> (<cost>)\nUppgraderar dina Pikenerare och låter dig skapa Hillebardjärer som är starkare."
 28415 "Forska fram <b>Partiska Taktiker<b> (<cost>)\nRidande Skyttar har +1 normal-/+2 pilskydd och +2 attack mot pikenerare."
