@@ -5480,7 +5480,7 @@
 19296 "Utökad Hjälp"
 19297 "Avancerade Kommandon"
 19298 "Diplomati"
-19299 "Meny"
+19299 "Menyuppläsning"
 19300 "Uppdrag"
 19301 "Chattruta"
 19302 "Sammanslut"
@@ -22724,4 +22724,8 @@ IDS_MAINMENU_EVENTS_TITLE  "Pågående Tillställningar"
 IDS_EVENT_ENDS_COUNTDOWN   "Tillställning avslutas om: %s"
 IDS_EVENT_ENDS_COUNTDOWN_0 "Tillställningen är över"
 
+IDS_PERFORMANCE_WARNING_MINIMUM_PARTY "Warning: Your party contains a player whose device cannot queue for modes with teams of size greater than 2.\n Larger queues have been disabled."
 IDS_ACHIEVEMENT_FIRST_CHEAT_MESSAGE "Observera: prestationer kommer inte att räknas när du använder en fuskkoder."
+
+IDS_OPT_VOICECHAT             "Röstchatt Aktiverat"
+IDS_OPT_VOICECHAT_HELP_TEXT   "Låter dig skicka och ta emot röstmeddelanden under flerspelarspel."
