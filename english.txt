@@ -269,6 +269,7 @@
 3132 "%s has offered the services of Cuman mercenaries to their allies!"
 3133 "Another player may have disconnected."
 3134 "Unable to drop the Relic. Make sure there is enough space next to the Monk."
+3135 "Cannot research {techName}... Not enough resources."
 3700 "Click to heal this unit to its full hit points."
 3701 "Click to attack this unit!"
 3702 "Click to attack this building!"
@@ -2390,6 +2391,7 @@
 8895 "Graphics Presets"
 8896 "Selection Modifier Hotkeys"
 8897 "Shift Group Appending"
+IDS_OPT_ESC_MENU "ESC Menu"
 8898 "Display Future Items"
 8899 "Mute on Focus Lost"
 8900 "Villager Double-Click"
@@ -3777,6 +3779,8 @@ IDS_OPT_SMALL_TREES "Small Trees"
 
 11369 "Reset This Timer ID"
 11370 "Minutes and Seconds"
+
+11371 "Tutorial"
 
 //
 // Taunt strings
@@ -5284,7 +5288,7 @@ IDS_OPT_SMALL_TREES "Small Trees"
 19016 "Select all Stables"
 19017 "Select all Siege Workshops"
 19018 "Select all Castles"
-19019 "Select all Kreposts/Donjons"
+19019 "Select all Kreposts"
 19020 "Select all Monasteries"
 19021 "Select all Town Centers"
 19023 "Go to Next Idle Villager"
@@ -5414,6 +5418,9 @@ IDS_OPT_SMALL_TREES "Small Trees"
 19152 "Tech: Elite Battle Elephant"
 19153 "Toggle Idle Pointers"
 19154 "Dromon"
+19155 "Select all Mills"
+19156 "Select all Mining Camps"
+19157 "Select all Lumber Camps"
 
 5000 "Test String"
 
@@ -5510,7 +5517,7 @@ IDS_OPT_SMALL_TREES "Small Trees"
 19296 "Extended Help"
 19297 "Advanced Commands"
 19298 "Diplomacy"
-19299 "Menu Narration"
+19299 "Menu"
 19300 "Objectives"
 19301 "Chat Dialog"
 19302 "Horde"
@@ -14356,7 +14363,7 @@ IDS_OPT_SMALL_TREES "Small Trees"
 
 
 120150 "Foot Archer civilization\n\n• Town Centers cost -50% wood starting in the Castle Age\n• Foot archers (except skirmishers) +1 range in Castle and Imperial Age (+2 total)\n• Shepherds work 25% faster\n\n<b>Unique Unit:<b> \nLongbowman (archer)\n\n<b>Unique Techs:<b> \n• Yeomen (+1 foot archer range\n+2 tower attack)\n• Warwolf (Trebuchets do blast damage)\n\n<b>Team Bonus:<b> \nArchery Ranges work 10% faster"
-120151 "Cavalry civilization\n\n• Castles cost -25%\n• Cavalry +20% hit points starting in Feudal Age\n• Mill technologies free\n• Foragers work 15% faster\n\n<b>Unique Unit:<b> \nThrowing Axeman (infantry)\n\n<b>Unique Techs:<b> \n• Bearded Axe (+1 Throwing Axemen range)\n• Chivalry (Stables work 40% faster)\n\n<b>Team Bonus:<b> \nKnights +2 line of sight"
+120151 "Cavalry civilization\n\n• Castles cost -15% in Castle, -25% in Imperial Age\n• Cavalry +20% hit points starting in Feudal Age\n• Mill technologies free\n• Foragers work 15% faster\n\n<b>Unique Unit:<b> \nThrowing Axeman (infantry)\n\n<b>Unique Techs:<b> \n• Bearded Axe (+1 Throwing Axemen range)\n• Chivalry (Stables work 40% faster)\n\n<b>Team Bonus:<b> \nKnights +2 line of sight"
 120152 "Infantry civilization\n\n• Infantry cost -20% in Dark, -25% in Feudal, -30% in Castle, -35% in Imperial Age\n• Infantry +1 attack vs. buildings per age (starting from Feudal Age)\n• Villagers +5 attack vs. wild boar; hunters carry +15 meat; hunt lasts 20% longer\n• Loom can be researched instantly\n• +10 population in Imperial Age\n\n<b>Unique Unit:<b> \nHuskarl (infantry)\n\n<b>Unique Techs:<b> \n• Anarchy (create Huskarls at Barracks)\n• Perfusion (Barracks work 100% faster)\n\n<b>Team Bonus:<b> \nBarracks work 20% faster"
 120153 "Infantry civilization\n\n• Monks healing range 2x\n• Towers garrison 2x units\n• Murder Holes, Herbal Medicine free\n• Farms cost -40%\n• Town Center garrison +10\n• Barracks and Stable units +1 armor in Castle and Imperial Age (+2 total)\n\n<b>Unique Unit:<b> \nTeutonic Knight (infantry)\n\n<b>Unique Techs:<b> \n• Ironclad (siege weapons extra melee armor)\n• Crenellations (+3 range Castles\ngarrisoned infantry fire arrows)\n\n<b>Team Bonus:<b> \nUnits resist conversion"
 120154 "Infantry civilization\n\n• Fishing Ships 2x hit points; +2P armor; work rate +5% Dark, +10% Feudal, +15% Castle, +20% Imperial Age\n• Mill, Lumber/Mining Camps cost -50%\n• Infantry attack 33% faster starting in Feudal Age\n\n<b>Unique Unit:<b> \nSamurai (infantry)\n\n<b>Unique Techs:<b> \n• Yasama (Towers shoot extra arrows)\n• Kataparuto (Trebuchets fire, pack faster)\n\n<b>Team Bonus:<b> \nGalleys +50% line of sight"
@@ -15797,7 +15804,7 @@ IDS_AFK_ETHIOPIAN_SCENARIO_5_BUTTON_ROLLOVER_TEXT "ROLLOVER: 5. Welcome Home"
 IDS_GAME_OPTIONS_FIELD_LIMITED_CIV_POOL "Limited Civ Pool"
 
 REGISTRY_OPTIONS_RECORD_CAMPAIGN_GAMES "Record Campaign Games"
-REGISTRY_OPTIONS_RECORD_CAMPAIGN_GAMES_ROLLOVER "When this options is checked, all retail and custom campaign games will be recorded."
+REGISTRY_OPTIONS_RECORD_CAMPAIGN_GAMES_ROLLOVER "When this option is checked, all retail and custom campaign games will be recorded."
 
 IDS_SCENARIO_OPTIONS_DIALOG_TITLE "Scenario Options"
 IDS_BROWSER_REFRESHING_GAME_LIST "Searching for games ..."
@@ -18096,6 +18103,7 @@ SPECIALMAP_SPRAWLINGSTREAMS_ROLLOVER "Narrow rivers flow in unison, forming isla
 98871 "Click to enable selection modifier hotkeys. Selection modifiers allow you to select specific unit types. CTRL selects military units only while ALT selects civilian units only, SHIFT will select both civilian and military units."
 98872 "Click to enable rollover info. Rollover info will show details about an object when you move your cursor onto it. The information will display in the status area as though it was selected."
 98873 "Click to enable Shift Group Appending. This will allow you to select and merge multiple groups into one single control group."
+IDS_OPT_ESC_MENU_HELP_TEXT "Select to have ESC key show in-game popup menu when nothing is selected. Uncheck to have ESC key work as cancel/unselect only, not showing the popup menu.\n\"Menu\", \"Cancel\" and \"Unselect\" can all separately be assigned custom Game Commands hotkeys in the Hotkeys screen."
 98874 "Click to enable automatic farm and fish trap rebuilding. This option will determine the default state of automatic farm and fish trap rebuilding. If enabled, your farms and fish traps will be automatically rebuilt once they are exhausted."
 98876 "Click to specify the color and opacity to be used for the terrain grid. Terrain Grid visibility is controlled by the \"Terrain Grid Display\" option in Game Options. When Transparent, the grid cannot be toggled on or off using the \"Toggle Visual Grid\" hotkey."
 98877 "Click to enable preview icons for buildings, units and technologies which will only become available when certain conditions, such as advancing through ages, are met."
@@ -22194,13 +22202,29 @@ IDS_EVENT_FEBRUARY_2023_D3MOD_CONTROLLER "Earn a mod that replaces Relics with X
 IDS_EVENT_FEBRUARY_2023_D5MOD_FRIDGE     "Earn a mod that replaces Siege Towers with Xbox Series X fridges."
 
 
+// March 2023 - Star Age
+IDS_EVENT_MARCH_2023                  "Star Age"
+IDS_EVENT_MARCH_2023_C1_TITLE         "A Booming World"
+IDS_EVENT_MARCH_2023_C1_DESC          "Build two additional Town Centers in one Skirmish or Multiplayer match."
+IDS_EVENT_MARCH_2023_C2_TITLE         "Clock is ticking!"
+IDS_EVENT_MARCH_2023_C2_DESC          "Train your first 10 villagers with less than 30 seconds of Town Center idle time."
+IDS_EVENT_MARCH_2023_C3_TITLE         "Water control"
+IDS_EVENT_MARCH_2023_C3_DESC          "Build 15 Fish Traps in one Skirmish or Multiplayer match."
+IDS_EVENT_MARCH_2023_C4_TITLE         "Mayan rain"
+IDS_EVENT_MARCH_2023_C4_DESC          "Defeat 50 Units with Units wearing or carrying feathers."
+IDS_EVENT_MARCH_2023_C5_TITLE         "May the Forge be with you"
+IDS_EVENT_MARCH_2023_C5_DESC          "Research 10 Technologies affecting Champions."
+IDS_EVENT_MARCH_2023_D1MOD_ARMILLARY  "Earn a mod that adds an Armillary sphere decoration to your Town Center."
+IDS_EVENT_MARCH_2023_D3MOD_STARWATER  "Earn a mod that fills water terrain with stars."
+IDS_EVENT_MARCH_2023_D5MOD_PHOTONMAN  "Earn a mod that replaces Champions with Photon Men."
+
 
 //April Return of Rome
 IDS_EVENT_APRIL_2023                  "Return of Rome"
 IDS_EVENT_APRIL_2023_C1_TITLE         "Welcome to the Club"
 IDS_EVENT_APRIL_2023_C1_DESC          "Defeat 5 Villagers with Militia-line units in any matches."
 IDS_EVENT_APRIL_2023_C2_TITLE         "Pedestrian Challenge"
-IDS_EVENT_APRIL_2023_C2_DESC          "Win one multiplayer game with an Infantry civilization."
+IDS_EVENT_APRIL_2023_C2_DESC          "Win a Skirmish or Multiplayer game with an Infantry civilization."
 IDS_EVENT_APRIL_2023_C3_TITLE         "Moving Trees"
 IDS_EVENT_APRIL_2023_C3_DESC          "Gather 6000 Wood in a single Skirmish or Multiplayer Match."
 IDS_EVENT_APRIL_2023_C4_TITLE         "Rain of Destruction"
@@ -22740,6 +22764,7 @@ IDS_POPUP_CIV_UPGRADE "Upgrade"
 IDS_POPUP_CIV_LEARN "Learn More"
 IDS_POPUP_CIV_UNLOCK "Unlock All Content"
 IDS_QUICKPLAY_MAP_POOL "Map Pool"
+IDS_QUICKPLAY_GAMEMODE_NARRATOR_TEXT "{buttonName} Button. Game Settings, Resources: {resourceSetting}, Game Speed: {speedSetting}, Reveal Map: {revealMapSetting}, Starting Age: {startingAge}, Victory: {victorySetting}"
 
 IDS_AUTOMATCH_MAP_POOL "Map Pool"
 IDS_AUTOMATCH_MAP_POOL_TOOLTIP "View the map pool for the selected game mode. This is where you can choose your preferred and banned maps."
@@ -22923,7 +22948,8 @@ IDS_MAINMENU_EVENTS_TITLE  "Active Events"
 IDS_EVENT_ENDS_COUNTDOWN   "Event ends in: %s"
 IDS_EVENT_ENDS_COUNTDOWN_0 "Event has concluded"
 
-IDS_PERFORMANCE_WARNING_MINIMUM_PARTY "Warning: Your party contains a player whose device cannot queue for modes with teams of size greater than 2.\n Larger queues have been disabled."
+IDS_PERFORMANCE_WARNING_MINIMUM_PARTY "Warning: Your party contains a player whose device cannot queue for modes with teams of size greater than 2. Larger queues have been disabled."
+IDS_DURANGO_PLAYER_WARNING "This player's device cannot queue for modes with teams of size greater than 2. Larger queues will be disabled while they are in your party."
 IDS_ACHIEVEMENT_FIRST_CHEAT_MESSAGE "Note: achievements will not progress after using a cheat code."
 
 IDS_OPT_VOICECHAT             "Voice Chat Enabled"
@@ -22949,3 +22975,5 @@ IDS_LOAD_POMPEII_CONFIRMATION "This will exit the current session and load Retur
 IDS_LOAD_PHOENIX_CONFIRMATION "This will exit the current session and load Age of Empires 2.\n\nAre you sure you want to continue?"
 
 IDS_INVITATION_FAILED_TO_SEND "Something went wrong trying to send the invitation. Please try again."
+
+IDS_ERASE_ALL "Erase All"
