@@ -14700,7 +14700,7 @@ IDS_SET_ANTIQUITY_MODE "Antiken-Läge"
 
 
 120150 "Fotskyttscivilisation\n\n• Centrer kostar -50% trä från och med Riddartiden\n• Fotskyttar (förutom skärmytslare) +1 räckvidd i Riddar- och Imperietiden (+2 totalt)\n• Fåraherdar arbetar 25% snabbare\n\n<b>Unik Enhet:<b> \nLångbågsskytt (archer)\n\n<b>Unika Teknologier:<b> \n• Yeomen (+1 fotskyttsräckvidd; +2 tornattack)\n• Warwolf (Blidor gör sprängskada)\n\n<b>Lagbonus:<b> \nSkjutbanor arbetar 10% snabbare"
-120151 "Kavallericivilisation\n\n• Slott kostar -25%\n• Kavalleri +20% hälsopoäng från och med Feodaltiden\n• Kvarnteknologier gratis\n• Bärplockare arbetar 15% snabbare\n\n<b>Unik Enhet:<b> \nYxkastare (infanteri)\n\n<b>Unika Teknologier:<b> \n• Skäggyxa (+1 Yxkastarräckvidd)\n• Ridderlighet (Stall arbetar 40% snabbare)\n\n<b>Lagbonus:<b> \nRiddare +2 siktlinje"
+120151 "Kavallericivilisation\n\n• Slott kostar -15% i Riddar-, -25% i Imperietiden\n• Kavalleri +20% hälsopoäng från och med Feodaltiden\n• Kvarnteknologier gratis\n• Bärplockare arbetar 15% snabbare\n\n<b>Unik Enhet:<b> \nYxkastare (infanteri)\n\n<b>Unika Teknologier:<b> \n• Skäggyxa (+1 Yxkastarräckvidd)\n• Ridderlighet (Stall arbetar 40% snabbare)\n\n<b>Lagbonus:<b> \nRiddare +2 siktlinje"
 120152 "Infantericivlisation\n\n• Infanteri kostar -20% i Den Mörka, -25% i Feodal-, -30% i Riddar- och -35% i Imperietiden\n• Infanteri +1 attack mot byggnader per tidsålder (från och med Feodaltiden)\n• Byinvånare +5 attack mot vildsvin; jägare bär +15 kött; jaktbytet räcker 20% längre\n• Vävstol kan forskas fram på ett ögonblick\n• +10 befolkning i Imperietiden\n\n<b>Unik Enhet:<b> \nHuskarl (infanteri)\n\n<b>Unika Teknologier:<b> \n• Anarki (skapa Huskarlar i Barack)\n• Perfusion (Barack arbetar 100% snabbare)\n\n<b>Lagbonus:<b> \nBarack arbetar 20% snabbare"
 120153 "Infantericivlisation\n\n• Munkars helanderäckvidd 2x\n• Torn garnisonerar 2x enheter\n• Mördarhål, Örtmedicin gratis\n• Åkrar kostar -40%\n• Centrum garnisonerar +10\n• Barack- och Stallenheter +1 skydd i Riddar- och Imperietiden (+2 totalt)\n\n<b>Unik Enhet:<b> \nOrdensriddare (infanteri)\n\n<b>Unika Teknologier:<b> \n• Järnbeklädnad (belägringsvapen extra närstridsskydd)\n• Kreneleringar (+3 räckvidd Slott\ngarnisonerat infanteri skjuter pilar)\n\n<b>Lagbonus:<b> \nEnheter motsätter sig konvertering"
 120154 "Infantericivlisation\n\n• Fiskebåtar 2x hälsopoäng; +2P rustning; arbetshastighet +5% Den Mörka, +10% Feodal-, +15% Riddar-, +20% Imperietiden\n• Kvarn, Skogshuggar-/Gruvläger kostar -50%\n• Infanteri attackerar 33% snabbare från och med Feodaltiden\n• Ryttarskyttar +2 attack mot Skyttar\n\n<b>Unik Enhet:<b> \nSamuraj (infanteri)\n\n<b>Unika Teknologier:<b> \n• Yasama (Torn avfyrar extra pilar)\n• Kataparuto (Blidor avfyrar, packar snabbare)\n\n<b>Lagbonus:<b> \nGalärer +50% siktlinje"
@@ -15902,6 +15902,7 @@ IDS_WARN_PLYMOUTH_CIV_LOCK_TEXT "Only available with the Mountain Royals DLC.\nC
 IDS_WARN_PHILADELPHIA_BLOCKED_CAMPAIGN "This campaign is only available with the Victors and Vanquished DLC."
 IDS_WARN_PHILADELPHIA_UNINSTALLED_CAMPAIGN "This campaign is only available after installing the Victors and Vanquished DLC."
 
+IDS_WARN_CONTENT_NOT_AVAILABLE "Thank you for purchasing!\nThis content will be available when released."
 
 IDS_WARN_CIV_NOT_ALLOWED_FOR_MATCH "The Romans added in the Return of Rome DLC can only be played in unranked lobby game modes."
 
@@ -21499,8 +21500,8 @@ IDS_MATCHMAKING_BENCHMARK_NOTIFY_1V1_ONLY "* Ditt nuvarande prestandaresultat p�
 
 // Antiquity
 400040 "Trä på Handelskärra"
-400041 "Klicka på en fiskebåt för att samla guld från detta ostronet."
-400042 "Klicka för att msamla guld."
+400041 "Klicka på en fiskebåt för att samla guld från detta ostronet, eller klicka på en byinvånare om ostronet är nära stranden."
+400042 "Klicka för att samla guld."
 
 
 WIN_GAME_OBJ_TITLE "Vinn ett spel"
@@ -23735,3 +23736,5 @@ IDS_AGE_ADVANCED "%s gick vidare till %s."
 
 IDS_PAPHOS_GRAND_CAMPAIGN "Storkampanjen"
 IDS_PAPHOS_GRAND_CAMPAIGN_HELP_TEXT "Access Battle for Greece Grand Campaign content."
+
+IDS_CLEAR_CLOUD_DATA "Rensa Molndata"
