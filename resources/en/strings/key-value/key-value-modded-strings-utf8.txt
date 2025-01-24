@@ -15902,7 +15902,7 @@ IDS_WARN_PLYMOUTH_CIV_LOCK_TEXT "Only available with the Mountain Royals DLC.\nC
 IDS_WARN_PHILADELPHIA_BLOCKED_CAMPAIGN "This campaign is only available with the Victors and Vanquished DLC."
 IDS_WARN_PHILADELPHIA_UNINSTALLED_CAMPAIGN "This campaign is only available after installing the Victors and Vanquished DLC."
 
-IDS_WARN_CONTENT_NOT_AVAILABLE "Thank you for purchasing!\nThis content will be available when released."
+IDS_WARN_CONTENT_NOT_AVAILABLE "Tack för ditt köp!\nInnehållet kommer att bli tillgängligt när det släppts."
 
 IDS_WARN_CIV_NOT_ALLOWED_FOR_MATCH "The Romans added in the Return of Rome DLC can only be played in unranked lobby game modes."
 
