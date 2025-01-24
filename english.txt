@@ -14700,7 +14700,7 @@ IDS_SET_ANTIQUITY_MODE "Antiquity Mode"
 
 
 120150 "Foot Archer civilization\n\n• Town Centers cost -50% wood starting in the Castle Age\n• Foot archers (except skirmishers) +1 range in Castle and Imperial Age (+2 total)\n• Shepherds work 25% faster\n\n<b>Unique Unit:<b> \nLongbowman (archer)\n\n<b>Unique Techs:<b> \n• Yeomen (+1 foot archer range; +2 tower attack)\n• Warwolf (Trebuchets do blast damage)\n\n<b>Team Bonus:<b> \nArchery Ranges work 10% faster"
-120151 "Cavalry civilization\n\n• Castles cost -25%\n• Cavalry +20% hit points starting in Feudal Age\n• Mill technologies free\n• Foragers work 15% faster\n\n<b>Unique Unit:<b> \nThrowing Axeman (infantry)\n\n<b>Unique Techs:<b> \n• Bearded Axe (+1 Throwing Axemen range)\n• Chivalry (Stables work 40% faster)\n\n<b>Team Bonus:<b> \nKnights +2 line of sight"
+120151 "Cavalry civilization\n\n• Castles cost -15% in Castle, -25% in Imperial Age\n• Cavalry +20% hit points starting in Feudal Age\n• Mill technologies free\n• Foragers work 15% faster\n\n<b>Unique Unit:<b> \nThrowing Axeman (infantry)\n\n<b>Unique Techs:<b> \n• Bearded Axe (+1 Throwing Axemen range)\n• Chivalry (Stables work 40% faster)\n\n<b>Team Bonus:<b> \nKnights +2 line of sight"
 120152 "Infantry civilization\n\n• Infantry cost -20% in Dark, -25% in Feudal, -30% in Castle, -35% in Imperial Age\n• Infantry +1 attack vs. buildings per age (starting from Feudal Age)\n• Villagers +5 attack vs. wild boar; hunters carry +15 meat; hunt lasts 20% longer\n• Loom can be researched instantly\n• +10 population in Imperial Age\n\n<b>Unique Unit:<b> \nHuskarl (infantry)\n\n<b>Unique Techs:<b> \n• Anarchy (create Huskarls at Barracks)\n• Perfusion (Barracks work 100% faster)\n\n<b>Team Bonus:<b> \nBarracks work 20% faster"
 120153 "Infantry civilization\n\n• Monks healing range 2x\n• Towers garrison 2x units\n• Murder Holes, Herbal Medicine free\n• Farms cost -40%\n• Town Center garrison +10\n• Barracks and Stable units +1 armor in Castle and Imperial Age (+2 total)\n\n<b>Unique Unit:<b> \nTeutonic Knight (infantry)\n\n<b>Unique Techs:<b> \n• Ironclad (siege weapons extra melee armor)\n• Crenellations (+3 range Castles\ngarrisoned infantry fire arrows)\n\n<b>Team Bonus:<b> \nUnits resist conversion"
 120154 "Infantry civilization\n\n• Fishing Ships 2x hit points; +2P armor; work rate +5% Dark, +10% Feudal, +15% Castle, +20% Imperial Age\n• Mill, Lumber/Mining Camps cost -50%\n• Infantry attack 33% faster starting in Feudal Age\n• Cavalry Archers +2 attack vs. Archers\n\n<b>Unique Unit:<b> \nSamurai (infantry)\n\n<b>Unique Techs:<b> \n• Yasama (Towers shoot extra arrows)\n• Kataparuto (Trebuchets fire, pack faster)\n\n<b>Team Bonus:<b> \nGalleys +50% line of sight"
@@ -15902,6 +15902,7 @@ IDS_WARN_PLYMOUTH_CIV_LOCK_TEXT "Only available with the Mountain Royals DLC.\nC
 IDS_WARN_PHILADELPHIA_BLOCKED_CAMPAIGN "This campaign is only available with the Victors and Vanquished DLC."
 IDS_WARN_PHILADELPHIA_UNINSTALLED_CAMPAIGN "This campaign is only available after installing the Victors and Vanquished DLC."
 
+IDS_WARN_CONTENT_NOT_AVAILABLE "Thank you for purchasing!\nThis content will be available when released."
 
 IDS_WARN_CIV_NOT_ALLOWED_FOR_MATCH "The Romans added in the Return of Rome DLC can only be played in unranked lobby game modes."
 
@@ -21499,7 +21500,7 @@ IDS_MATCHMAKING_BENCHMARK_NOTIFY_1V1_ONLY "* Your current performance score of %
 
 // Antiquity
 400040 "Wood on Trade Cog"
-400041 "Click a fishing ship to gather gold from this oyster."
+400041 "Click a fishing ship to gather gold from this oyster, or click a villager if the oyster is near the shore."
 400042 "Click to gather gold."
 
 
@@ -23735,3 +23736,5 @@ IDS_AGE_ADVANCED "%s advanced to the %s."
 
 IDS_PAPHOS_GRAND_CAMPAIGN "Grand Campaign"
 IDS_PAPHOS_GRAND_CAMPAIGN_HELP_TEXT "Access Battle for Greece Grand Campaign content."
+
+IDS_CLEAR_CLOUD_DATA "Clear Cloud Data"
