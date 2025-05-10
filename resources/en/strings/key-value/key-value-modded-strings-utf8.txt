@@ -5610,7 +5610,7 @@ IDS_SET_ANTIQUITY_MODE "Antiken-Läge"
 19043 "Skärmytslare"
 19044 "Handelskogg"
 19045 "Fiskebåt"
-19047 "Kanon, Kastmaskin"
+19047 "Kanon, Rullblida"
 19048 "Belägringstorn"
 19049 "Scorpio, Häststridsvagn"
 19051 "Munk"
@@ -24134,11 +24134,11 @@ IDS_PLAYER_REPORT_BUTTON_HELP "Klocka på denna knappen för att besökahemsidan
 
 
 120198 "Skytte- och Belägrningscivilisation\n\n• Skogshuggare genererar mat utöver trä\n• Skytteenhetsteknologier i Skjutbanan och Smedjan kostar -25%\n• Belägringsvapen och Krigsfartyg förflyttar sig +10/15% snabbare i Riddar-/Imperietiden\n\n<b>Unika Enheter:<b>\nVitfjäderväktare (Infanteri), Krigsvagn (Belägringsvapen), Liu Bei (Hjälte)\n\n<b>Unika Teknologier:<b>\n• Hoprullad Ormutstyrsel (Spjutbärar-linjen och Vitfjäderväktare får extra HP när de är nära varandra)\n• Pilmagasin (Bågskytts-linjen, Krigsvagnar och Tornskepp avfyrar extra projektiler)\n\n<b>Lagbonus:<b>\nFotskyttar +2 siktlinje"
-120199 "Infanteri- och Sjöfararcivilisation\n\n• Militära produktionsbyggnader och Hamnar ger +65 mat\n• Infanteri regenererar 10/20/30 HP per minut in Feodal-/Riddar-/Imperietiden\n• Jianfäktare och Heiguangkavalleri +2 attack i Imperietiden\n• Kölhalning, Torrdocka tillgängliga en tidsålder tidigare, kostnad och forskningstid -75%\n\n<b>Unika Enheter:<b>\nEldbågskytt (Fotskytt), Jianfäktare (Infanteri), Sun Jian (Hjälte)\n\n<b>Unika Teknologier:<b>\n• Rödklippstaktiker (Explotionsskepp och Eldbågskyttar utdelar brandskada till skepp och byggnader)\n• Smygande tiger (Kastmaskiner och Tornskepps blidor avfyrar extraprojektiler)\n\n<b>Lagbonus:<b>\nHus byggs +100% fortare"
-120200 "Kavallericivilisation\n\n• Erhåller en gratis Byinvånare per framforskad Kvarn- Skogshuggarläger- och Gruvlägerteknologi\n• Heiguangkavalleri och Xianbei-plundrare +15/30% HP i Riddar-/Imperietiden\n• Kastmaskiner och Tornskepp kostar -25%\n\n<b>Unika Enheter:<b>\nTigerkavalleri (Kavalleri), Xianbei-plundrare (Ridande Bågskytt), Cao Cao (Hjälte)\n\n<b>Unika Teknologier:<b>\n• Tuntian (Soldater genererar mat passivt)\n• Mingguang-pansar (Ridande Enheter +4 närstridsskydd)\n\n<b>Lagbonus:<b>\nKavalleri +2 attack mot Belägringsvapen"
+120199 "Infanteri- och Sjöfararcivilisation\n\n• Militära produktionsbyggnader och Hamnar ger +65 mat\n• Infanteri regenererar 10/20/30 HP per minut in Feodal-/Riddar-/Imperietiden\n• Jianfäktare och Heiguangkavalleri +2 attack i Imperietiden\n• Kölhalning, Torrdocka tillgängliga en tidsålder tidigare, kostnad och forskningstid -75%\n\n<b>Unika Enheter:<b>\nEldbågskytt (Fotskytt), Jianfäktare (Infanteri), Sun Jian (Hjälte)\n\n<b>Unika Teknologier:<b>\n• Rödklippstaktiker (Explotionsskepp och Eldbågskyttar utdelar brandskada till skepp och byggnader)\n• Smygande tiger (Rullblidor och Tornskepps blidor avfyrar extraprojektiler)\n\n<b>Lagbonus:<b>\nHus byggs +100% fortare"
+120200 "Kavallericivilisation\n\n• Erhåller en gratis Byinvånare per framforskad Kvarn- Skogshuggarläger- och Gruvlägerteknologi\n• Heiguangkavalleri och Xianbei-plundrare +15/30% HP i Riddar-/Imperietiden\n• Rullblidor och Tornskepp kostar -25%\n\n<b>Unika Enheter:<b>\nTigerkavalleri (Kavalleri), Xianbei-plundrare (Ridande Bågskytt), Cao Cao (Hjälte)\n\n<b>Unika Teknologier:<b>\n• Tuntian (Soldater genererar mat passivt)\n• Mingguang-pansar (Ridande Enheter +4 närstridsskydd)\n\n<b>Lagbonus:<b>\nKavalleri +2 attack mot Belägringsvapen"
 
 6007 "Fredlös"
-5598 "Kastmaskin"
+5598 "Rullblida"
 5599 "Heiguangkavalleri"
 5600 "Tungt Heiguangkavalleri"
 5601 "Tornskepp"
@@ -24174,7 +24174,7 @@ IDS_PLAYER_REPORT_BUTTON_HELP "Klocka på denna knappen för att besökahemsidan
 5597 "Hednisk Präst"
 
 6897 "Bygg Hövdingsjurta"
-6598 "Bygg Kastmaskin"
+6598 "Bygg Rullblida"
 6599 "Skapa Heiguangkavalleri"
 6600 "Skapa Tungt Heiguangkavalleri"
 6601 "Bygg Tornskepp"
@@ -24216,7 +24216,7 @@ IDS_PLAYER_REPORT_BUTTON_HELP "Klocka på denna knappen för att besökahemsidan
 
 
 26897 "Bygg <b>Hövdingsjurta<b> (<cost>)\nByinvånare kan garnisonera inuti för beskydd. Försörjer 5 befolkning. \n<GREY><i> Uppgraderingar: siktlinje (Centrum); HP, skydd (Universitet).<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <garrison>"
-26598 "Bygg <b>Kastmaskin<b> (<cost>)\nLångräckviddigt och Kraftfullt Belägringsvapen mot byggnader, men kan inte anfalla på nära håll. Stark mot byggnader. Kan anfalla plats och fälla träd.\n<GREY><i>Uppgraderingar: attack, räckvidd (Universitet); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
+26598 "Bygg <b>Rullblida<b> (<cost>)\nLångräckviddigt och Kraftfullt Belägringsvapen mot byggnader, men kan inte anfalla på nära håll. Stark mot byggnader. Kan anfalla plats och fälla träd.\n<GREY><i>Uppgraderingar: attack, räckvidd (Universitet); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
 26599 "Skapa <b>Heiguangkavalleri<b> (<cost>)\nKraftfullt Tungt Universalkavalleri. Stark mot Infanteri och Fotskyttar. Svag mot Spjutbärar-linjen, Kamelryttare och Munkar.\n<GREY><i>Uppgraderingar: attack, skydd (Smedja); fastighet, HP, till Tungt Heiguangkavalleri (Stall); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
 26600 "Skapa <b>Tungt Heiguangkavalleri<b> (<cost>)\nKraftfullt Tungt Universalkavalleri. Stark mot Infanteri och Fotskyttar. Svag mot Spjutbärar-linjen, Kamelryttare och Munkar.\n<GREY><i>Uppgraderingar: attack, skydd (Smedja); hastighet, HP (Stall); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
 26601 "Bygg <b>Tornskepp<b> (<cost>)\nMäktigt Krigsfartyg som avfyrar pilar mot enheter och använder ett långräckviddigt slungvapen mot byggnader och Belägringsvapen men kan inte anfalla på nära håll. Stark mot Byggnader. Svag mot Brandskepp.\n<GREY><i>Uppgraderingar: skydd, hastighet, kostnad, produktionshastighet (Hamn); attack, räckvidd (Smedja); attack, räckvidd, träffsäkerhet (Universitet); förbättrad Munkresistens (Kloster).<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
@@ -24234,7 +24234,7 @@ IDS_PLAYER_REPORT_BUTTON_HELP "Klocka på denna knappen för att besökahemsidan
 26368 "Skapa <b>Jianfäktare<b> (<cost>)\nWu-unikt Stormningsinfanteri som får extra förflyttningshastighet och attack men tappar skydd när en viss skadenivå är uppnådd. Väldigt skark mot Bågskytteenheter. Svag mot Milis-linjen.\n<GREY><i>Uppgraderingar: attack, skydd (Smedja); speed (Barrack); produktionshastighet (Slott); förbättrad Munkresistens (Kloster).<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
 26370 "Skapa <b>Sun Jian<b> (<cost>)\nWu-unik Kavallerihjälte som snabbar upp angränsande enheter. Makalöst stark. Går endast att ha en i spel åt gången, kan ej konverteras.\n<GREY><i>Uppgraderingar: attack, skydd (Smedja); hastighet, HP (Stall); produktionshastighet (Slott).<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
 26442 "Bygg <b>Hjältesal Heroes<b> (<cost>)\nAnvänds för att träna hjältar som rekryteras under kampanjen.\n<GREY><i>Uppgraderingar: produktionshastighet (Slott); siktlinje (Centrum); HP, skydd (Universitet); förbättrad Munkresistens (Kloster). <i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
-26597 "Skapa <b>Hednisk Präst<b> (<cost>)\nKonverterar fiendeenheter till din civilisation. Helar vänenheter (förutom skepp och Belägringsvapen). Stark mot långsamma och icke-skjutande enheter. Svag mot Spanar-linjen, Örnkrigare och Skjutande Enheter. Kan inhämta Reliker och ta dem till Klostret.\n<GREY><i>Uppgraderingar: at Kloster.<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
+26597 "Skapa <b>Hednisk Präst<b> (<cost>)\nKonverterar fiendeenheter till din civilisation. Helar vänenheter (förutom skepp och Belägringsvapen). Stark mot långsamma och icke-skjutande enheter. Svag mot Spanar-linjen, Örnkrigare och Skjutande Enheter. Kan inhämta Reliker och ta dem till Klostret.\n<GREY><i>Uppgraderingar: i Kloster.<i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>"
 
 7084 "Pyroteknik"
 7471 "Tungt Heiguanglavalleri"
@@ -24263,13 +24263,13 @@ IDS_PLAYER_REPORT_BUTTON_HELP "Klocka på denna knappen för att besökahemsidan
 8478 "Uppgradera till Eliteldbågskytt"
 8479 "Uppgradera till Jianfäktare"
 8480 "Forska fram Rödklippstaktiker (Explosionsskepp och Eldbågskyttar utdelar branskada till skepp och byggnader)"
-8481 "Forska fram Smyugande Tiger (Kastmaskiner och Tornskepps blidor avfyrar extraprojektiler)"
+8481 "Forska fram Smyugande Tiger (Rullblidor och Tornskepps blidor avfyrar extraprojektiler)"
 
 
 
 17084 "Pyroteknik"
 17471 "Tungt Heiguang-\nKavalleri"
-17472 "Elittiger\nKavalleri"
+17472 "Elittiger-\nKavalleri"
 17473 "Tuntian"
 17474 "Mingguang-\nPansar"
 17475 "Elitvit-\nFjäderväktare"
@@ -24281,7 +24281,7 @@ IDS_PLAYER_REPORT_BUTTON_HELP "Klocka på denna knappen för att besökahemsidan
 17481 "Smygande\nTiger"
 
 
-28084 "Forska fram <b>Pirotechnia<b> (<cost>)\nHakeskyttar utdelar +15% genomträngningsskada och är mer träffsäkra."
+28084 "Forska fram <b>Pyroteknik<b> (<cost>)\nHakeskyttar utdelar +15% genomträngningsskada och är mer träffsäkra."
 28471 "Uppgradera till <b>Tungt Heiguangkavalleri<b> (<cost>)\nUppgraderar ditt Heiguangkavalleri och låter dig skapa Tungt Heiguangkavalleri som är starkare."
 28472 "Uppgradera till <b>Elite Tiger Cavalry<b> (<cost>)\nUppgraderar ditt Tigerkavalleri och låter dig skapa Elittigerkavalleri som är starkare."
 28473 "Forska fram <b>Tuntian<b> (<cost>)\nSoldater genererar mat passivt."
@@ -24292,7 +24292,7 @@ IDS_PLAYER_REPORT_BUTTON_HELP "Klocka på denna knappen för att besökahemsidan
 28478 "Uppgradera till <b>Eliteldbågskytt<b> (<cost>)\nUppgraera dina Eldbågskyttar och låter dig skapa Elieldbågskyttar som är starkare."
 28479 "Uppgradera till <b>Jianfäktare<b> (<cost>)\nUppgraderar dina Fotsoldater och låter dig skapa Fianfäktare som är starkare."
 28480 "Forska fram <b>Rödklippstaktiker<b> (<cost>)\nExplosionsskepp och Eldbågskyttar utdelar sbrandskada till skepp och byggnader."
-28481 "Forska fram <b>Smygande Tiger<b> (<cost>)\nKastmaskiner och Tornskepps blidor avfyrar extraprojektiler."
+28481 "Forska fram <b>Smygande Tiger<b> (<cost>)\nRullblidor och Tornskepps blidor avfyrar extraprojektiler."
 
 
 IDS_PERSISTENT_CAMPAIGN_WARNING "Vill du spara dina val för framtida scenarier?\n\n \"Ja\" kommer att spara dina nya val (detta kommer uppdatera scenarier från och med nu och framåt)."
@@ -24300,7 +24300,7 @@ IDS_TECH_TREE_HELP "Byggnader, Enheter och Teknologier tillgängliga i %s"
 IDS_AGE_ADVANCED "%s gick vidare till %s."
 
 IDS_PAPHOS_GRAND_CAMPAIGN "Storkampanjen"
-IDS_PAPHOS_GRAND_CAMPAIGN_HELP_TEXT "Få tillfånf till Kampanjinnehåll för Battle for Greece."
+IDS_PAPHOS_GRAND_CAMPAIGN_HELP_TEXT "Få tillgång till Kampanjinnehåll för Battle for Greece."
 
 IDS_CLEAR_CLOUD_DATA "Rensa Molndata"
 
