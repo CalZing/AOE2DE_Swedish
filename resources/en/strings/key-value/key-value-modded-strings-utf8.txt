@@ -24303,7 +24303,6 @@ IDS_PAPHOS_GRAND_CAMPAIGN "Storkampanjen"
 IDS_PAPHOS_GRAND_CAMPAIGN_HELP_TEXT "Få tillgång till Kampanjinnehåll för Battle for Greece."
 
 IDS_CLEAR_CLOUD_DATA "Rensa Molndata"
-
 IDS_DIFFICULTY_LEVEL_LEGENDARY "Legendarisk"
 
 IDS_EDITOR_DEST_VARIABLE "Destinationsvariabel"
