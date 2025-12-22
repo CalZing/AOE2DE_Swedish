@@ -62,13 +62,16 @@ def read_txt_file(filepath: Path) -> List[Tuple[str, str]]:
 def validate_format_specifiers(original: str, translated: str, id_val: str, lang: str) -> None:
     """
     Validate that format specifiers match between original and translated strings.
-    Allows reordering arguments with positional specifiers (e.g., %0$s, %1$d).
+    Allows reordering arguments with positional specifiers (e.g., %0s, %1d).
     Raises ValidationError if types don't match, warns if order differs.
     Note: "% " (percent followed by space) is NOT a format specifier.
+    Note: %0s, %1s, etc. are positional; %10s, %20s are width specifiers.
     """
-    # Find all format specifiers including positional ones (%1$s, %2$d, etc.)
+    # Find all format specifiers
+    # Positional: %[0-9]<type> (single digit = position)
+    # Width/other: %[width/flags]<type>
     # But NOT "% " (percent followed by space - that's just showing percentage)
-    pattern = r'%(?! )(?:\d+\$)?[-#0 +]?(?:\*|\d+)?(?:\.(?:\*|\d+)?)?[hlL]?[diouxXeEfFgGaAcspn%]'
+    pattern = r'%(?! )[-#0 +]*(?:\*|\d+)?(?:\.(?:\*|\d+)?)?[hlL]?[diouxXeEfFgGaAcspn%]'
     
     original_specs = re.findall(pattern, original)
     translated_specs = re.findall(pattern, translated)
@@ -88,12 +91,20 @@ def validate_format_specifiers(original: str, translated: str, id_val: str, lang
             f"  {lang}: {translated_specs} (types: {translated_types})"
         )
     
-    # Warn if positional specifiers are used or order differs
-    has_positional = any('$' in spec for spec in original_specs + translated_specs)
-    order_differs = original_specs != translated_specs
+    # Warn only if positional specifiers are used
+    # Positional: %[0-9]<type> where there's EXACTLY one digit between % and type
+    def has_positional(specs):
+        for spec in specs:
+            # Match pattern: %<exactly_one_digit><type_char>
+            # e.g., %0s, %1d, %2s (positional)
+            # NOT %10s, %05d (width/precision)
+            match = re.match(r'^%(\d)([diouxXeEfFgGaAcspn])$', spec)
+            if match:
+                return True
+        return False
     
-    if has_positional or order_differs:
-        print(f"Warning: ID '{id_val}' uses reordered arguments - verify manually", file=sys.stderr)
+    if has_positional(original_specs) or has_positional(translated_specs):
+        print(f"Warning: ID '{id_val}' uses positional specifiers - verify argument order manually", file=sys.stderr)
 
 
 def cmd_import(args):
@@ -157,34 +168,39 @@ def cmd_add(args):
     for id_val, _ in trans_data:
         trans_id_counts[id_val] = trans_id_counts.get(id_val, 0) + 1
     
-    # Validate: Every ID in translation must exist in CSV with same occurrence count
-    # But IDs in CSV don't need to be in translation (will be left empty)
+    # Validate: For IDs that exist in BOTH files, occurrence counts must match
+    # IDs only in translation are ignored (not added)
     mismatches = []
+    ignored_ids = set()
     
     for id_val in sorted(trans_id_counts.keys()):
         csv_count = csv_id_counts.get(id_val, 0)
         trans_count = trans_id_counts[id_val]
         
         if csv_count == 0:
-            mismatches.append(f"  {id_val}: exists in translation but not in CSV")
+            # ID exists in translation but not in CSV - ignore it
+            ignored_ids.add(id_val)
         elif csv_count != trans_count:
+            # ID exists in both but with different occurrence counts - error
             mismatches.append(f"  {id_val}: CSV has {csv_count} occurrence(s), translation has {trans_count}")
     
     if mismatches:
-        error_msg = "Error: Translation IDs do not match CSV.\n" + "\n".join(mismatches[:20])
+        error_msg = "Error: Occurrence count mismatch for IDs present in both files.\n" + "\n".join(mismatches[:20])
         if len(mismatches) > 20:
             error_msg += f"\n  ... and {len(mismatches) - 20} more mismatches"
         print(error_msg, file=sys.stderr)
         sys.exit(1)
     
     # Build translation lookup by (ID, occurrence)
+    # Only include IDs that exist in CSV (ignore extras from translation file)
     trans_lookup = {}
     trans_id_occ = {}
     for id_val, string_val in trans_data:
-        if id_val not in trans_id_occ:
-            trans_id_occ[id_val] = 0
-        trans_id_occ[id_val] += 1
-        trans_lookup[(id_val, trans_id_occ[id_val])] = string_val
+        if id_val not in ignored_ids:  # Only process IDs that exist in CSV
+            if id_val not in trans_id_occ:
+                trans_id_occ[id_val] = 0
+            trans_id_occ[id_val] += 1
+            trans_lookup[(id_val, trans_id_occ[id_val])] = string_val
     
     # Add language column to CSV rows
     new_headers = list(headers) + [args.language]
@@ -202,11 +218,15 @@ def cmd_add(args):
         writer.writeheader()
         writer.writerows(csv_rows)
     
-    empty_count = len(csv_rows) - len(trans_data)
+    translated_count = sum(1 for row in csv_rows if row[args.language])
+    empty_count = len(csv_rows) - translated_count
+    
     print(f"Added language '{args.language}' to {args.output}")
-    print(f"  Translated: {len(trans_data)} entries")
+    print(f"  Translated: {translated_count} entries")
     if empty_count > 0:
         print(f"  Empty: {empty_count} entries")
+    if ignored_ids:
+        print(f"  Ignored: {len(ignored_ids)} IDs not in CSV", file=sys.stderr)
 
 
 
